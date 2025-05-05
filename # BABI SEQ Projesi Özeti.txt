@@ -1,0 +1,69 @@
+# BABI SEQ Projesi Özeti
+
+## Proje Adı
+BABI SEQ
+
+## Amaç
+BABI SEQ, müzik oluşturmak için kullanılan bir MIDI step sequencer cihazıdır. Bu cihaz, kullanıcıların çeşitli müzik modları ve ölçeklerinde melodi ve ritim desenleri oluşturmasına, düzenlemesine ve çalmasına olanak tanır.
+
+## Yetenekler
+- 16 adımlı sequencer işlevselliği
+- MIDI nota çıkışı
+- Farklı müzik modları ve ölçeklerini yükleme ve kullanma
+- Step nota, hız (velocity) ve envelope (ADSR) ayarlama
+- Solo ve mute özelliği
+- Transpoze fonksiyonu
+- Rastgele mod üretimi (standart ve tam rastgele modlar)
+- Pattern kaydetme ve yükleme
+- Tempo ayarı (yavaşlatma, hızlandırma)
+- Dokunmatik ekran arayüzü
+- Hem dikey hem yatay ekran modu desteği
+
+## Elektronik Bileşenler
+- Raspberry Pi Pico mikrodenetleyici
+- TFT Ekran (ILI9341 sürücülü, 240x320 çözünürlüklü)
+- XPT2046 dokunmatik ekran kontrolcüsü
+- Shift register'lar (buton okuma için)
+- Rotary encoder (döner kontrol)
+- WS2812B RGB LED şeridi
+- MIDI çıkış devresi (UART üzerinden)
+- DAC'lar (Control Voltage çıkışı için)
+
+## Buton Fonksiyonları
+
+### Step Butonları (1-16)
+- Bu butonlar step'leri seçmek için kullanılır
+- Shift (buton 24) ile birlikte basıldığında, diğer seçili step'leri temizlemeden step ekler
+
+### Mod Butonları
+- **Buton 17**: Frekans/MIDI modu arasında geçiş
+- **Buton 18**: Velocity modu - Step velocity değerlerini ayarlama
+  - Menü (buton 26) + Buton 18: Tüm seçili step'lerin velocity değerlerini varsayılana sıfırlar
+- **Buton 19**: Envelope modu (ADSR ayarları)
+  - Envelope modunda, butonlar 20-23 ADSR parametrelerini seçer (Attack, Decay, Sustain, Release)
+
+### Kontrol Butonları
+- **Buton 20**: Play/Pause - Sequencer'ı başlatır veya duraklatır
+- **Buton 21**: Stop - Sequencer'ı durdurur ve sıfırlar
+- **Buton 22**: Mute - Seçili step'leri sessize alır
+  - Shift (buton 24) + Buton 22: Tüm mute'ları sıfırlar
+- **Buton 23**: Solo - Seçili step'leri solo yapar
+  - Shift (buton 24) + Buton 23: Tüm solo durumlarını sıfırlar
+- **Buton 24**: Shift - Diğer butonlarla birlikte kullanılır
+- **Buton 25**: Tempo aşırtma - Tempoyu iki katına çıkarır
+  - Shift (buton 24) + Buton 25: Tempoyu orijinal değerine sıfırlar
+- **Buton 26**: Menü - Menü ekranını açar
+- **Buton 27**: Transpoze - Transpoze moduna geçer
+  - Shift (buton 24) + Buton 27: Transpoze değerini sıfırlar
+- **Buton 28**: Rastgele çalma modu - Adımları karıştırarak çalar
+  - Shift (buton 24) + Buton 28: Tam rastgele modu (her adımda yeni rastgele seçim)
+
+### Encoder
+- Normal modda, seçili step yoksa: Tempo kontrolü
+- Normal modda, seçili step varsa: Step değerlerini değiştirir
+- Velocity modunda: Seçili step'lerin velocity değerlerini ayarlar
+- Envelope modunda: Seçili envelope parametresini ayarlar
+- Transpoze modunda: Transpoze miktarını ayarlar
+- Encoder butonu: Tüm step'leri seçer/seçimden kaldırır
+
+Cihaz, bu butonlar ve encoder aracılığıyla kapsamlı bir kontrol sağlar ve güçlü bir müzik üretim aracı olarak işlev görür, farklı müzik modları ve ölçeklerle çalışabilir.
