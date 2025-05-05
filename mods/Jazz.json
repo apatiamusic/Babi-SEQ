@@ -1,0 +1,277 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Jazz Modes Collection",
+  "description": "Advanced jazz modes derived from the melodic minor scale, optimized for 16-step sequencing with sophisticated harmonic applications.",
+  "version": "1.0",
+  "reference": "Melodic minor derivatives optimized for jazz harmonic applications | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Advanced Jazz Modes",
+      "collectionType": "jazz",
+      "culturalOrigin": "Modern Jazz Tradition",
+      "description": "A collection of sophisticated jazz modes derived from the melodic minor scale, essential for modern jazz composition and improvisation",
+      "modes": [
+        {
+          "name": "Altered Dominant",
+          "fundamentalNote": "Bb",
+          "fundamentalFrequency":233.08,
+          "parentScale": "Melodic Minor",
+          "modeDegree": 7,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Tense and chromatic with unresolved energy",
+          "chordTypes": ["7alt", "7b9#9", "7b5#5", "7b9#9b5#5"],
+          "steps": [
+            {"step": 1, "frequency": 233.08, "note": "Bb", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 246.94, "note": "Cb", "function": "Flatted 9th", "cents": 100, "comment": "b9 - Strong tension"},
+            {"step": 3, "frequency": 277.18, "note": "Db", "function": "Sharp 9th", "cents": 300, "comment": "#9 - Altered tension"},
+            {"step": 4, "frequency": 311.13, "note": "Eb", "function": "Major 3rd", "cents": 500, "comment": "3rd - Major quality"},
+            {"step": 5, "frequency": 349.23, "note": "Fb", "function": "Flatted 5th", "cents": 700, "comment": "b5 - Diminished tension"},
+            {"step": 6, "frequency": 369.99, "note": "Gb", "function": "Sharp 5th", "cents": 800, "comment": "#5 - Augmented tension"},
+            {"step": 7, "frequency": 415.30, "note": "Ab", "function": "Flatted 7th", "cents": 1000, "comment": "b7 - Dominant quality"},
+            {"step": 8, "frequency": 466.16, "note": "Bb", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 493.88, "note": "Cb", "function": "Flatted 9th octave", "cents": 1300, "comment": "b9 - Upper register tension"},
+            {"step": 10, "frequency": 554.37, "note": "Db", "function": "Sharp 9th octave", "cents": 1500, "comment": "#9 - Upper altered tension"},
+            {"step": 11, "frequency": 622.25, "note": "Eb", "function": "Major 3rd octave", "cents": 1700, "comment": "3rd - Upper major quality"},
+            {"step": 12, "frequency": 698.46, "note": "Fb", "function": "Flatted 5th octave", "cents": 1900, "comment": "b5 - Upper diminished tension"},
+            {"step": 13, "frequency": 739.99, "note": "Gb", "function": "Sharp 5th octave", "cents": 2000, "comment": "#5 - Upper augmented tension"},
+            {"step": 14, "frequency": 830.61, "note": "Ab", "function": "Flatted 7th octave", "cents": 2200, "comment": "b7 - Upper dominant quality"},
+            {"step": 15, "frequency": 932.33, "note": "Bb", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octaves"},
+            {"step": 16, "frequency": 987.77, "note": "Cb", "function": "Flatted 9th 2 octaves", "cents": 2500, "comment": "b9 - Highest tension point"}
+          ],
+          "voicingPattern": [1, 3, 5, 7, 9, 11, 13, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Half tone, whole tone, whole tone, whole tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 2nd (b9)", "Minor 3rd (#9)", "Tritone (b5)", "Minor 6th (#5)"]
+          },
+          "metadata": {
+            "description": "The Altered Dominant scale (7th mode of melodic minor) contains all the altered tensions of a dominant 7th chord. Essential for modern jazz harmony, it creates maximum harmonic tension before resolution, featuring both b9/#9 and b5/#5 alterations.",
+            "historicalContext": "Became prominent in bebop and post-bop jazz, central to the harmonic language of musicians like John Coltrane, McCoy Tyner, and Herbie Hancock",
+            "usageExamples": "V7alt chords resolving to I, tritone substitutions, outside playing in jazz improvisation, modern jazz compositions with complex harmonic progressions"
+          }
+        },
+        {
+          "name": "Dorian b2 (Phrygian #6)",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":146.83,
+          "parentScale": "Melodic Minor",
+          "modeDegree": 2,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Exotic minor with Middle Eastern flavor",
+          "chordTypes": ["m7b9", "m6b9", "m9b2", "m11b9"],
+          "steps": [
+            {"step": 1, "frequency": 146.83, "note": "D", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 155.56, "note": "Eb", "function": "Flatted 2nd", "cents": 100, "comment": "b9 tension"},
+            {"step": 3, "frequency": 174.61, "note": "F", "function": "Minor 3rd", "cents": 300, "comment": "m3 color"},
+            {"step": 4, "frequency": 196.00, "note": "G", "function": "Perfect 4th", "cents": 500, "comment": "11th"},
+            {"step": 5, "frequency": 220.00, "note": "A", "function": "Perfect 5th", "cents": 700, "comment": "5th"},
+            {"step": 6, "frequency": 246.94, "note": "B", "function": "Major 6th", "cents": 900, "comment": "13th"},
+            {"step": 7, "frequency": 261.63, "note": "C", "function": "Minor 7th", "cents": 1000, "comment": "b7"},
+            {"step": 8, "frequency": 293.66, "note": "D", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 311.13, "note": "Eb", "function": "Flatted 2nd octave", "cents": 1300, "comment": "b9 rep"},
+            {"step": 10, "frequency": 349.23, "note": "F", "function": "Minor 3rd octave", "cents": 1500, "comment": "m10"},
+            {"step": 11, "frequency": 392.00, "note": "G", "function": "Perfect 4th octave", "cents": 1700, "comment": "11th"},
+            {"step": 12, "frequency": 440.00, "note": "A", "function": "Perfect 5th octave", "cents": 1900, "comment": "5th"},
+            {"step": 13, "frequency": 493.88, "note": "B", "function": "Major 6th octave", "cents": 2100, "comment": "13th"},
+            {"step": 14, "frequency": 523.25, "note": "C", "function": "Minor 7th octave", "cents": 2200, "comment": "b7"},
+            {"step": 15, "frequency": 587.33, "note": "D", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 16, "frequency": 622.25, "note": "Eb", "function": "Flatted 2nd 2 octaves", "cents": 2500, "comment": "b9 top"}
+          ],
+          "voicingPattern": [1, 3, 5, 7, 9, 11, 13, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Half tone, whole tone, whole tone, whole tone, whole tone, half tone, whole tone",
+            "signatureIntervals": ["Minor 2nd (b9)", "Minor 3rd", "Major 6th (#13)", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Dorian b2 (2nd mode of melodic minor) combines the familiar Dorian sound with a flattened 2nd degree, creating an exotic, Middle Eastern flavor. It features the characteristic b2 (b9) tension while maintaining the major 6th that distinguishes it from Phrygian.",
+            "historicalContext": "Emerged in modal jazz experimentation of the 1960s, drawing from both Western jazz harmony and Eastern musical traditions",
+            "usageExamples": "Minor ii chords with added tension, modal jazz compositions, fusion with Middle Eastern music, film scores for exotic settings"
+          }
+        },
+        {
+          "name": "Locrian #2",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Melodic Minor",
+          "modeDegree": 6,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Half-diminished with added clarity",
+          "chordTypes": ["m7b5", "m9b5", "m11b5", "Ø7"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 246.94, "note": "B", "function": "Major 2nd", "cents": 200, "comment": "9th - Distinguishing note"},
+            {"step": 3, "frequency": 261.63, "note": "C", "function": "Minor 3rd", "cents": 300, "comment": "m3 - Minor quality"},
+            {"step": 4, "frequency": 293.66, "note": "D", "function": "Perfect 4th", "cents": 500, "comment": "11th - Extension"},
+            {"step": 5, "frequency": 311.13, "note": "Eb", "function": "Diminished 5th", "cents": 600, "comment": "b5 - Half-diminished character"},
+            {"step": 6, "frequency": 349.23, "note": "F", "function": "Minor 6th", "cents": 800, "comment": "b13 - Tension"},
+            {"step": 7, "frequency": 392.00, "note": "G", "function": "Minor 7th", "cents": 1000, "comment": "b7 - Seventh quality"},
+            {"step": 8, "frequency": 440.00, "note": "A", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 493.88, "note": "B", "function": "Major 2nd octave", "cents": 1400, "comment": "9th - Upper clarity"},
+            {"step": 10, "frequency": 523.25, "note": "C", "function": "Minor 3rd octave", "cents": 1500, "comment": "m10 - Upper minor color"},
+            {"step": 11, "frequency": 587.33, "note": "D", "function": "Perfect 4th octave", "cents": 1700, "comment": "11th - Upper extension"},
+            {"step": 12, "frequency": 622.25, "note": "Eb", "function": "Diminished 5th octave", "cents": 1800, "comment": "b5 - Upper half-diminished"},
+            {"step": 13, "frequency": 698.46, "note": "F", "function": "Minor 6th octave", "cents": 2000, "comment": "b13 - Upper tension"},
+            {"step": 14, "frequency": 783.99, "note": "G", "function": "Minor 7th octave", "cents": 2200, "comment": "b7 - Upper seventh quality"},
+            {"step": 15, "frequency": 880.00, "note": "A", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octaves"},
+            {"step": 16, "frequency": 987.77, "note": "B", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "9th top - Highest clarity note"}
+          ],
+          "voicingPattern": [1, 2, 4, 5, 8, 10, 12, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, half tone, whole tone, half tone, whole tone, whole tone, whole tone",
+            "signatureIntervals": ["Major 2nd (#9)", "Minor 3rd", "Diminished 5th (b5)", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Locrian #2 (6th mode of melodic minor) modifies the traditional Locrian scale by raising the 2nd degree, creating a more usable half-diminished sound. This adjustment removes the dissonant b9 interval of standard Locrian, making it more practical for jazz applications.",
+            "historicalContext": "Became common in post-bop jazz for half-diminished chord applications, providing a more melodically useful alternative to the traditional Locrian mode",
+            "usageExamples": "ii-V-I progressions (as the ii chord in minor), John Coltrane's 'Countdown' changes, Bill Evans voicings, modern jazz ballads"
+          }
+        },
+        {
+          "name": "Lydian Augmented",
+          "fundamentalNote": "Eb",
+          "fundamentalFrequency":155.56,
+          "parentScale": "Melodic Minor",
+          "modeDegree": 3,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Dreamy and floating with augmented color",
+          "chordTypes": ["maj7#5", "maj7#5#11", "maj9#5", "maj13#5#11"],
+          "steps": [
+            {"step": 1, "frequency": 155.56, "note": "Eb", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 174.61, "note": "F", "function": "Major 2nd", "cents": 200, "comment": "9th"},
+            {"step": 3, "frequency": 196.00, "note": "G", "function": "Major 3rd", "cents": 400, "comment": "3rd - Major quality"},
+            {"step": 4, "frequency": 220.00, "note": "A", "function": "Augmented 4th", "cents": 600, "comment": "#11 - Lydian character"},
+            {"step": 5, "frequency": 246.94, "note": "B", "function": "Augmented 5th", "cents": 800, "comment": "#5 - Augmented character"},
+            {"step": 6, "frequency": 261.63, "note": "C", "function": "Major 6th", "cents": 900, "comment": "13th"},
+            {"step": 7, "frequency": 293.66, "note": "D", "function": "Major 7th", "cents": 1100, "comment": "maj7 - Major seventh quality"},
+            {"step": 8, "frequency": 311.13, "note": "Eb", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 349.23, "note": "F", "function": "Major 2nd octave", "cents": 1400, "comment": "9th"},
+            {"step": 10, "frequency": 392.00, "note": "G", "function": "Major 3rd octave", "cents": 1600, "comment": "3rd - Upper major quality"},
+            {"step": 11, "frequency": 440.00, "note": "A", "function": "Augmented 4th octave", "cents": 1800, "comment": "#11 - Upper lydian character"},
+            {"step": 12, "frequency": 493.88, "note": "B", "function": "Augmented 5th octave", "cents": 2000, "comment": "#5 - Upper augmented character"},
+            {"step": 13, "frequency": 523.25, "note": "C", "function": "Major 6th octave", "cents": 2100, "comment": "13th"},
+            {"step": 14, "frequency": 587.33, "note": "D", "function": "Major 7th octave", "cents": 2300, "comment": "maj7 - Upper major seventh quality"},
+            {"step": 15, "frequency": 622.25, "note": "Eb", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octaves"},
+            {"step": 16, "frequency": 698.46, "note": "F", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "9th top"}
+          ],
+          "voicingPattern": [1, 4, 6, 7, 10, 12, 14, 16],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, whole tone, whole tone, whole tone, half tone, whole tone, half tone",
+            "signatureIntervals": ["Major 3rd", "Augmented 4th (#11)", "Augmented 5th (#5)", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Lydian Augmented (3rd mode of melodic minor) combines the raised 4th of Lydian with an augmented 5th, creating a dreamy, floating sound with rich harmonic possibilities. This scale expands on the brightness of Lydian with added tension from the #5.",
+            "historicalContext": "Popularized by composers like Wayne Shorter and Herbie Hancock in modal jazz contexts, particularly for major seventh chord extensions",
+            "usageExamples": "maj7#5 chords, modal jazz compositions, impressionistic harmony, transitional passages, suspension sections in jazz compositions"
+          }
+        },
+        {
+          "name": "Lydian Dominant",
+          "fundamentalNote": "F",
+          "fundamentalFrequency":174.61,
+          "parentScale": "Melodic Minor",
+          "modeDegree": 4,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Bright dominant with lydian color",
+          "chordTypes": ["7#11", "9#11", "13#11", "7sus#4"],
+          "steps": [
+            {"step": 1, "frequency": 174.61, "note": "F", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 196.00, "note": "G", "function": "Major 2nd", "cents": 200, "comment": "9th"},
+            {"step": 3, "frequency": 220.00, "note": "A", "function": "Major 3rd", "cents": 400, "comment": "3rd - Major quality"},
+            {"step": 4, "frequency": 246.94, "note": "B", "function": "Augmented 4th", "cents": 600, "comment": "#11 - Lydian character"},
+            {"step": 5, "frequency": 261.63, "note": "C", "function": "Perfect 5th", "cents": 700, "comment": "5th - Perfect fifth"},
+            {"step": 6, "frequency": 293.66, "note": "D", "function": "Major 6th", "cents": 900, "comment": "13th - Sixth extension"},
+            {"step": 7, "frequency": 311.13, "note": "Eb", "function": "Minor 7th", "cents": 1000, "comment": "b7 - Dominant quality"},
+            {"step": 8, "frequency": 349.23, "note": "F", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 392.00, "note": "G", "function": "Major 2nd octave", "cents": 1400, "comment": "9th"},
+            {"step": 10, "frequency": 440.00, "note": "A", "function": "Major 3rd octave", "cents": 1600, "comment": "3rd - Upper major quality"},
+            {"step": 11, "frequency": 493.88, "note": "B", "function": "Augmented 4th octave", "cents": 1800, "comment": "#11 - Upper lydian character"},
+            {"step": 12, "frequency": 523.25, "note": "C", "function": "Perfect 5th octave", "cents": 1900, "comment": "5th - Upper perfect fifth"},
+            {"step": 13, "frequency": 587.33, "note": "D", "function": "Major 6th octave", "cents": 2100, "comment": "13th - Upper sixth extension"},
+            {"step": 14, "frequency": 622.25, "note": "Eb", "function": "Minor 7th octave", "cents": 2200, "comment": "b7 - Upper dominant quality"},
+            {"step": 15, "frequency": 698.46, "note": "F", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octaves"},
+            {"step": 16, "frequency": 783.99, "note": "G", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "9th top"}
+          ],
+          "voicingPattern": [1, 3, 4, 7, 9, 11, 13, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, whole tone, whole tone, half tone, whole tone, half tone, whole tone",
+            "signatureIntervals": ["Major 3rd", "Augmented 4th (#11)", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Lydian Dominant (4th mode of melodic minor) combines the brightness of the Lydian scale (#11) with the bluesy dominant 7th quality, creating a versatile scale widely used in jazz. It offers a perfect blend of brightness and tension resolution potential.",
+            "historicalContext": "Extensively used in bebop and modern jazz, famously employed by Miles Davis, John Coltrane, and appearing in the 'Simpsons' theme by Danny Elfman",
+            "usageExamples": "Dominant 7th chords (especially V7 in jazz), blues with lydian color, fusion jazz, secondary dominants, tritone substitutions"
+          }
+        },
+        {
+          "name": "Mixolydian b6",
+          "fundamentalNote": "G",
+          "fundamentalFrequency":196.00,
+          "parentScale": "Melodic Minor",
+          "modeDegree": 5,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Dark dominant with Spanish flavor",
+          "chordTypes": ["7b13", "9b13", "13b6", "7sus4b13"],
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Major 2nd", "cents": 200, "comment": "9th"},
+            {"step": 3, "frequency": 246.94, "note": "B", "function": "Major 3rd", "cents": 400, "comment": "3rd - Major quality"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Perfect 4th", "cents": 500, "comment": "11th - Suspense"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Perfect 5th", "cents": 700, "comment": "5th - Perfect fifth"},
+            {"step": 6, "frequency": 311.13, "note": "Eb", "function": "Minor 6th", "cents": 800, "comment": "b13 - Distinctive dark color"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Minor 7th", "cents": 1000, "comment": "b7 - Dominant quality"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Major 2nd octave", "cents": 1400, "comment": "9th"},
+            {"step": 10, "frequency": 493.88, "note": "B", "function": "Major 3rd octave", "cents": 1600, "comment": "3rd - Upper major quality"},
+            {"step": 11, "frequency": 523.25, "note": "C", "function": "Perfect 4th octave", "cents": 1700, "comment": "11th - Upper suspense"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Perfect 5th octave", "cents": 1900, "comment": "5th - Upper perfect fifth"},
+            {"step": 13, "frequency": 622.25, "note": "Eb", "function": "Minor 6th octave", "cents": 2000, "comment": "b13 - Upper dark color"},
+            {"step": 14, "frequency": 698.46, "note": "F", "function": "Minor 7th octave", "cents": 2200, "comment": "b7 - Upper dominant quality"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octaves"},
+            {"step": 16, "frequency": 880.00, "note": "A", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "9th top"}
+          ],
+          "voicingPattern": [1, 3, 5, 6, 9, 11, 13, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, whole tone, half tone, whole tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Major 3rd", "Perfect 5th", "Minor 6th (b13)", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Mixolydian b6 (5th mode of melodic minor) takes the familiar dominant sound of Mixolydian and adds a distinctive minor 6th (b13), creating a darker dominant flavor with Spanish or Phrygian characteristics while maintaining major tonality.",
+            "historicalContext": "Found in Spanish Flamenco music and Jewish Klezmer traditions before being adopted by jazz musicians for its exotic color in the mid-20th century",
+            "usageExamples": "V7 chords with darker color, Spanish-influenced jazz, film scores with Mediterranean settings, fusion explorations, minor plagal cadences"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "While typically performed in equal temperament, jazz musicians often use microtonal bending and 'blue notes' that deviate slightly from standard pitches.",
+      "rhythmic_features": "Jazz modes are traditionally played with swing feel, with varied emphasis on weak beats and syncopation. The 16-step sequencer can approximate swing by adjusting timing and velocity of even-numbered steps.",
+      "ornamentation": "Melodic embellishments include appoggiaturas, grace notes, turns, and falls that can be programmed as velocity changes, pitch bends, or additional short steps.",
+      "instrumentation": "These modes are traditionally performed on jazz ensemble instruments (piano, bass, drums, horns), but can be effectively realized on synthesizers with attention to voice leading and tension-resolution patterns."
+    }
+  }
+}

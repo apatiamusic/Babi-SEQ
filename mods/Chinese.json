@@ -1,0 +1,353 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Chinese Music Scales and Modes",
+  "description": "Traditional Chinese music scales with their microtonal variations for 16-step sequencer",
+  "version": "1.0",
+  "reference": "Chinese music uses a 12-tone equal temperament system with additional microtonal nuances | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Chinese Modal System",
+      "collectionType": "chinese",
+      "culturalOrigin": "China",
+      "description": "Traditional Chinese scales with characteristic microtonal inflections",
+      "modes": [
+        {
+          "name": "Gong (C mode)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "balanced, majestic",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Gong", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Shang", "cents": 200, "comment": "Slightly bright"},
+            {"step": 3, "frequency": 326.63, "note": "E (slightly flat)", "function": "Jiao", "cents": 380, "comment": "Neutral third"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Zhi", "cents": 700, "comment": "Stable fifth"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Yu", "cents": 900, "comment": "Resolving tone"},
+            {"step": 6, "frequency": 523.25, "note": "C", "function": "Upper Gong", "cents": 1200, "comment": "Upper Gong"},
+            {"step": 7, "frequency": 587.33, "note": "D", "function": "Upper Shang", "cents": 1400, "comment": "Upper Shang"},
+            {"step": 8, "frequency": 653.27, "note": "E (slightly flat)", "function": "Upper Jiao", "cents": 1580, "comment": "Upper Jiao"},
+            {"step": 9, "frequency": 783.99, "note": "G", "function": "Upper Zhi", "cents": 1900, "comment": "Upper Zhi"},
+            {"step": 10, "frequency": 880.00, "note": "A", "function": "Upper Yu", "cents": 2100, "comment": "Upper Yu"},
+            {"step": 11, "frequency": 1046.50, "note": "C", "function": "High Gong", "cents": 2400, "comment": "High Gong"},
+            {"step": 12, "frequency": 1174.66, "note": "D", "function": "High Shang", "cents": 2600, "comment": "High Shang"},
+            {"step": 13, "frequency": 1306.53, "note": "E (slightly flat)", "function": "High Jiao", "cents": 2780, "comment": "High Jiao"},
+            {"step": 14, "frequency": 1567.98, "note": "G", "function": "High Zhi", "cents": 3100, "comment": "High Zhi"},
+            {"step": 15, "frequency": 1760.00, "note": "A", "function": "High Yu", "cents": 3300, "comment": "High Yu"},
+            {"step": 16, "frequency": 2093.00, "note": "C", "function": "Highest Gong", "cents": 3600, "comment": "Highest Gong"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "neutralThird": "E lowered by approximately 20 cents",
+            "pentatonic": "Classic anhemitonic pentatonic structure",
+            "signatureIntervals": ["C-D-E-G-A core structure"]
+          },
+          "metadata": {
+            "description": "The fundamental mode in Chinese music, representing the emperor and earth element",
+            "elementAssociation": "Earth element (土)",
+            "traditionalUse": "Court music, ceremonial occasions, symbolizes stability"
+          }
+        },
+        {
+          "name": "Jiao (E mode)",
+          "fundamentalNote": "E",
+          "fundamentalFrequency":326.63,
+          "parentScale": "Pentatonic",
+          "modeDegree": 3,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "gentle, flowing",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 326.63, "note": "E (slightly flat)", "function": "Jiao", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 392.00, "note": "G", "function": "Zhi", "cents": 320, "comment": "Minor third"},
+            {"step": 3, "frequency": 440.00, "note": "A", "function": "Yu", "cents": 520, "comment": "Perfect fourth"},
+            {"step": 4, "frequency": 523.25, "note": "C", "function": "Gong", "cents": 820, "comment": "Minor sixth"},
+            {"step": 5, "frequency": 587.33, "note": "D", "function": "Shang", "cents": 1020, "comment": "Minor seventh"},
+            {"step": 6, "frequency": 653.27, "note": "E (slightly flat)", "function": "Upper Jiao", "cents": 1200, "comment": "Octave"},
+            {"step": 7, "frequency": 783.99, "note": "G", "function": "Upper Zhi", "cents": 1520, "comment": "Upper minor third"},
+            {"step": 8, "frequency": 880.00, "note": "A", "function": "Upper Yu", "cents": 1720, "comment": "Upper perfect fourth"},
+            {"step": 9, "frequency": 1046.50, "note": "C", "function": "Upper Gong", "cents": 2020, "comment": "Upper minor sixth"},
+            {"step": 10, "frequency": 1174.66, "note": "D", "function": "Upper Shang", "cents": 2220, "comment": "Upper minor seventh"},
+            {"step": 11, "frequency": 1306.53, "note": "E (slightly flat)", "function": "High Jiao", "cents": 2400, "comment": "High octave"},
+            {"step": 12, "frequency": 1567.98, "note": "G", "function": "High Zhi", "cents": 2720, "comment": "High minor third"},
+            {"step": 13, "frequency": 1760.00, "note": "A", "function": "High Yu", "cents": 2920, "comment": "High perfect fourth"},
+            {"step": 14, "frequency": 2093.00, "note": "C", "function": "High Gong", "cents": 3220, "comment": "High minor sixth"},
+            {"step": 15, "frequency": 2349.32, "note": "D", "function": "High Shang", "cents": 3420, "comment": "High minor seventh"},
+            {"step": 16, "frequency": 2613.06, "note": "E (slightly flat)", "function": "Highest Jiao", "cents": 3600, "comment": "Highest octave"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "neutralTone": "Flattened E as tonic creates distinctive tonal center",
+            "minorPentatonic": "Minor pentatonic structure with flattened third",
+            "signatureIntervals": ["E-G-A-C-D with E slightly flat"]
+          },
+          "metadata": {
+            "description": "Associated with people and wood element, produces gentle, flowing melodies",
+            "elementAssociation": "Wood element (木)",
+            "traditionalUse": "Folk melodies, lyrical expressions, associated with spring"
+          }
+        },
+        {
+          "name": "Pentatonik Gam (Wuyin)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "foundational, archetypal",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Gong (宫)", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Shang (商)", "cents": 200, "comment": "Whole tone"},
+            {"step": 3, "frequency": 326.63, "note": "E (slightly flat)", "function": "Jiao (角)", "cents": 380, "comment": "Neutral third"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Zhi (徵)", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Yu (羽)", "cents": 900, "comment": "Major sixth"},
+            {"step": 6, "frequency": 523.25, "note": "C", "function": "Upper Gong", "cents": 1200, "comment": "Octave"},
+            {"step": 7, "frequency": 587.33, "note": "D", "function": "Upper Shang", "cents": 1400, "comment": "Upper whole tone"},
+            {"step": 8, "frequency": 653.27, "note": "E (slightly flat)", "function": "Upper Jiao", "cents": 1580, "comment": "Upper neutral third"},
+            {"step": 9, "frequency": 783.99, "note": "G", "function": "Upper Zhi", "cents": 1900, "comment": "Upper perfect fifth"},
+            {"step": 10, "frequency": 880.00, "note": "A", "function": "Upper Yu", "cents": 2100, "comment": "Upper major sixth"},
+            {"step": 11, "frequency": 1046.50, "note": "C", "function": "High Gong", "cents": 2400, "comment": "Two octaves"},
+            {"step": 12, "frequency": 1174.66, "note": "D", "function": "High Shang", "cents": 2600, "comment": "High whole tone"},
+            {"step": 13, "frequency": 1306.53, "note": "E (slightly flat)", "function": "High Jiao", "cents": 2780, "comment": "High neutral third"},
+            {"step": 14, "frequency": 1567.98, "note": "G", "function": "High Zhi", "cents": 3100, "comment": "High perfect fifth"},
+            {"step": 15, "frequency": 1760.00, "note": "A", "function": "High Yu", "cents": 3300, "comment": "High major sixth"},
+            {"step": 16, "frequency": 2093.00, "note": "C", "function": "Highest Gong", "cents": 3600, "comment": "Three octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "neutralThird": "E lowered by approximately 20 cents",
+            "basicPentatonicStructure": "Foundational pentatonic without semitones",
+            "signatureIntervals": ["C-D-E-G-A with characteristic spacing"]
+          },
+          "metadata": {
+            "description": "The classic five-note scale that forms the basis of traditional Chinese music",
+            "elementAssociation": "Represents all five elements in balance",
+            "traditionalUse": "Foundation for most traditional Chinese compositions"
+          }
+        },
+        {
+          "name": "Qingjue",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "bright, distinctive",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Fundamental", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Second", "cents": 200, "comment": "Major second"},
+            {"step": 3, "frequency": 326.63, "note": "E (slightly flat)", "function": "Third", "cents": 380, "comment": "Neutral third"},
+            {"step": 4, "frequency": 369.99, "note": "F#", "function": "Fourth", "cents": 600, "comment": "Raised fourth (characteristic)"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Fifth", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Sixth", "cents": 900, "comment": "Major sixth"},
+            {"step": 7, "frequency": 488.14, "note": "B (slightly flat)", "function": "Seventh", "cents": 1080, "comment": "Minor seventh"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 587.33, "note": "D", "function": "Upper Second", "cents": 1400, "comment": "Upper major second"},
+            {"step": 10, "frequency": 653.27, "note": "E (slightly flat)", "function": "Upper Third", "cents": 1580, "comment": "Upper neutral third"},
+            {"step": 11, "frequency": 739.99, "note": "F#", "function": "Upper Fourth", "cents": 1800, "comment": "Upper raised fourth"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Upper Fifth", "cents": 1900, "comment": "Upper perfect fifth"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "Upper Sixth", "cents": 2100, "comment": "Upper major sixth"},
+            {"step": 14, "frequency": 976.28, "note": "B (slightly flat)", "function": "Upper Seventh", "cents": 2280, "comment": "Upper minor seventh"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "High Octave", "cents": 2400, "comment": "Two octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "D", "function": "High Second", "cents": 2600, "comment": "High major second"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "raisedFourth": "Characteristic augmented fourth",
+            "flattenedThirdAndSeventh": "Both E and B slightly flattened",
+            "signatureIntervals": ["C-D-E-F#-G-A-B pattern with microtonal adjustments"]
+          },
+          "metadata": {
+            "description": "A seven-note scale with characteristic raised fourth degree",
+            "elementAssociation": "Mixed elemental qualities",
+            "traditionalUse": "More expressive, complex compositions, solo instrumental works"
+          }
+        },
+        {
+          "name": "Ruibin",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 6,
+          "character": "soft, melancholic",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Fundamental", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Second", "cents": 200, "comment": "Major second"},
+            {"step": 3, "frequency": 326.63, "note": "E (slightly flat)", "function": "Third", "cents": 380, "comment": "Neutral third"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Fifth", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Sixth", "cents": 900, "comment": "Major sixth"},
+            {"step": 6, "frequency": 457.69, "note": "Bb (very flat)", "function": "Seventh", "cents": 960, "comment": "Strongly lowered seventh"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Octave", "cents": 1200, "comment": "Octave"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "Upper Second", "cents": 1400, "comment": "Upper major second"},
+            {"step": 9, "frequency": 653.27, "note": "E (slightly flat)", "function": "Upper Third", "cents": 1580, "comment": "Upper neutral third"},
+            {"step": 10, "frequency": 783.99, "note": "G", "function": "Upper Fifth", "cents": 1900, "comment": "Upper perfect fifth"},
+            {"step": 11, "frequency": 880.00, "note": "A", "function": "Upper Sixth", "cents": 2100, "comment": "Upper major sixth"},
+            {"step": 12, "frequency": 915.38, "note": "Bb (very flat)", "function": "Upper Seventh", "cents": 2160, "comment": "Upper strongly lowered seventh"},
+            {"step": 13, "frequency": 1046.50, "note": "C", "function": "High Octave", "cents": 2400, "comment": "Two octaves"},
+            {"step": 14, "frequency": 1174.66, "note": "D", "function": "High Second", "cents": 2600, "comment": "High major second"},
+            {"step": 15, "frequency": 1306.53, "note": "E (slightly flat)", "function": "High Third", "cents": 2780, "comment": "High neutral third"},
+            {"step": 16, "frequency": 1567.98, "note": "G", "function": "High Fifth", "cents": 3100, "comment": "High perfect fifth"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "veryFlatSeventh": "Bb strongly lowered, approximately 40 cents below equal temperament",
+            "neutralThird": "E lowered by about 20 cents creating neutral quality",
+            "signatureIntervals": ["C-D-E-G-A-Bb with distinctive flattened 7th"]
+          },
+          "metadata": {
+            "description": "A variant scale with lowered seventh degree, creating a softer resolution",
+            "elementAssociation": "Water element (水) influence",
+            "traditionalUse": "Nostalgic, gentle compositions, often in slower tempos"
+          }
+        },
+        {
+          "name": "Shang (D mode)",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": "Pentatonic",
+          "modeDegree": 2,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "bright, metallic",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Shang", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 326.63, "note": "E (slightly flat)", "function": "Jiao", "cents": 180, "comment": "Characteristic neutral third"},
+            {"step": 3, "frequency": 392.00, "note": "G", "function": "Zhi", "cents": 500, "comment": "Perfect fourth"},
+            {"step": 4, "frequency": 440.00, "note": "A", "function": "Yu", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 5, "frequency": 523.25, "note": "C", "function": "Gong", "cents": 1000, "comment": "Minor seventh"},
+            {"step": 6, "frequency": 587.33, "note": "D", "function": "Upper Shang", "cents": 1200, "comment": "Octave"},
+            {"step": 7, "frequency": 653.27, "note": "E (slightly flat)", "function": "Upper Jiao", "cents": 1380, "comment": "Upper neutral third"},
+            {"step": 8, "frequency": 783.99, "note": "G", "function": "Upper Zhi", "cents": 1700, "comment": "Upper perfect fourth"},
+            {"step": 9, "frequency": 880.00, "note": "A", "function": "Upper Yu", "cents": 1900, "comment": "Upper perfect fifth"},
+            {"step": 10, "frequency": 1046.50, "note": "C", "function": "Upper Gong", "cents": 2200, "comment": "Upper minor seventh"},
+            {"step": 11, "frequency": 1174.66, "note": "D", "function": "High Shang", "cents": 2400, "comment": "Two octaves"},
+            {"step": 12, "frequency": 1306.53, "note": "E (slightly flat)", "function": "High Jiao", "cents": 2580, "comment": "High neutral third"},
+            {"step": 13, "frequency": 1567.98, "note": "G", "function": "High Zhi", "cents": 2900, "comment": "High perfect fourth"},
+            {"step": 14, "frequency": 1760.00, "note": "A", "function": "High Yu", "cents": 3100, "comment": "High perfect fifth"},
+            {"step": 15, "frequency": 2093.00, "note": "C", "function": "High Gong", "cents": 3400, "comment": "High minor seventh"},
+            {"step": 16, "frequency": 2349.32, "note": "D", "function": "Highest Shang", "cents": 3600, "comment": "Three octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "neutralThird": "E lowered by approximately 20 cents",
+            "minorPentatonic": "Minor pentatonic structure rotated to D",
+            "signatureIntervals": ["D-E-G-A-C with D as tonic"]
+          },
+          "metadata": {
+            "description": "Representing ministers and metal element, creates a bright, metallic quality",
+            "elementAssociation": "Metal element (金)",
+            "traditionalUse": "Bright, clear expressions, often associated with clarity and determination"
+          }
+        },
+        {
+          "name": "Yize",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 6,
+          "character": "ceremonial, ancient",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Fundamental", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Second", "cents": 200, "comment": "Major second"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Fourth", "cents": 500, "comment": "Perfect fourth"},
+            {"step": 4, "frequency": 369.99, "note": "F#", "function": "Raised Fourth", "cents": 600, "comment": "Augmented fourth"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Sixth", "cents": 900, "comment": "Major sixth"},
+            {"step": 6, "frequency": 475.54, "note": "B (very flat)", "function": "Seventh", "cents": 1020, "comment": "Strongly lowered seventh"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Octave", "cents": 1200, "comment": "Octave"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "Upper Second", "cents": 1400, "comment": "Upper major second"},
+            {"step": 9, "frequency": 698.46, "note": "F", "function": "Upper Fourth", "cents": 1700, "comment": "Upper perfect fourth"},
+            {"step": 10, "frequency": 739.99, "note": "F#", "function": "Upper Raised Fourth", "cents": 1800, "comment": "Upper augmented fourth"},
+            {"step": 11, "frequency": 880.00, "note": "A", "function": "Upper Sixth", "cents": 2100, "comment": "Upper major sixth"},
+            {"step": 12, "frequency": 951.08, "note": "B (very flat)", "function": "Upper Seventh", "cents": 2220, "comment": "Upper strongly lowered seventh"},
+            {"step": 13, "frequency": 1046.50, "note": "C", "function": "High Octave", "cents": 2400, "comment": "Two octaves"},
+            {"step": 14, "frequency": 1174.66, "note": "D", "function": "High Second", "cents": 2600, "comment": "High major second"},
+            {"step": 15, "frequency": 1396.91, "note": "F", "function": "High Fourth", "cents": 2900, "comment": "High perfect fourth"},
+            {"step": 16, "frequency": 1479.98, "note": "F#", "function": "High Raised Fourth", "cents": 3000, "comment": "High augmented fourth"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "chromaticPair": "Includes both F and F# creating unusual tension",
+            "veryFlatSeventh": "B strongly lowered creating distinctive resolution",
+            "signatureIntervals": ["C-D-F-F#-A-Bb with unusual chromatic pair"]
+          },
+          "metadata": {
+            "description": "An ancient ceremonial scale with augmented second intervals",
+            "elementAssociation": "Multiple elements, particularly Fire (火)",
+            "traditionalUse": "Ceremonial court music, ritual performances"
+          }
+        },
+        {
+          "name": "Yu (A mode)",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":440,
+          "parentScale": "Pentatonic",
+          "modeDegree": 5,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "fluid, undulating",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 440.00, "note": "A", "function": "Yu", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 523.25, "note": "C", "function": "Gong", "cents": 300, "comment": "Minor third"},
+            {"step": 3, "frequency": 587.33, "note": "D", "function": "Shang", "cents": 500, "comment": "Perfect fourth"},
+            {"step": 4, "frequency": 698.46, "note": "F", "function": "Jiao", "cents": 800, "comment": "Minor sixth"},
+            {"step": 5, "frequency": 783.99, "note": "G", "function": "Zhi", "cents": 1000, "comment": "Minor seventh"},
+            {"step": 6, "frequency": 880.00, "note": "A", "function": "Upper Yu", "cents": 1200, "comment": "Octave"},
+            {"step": 7, "frequency": 1046.50, "note": "C", "function": "Upper Gong", "cents": 1500, "comment": "Upper minor third"},
+            {"step": 8, "frequency": 1174.66, "note": "D", "function": "Upper Shang", "cents": 1700, "comment": "Upper perfect fourth"},
+            {"step": 9, "frequency": 1396.91, "note": "F", "function": "Upper Jiao", "cents": 2000, "comment": "Upper minor sixth"},
+            {"step": 10, "frequency": 1567.98, "note": "G", "function": "Upper Zhi", "cents": 2200, "comment": "Upper minor seventh"},
+            {"step": 11, "frequency": 1760.00, "note": "A", "function": "High Yu", "cents": 2400, "comment": "High octave"},
+            {"step": 12, "frequency": 2093.00, "note": "C", "function": "High Gong", "cents": 2700, "comment": "High minor third"},
+            {"step": 13, "frequency": 2349.32, "note": "D", "function": "High Shang", "cents": 2900, "comment": "High perfect fourth"},
+            {"step": 14, "frequency": 2793.83, "note": "F", "function": "High Jiao", "cents": 3200, "comment": "High minor sixth"},
+            {"step": 15, "frequency": 3135.96, "note": "G", "function": "High Zhi", "cents": 3400, "comment": "High minor seventh"},
+            {"step": 16, "frequency": 3520.00, "note": "A", "function": "Highest Yu", "cents": 3600, "comment": "Highest octave"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": null,
+          "metadata": {
+            "description": "Related to objects and water element, produces fluid, undulating melodies.",
+            "elementAssociation": "Water element (水)",
+            "traditionalUse": "Fluid and expressive melodies, often associated with natural landscapes"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Chinese traditional music employs subtle microtonal alterations, particularly flattened thirds that create a neutral quality",
+      "rhythmic_features": "Often performed with flexible rhythmic interpretations and tempo rubato, especially in solo instrumental works",
+      "ornamentation": "Extensive use of slides, bends, and vibrato are essential to authentic performance practice",
+      "instrumentation": "Traditional instruments include erhu, guzheng, pipa, dizi, and various silk-string and bamboo instruments"
+    }
+  }
+}

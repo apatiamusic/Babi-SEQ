@@ -1,0 +1,238 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Jewish Music Modes Collection",
+  "description": "A collection of traditional Jewish music modes with microtonal frequency values, optimized for 16-step sequencing applications.",
+  "version": "1.0",
+  "reference": "Jewish microtonal intervals calculated with comma values of ~5.38 cents (1/9 tone) | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Traditional Jewish Modal Scales",
+      "collectionType": "jewish",
+      "culturalOrigin": "Eastern European and Middle Eastern Jewish Traditions",
+      "description": "A collection of traditional modes used in Jewish liturgical music, prayer, and folk traditions with their characteristic microtonal inflections",
+      "modes": [
+        {
+          "name": "Adonai Malach",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Western Major-like",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Majestic and royal with solemn dignity",
+          "chordTypes": ["Major with altered fifths", "Mixolydian-like", "Synagogal"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Temel ton"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Major 2nd", "cents": 200, "comment": "Büyük ikinci"},
+            {"step": 3, "frequency": 325.88, "note": "E (1 koma bemol)", "function": "Minor 3rd", "cents": 386, "comment": "Küçük üçüncü"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect 4th", "cents": 498, "comment": "Büyük üçüncü"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect 5th", "cents": 702, "comment": "Dörtlü"},
+            {"step": 6, "frequency": 434.54, "note": "A (1 koma bemol)", "function": "Minor 6th", "cents": 884, "comment": "Azaltılmış beşli"},
+            {"step": 7, "frequency": 488.14, "note": "B (1 koma bemol)", "function": "Minor 7th", "cents": 1088, "comment": "Küçük altılı"},
+            {"step": 8, "frequency": 523.25, "note": "C (oktav)", "function": "Tonic octave", "cents": 1200, "comment": "Oktav"},
+            {"step": 9, "frequency": 587.33, "note": "D (oktav)", "function": "Major 2nd octave", "cents": 1400, "comment": "Büyük ikinci oktav"},
+            {"step": 10, "frequency": 651.76, "note": "E (oktav, 1 koma bemol)", "function": "Minor 3rd octave", "cents": 1586, "comment": "Küçük üçüncü oktav"},
+            {"step": 11, "frequency": 698.46, "note": "F (oktav)", "function": "Perfect 4th octave", "cents": 1698, "comment": "Büyük üçüncü oktav"},
+            {"step": 12, "frequency": 783.99, "note": "G (oktav)", "function": "Perfect 5th octave", "cents": 1902, "comment": "Dörtlü oktav"},
+            {"step": 13, "frequency": 869.08, "note": "A (oktav, 1 koma bemol)", "function": "Minor 6th octave", "cents": 2084, "comment": "Azaltılmış beşli oktav"},
+            {"step": 14, "frequency": 976.28, "note": "B (oktav, 1 koma bemol)", "function": "Minor 7th octave", "cents": 2288, "comment": "Küçük altılı oktav"},
+            {"step": 15, "frequency": 1046.50, "note": "C (2 oktav)", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Çift oktav"},
+            {"step": 16, "frequency": 1174.66, "note": "D (2 oktav)", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "Büyük ikinci çift oktav"}
+          ],
+          "voicingPattern": [1, 3, 5, 7, 8, 10, 12, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Jewish liturgical with comma adjustments",
+            "intervalStructure": "2-1-2-2-1-2-2 with microtonal adjustments",
+            "signatureIntervals": ["Minor 3rd with comma adjustment (386 cents)", "Minor 6th (884 cents)", "Minor 7th (1088 cents)"]
+          },
+          "metadata": {
+            "description": "Adonai Malach (meaning 'God Reigns') is a majestic mode used in synagogue prayer music, especially for texts emphasizing divine kingship and glory. It resembles a major scale with subtly lowered third, sixth, and seventh degrees through microtonal comma adjustments.",
+            "historicalContext": "Developed within Jewish liturgical traditions for specific prayers, particularly associated with Psalms emphasizing God's sovereignty",
+            "usageExamples": "Sabbath morning prayers, psalms of praise, ceremonial moments in synagogue services, cantorial recitatives expressing divine majesty"
+          }
+        },
+        {
+          "name": "Ahava Raba",
+          "fundamentalNote": "G",
+          "fundamentalFrequency":196.00,
+          "parentScale": "Phrygian Dominant-like",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Melancholic and emotional with distinctive Eastern flavor",
+          "chordTypes": ["Minor with raised 2nd", "Phrygian Dominant", "Freygish"],
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Tonic", "cents": 0, "comment": "Pes ton - temel"},
+            {"step": 2, "frequency": 222.05, "note": "A (1 koma diyez)", "function": "Augmented 2nd", "cents": 217, "comment": "Artırılmış ikinci derece"},
+            {"step": 3, "frequency": 241.12, "note": "B (2 koma bemol)", "function": "Minor 3rd", "cents": 359, "comment": "Küçük üçlü"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Perfect 4th", "cents": 498, "comment": "Dörtlü aralık"},
+            {"step": 5, "frequency": 289.32, "note": "D (1 koma bemol)", "function": "Diminished 5th", "cents": 675, "comment": "Beşli aralık (azaltılmış)"},
+            {"step": 6, "frequency": 318.89, "note": "E (3 koma bemol)", "function": "Minor 6th", "cents": 842, "comment": "Altılı aralık (belirgin azaltılmış)"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Minor 7th", "cents": 996, "comment": "Yedinci derece"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Tonic octave", "cents": 1200, "comment": "Oktav"},
+            {"step": 9, "frequency": 444.10, "note": "A (oktav, 1 koma diyez)", "function": "Augmented 2nd octave", "cents": 1417, "comment": "Artırılmış ikinci derece oktav"},
+            {"step": 10, "frequency": 482.24, "note": "B (oktav, 2 koma bemol)", "function": "Minor 3rd octave", "cents": 1559, "comment": "Küçük üçlü oktav"},
+            {"step": 11, "frequency": 523.25, "note": "C (oktav)", "function": "Perfect 4th octave", "cents": 1698, "comment": "Dörtlü aralık oktav"},
+            {"step": 12, "frequency": 578.64, "note": "D (oktav, 1 koma bemol)", "function": "Diminished 5th octave", "cents": 1875, "comment": "Beşli aralık oktav (azaltılmış)"},
+            {"step": 13, "frequency": 637.78, "note": "E (oktav, 3 koma bemol)", "function": "Minor 6th octave", "cents": 2042, "comment": "Altılı aralık oktav (belirgin azaltılmış)"},
+            {"step": 14, "frequency": 698.46, "note": "F (oktav)", "function": "Minor 7th octave", "cents": 2196, "comment": "Yedinci derece oktav"},
+            {"step": 15, "frequency": 783.99, "note": "G (oktav)", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Çift oktav"},
+            {"step": 16, "frequency": 888.20, "note": "A (2 oktav, 1 koma diyez)", "function": "Augmented 2nd 2 octaves", "cents": 2617, "comment": "Artırılmış ikinci derece çift oktav"}
+          ],
+          "voicingPattern": [1, 2, 4, 5, 8, 9, 11, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Middle Eastern-influenced with quarter-tones approximations",
+            "intervalStructure": "1-3-2-1-3-2-1 with microtonal adjustments",
+            "signatureIntervals": ["Augmented 2nd (217 cents)", "Diminished 5th (675 cents)", "Characteristic comma adjustments (~5.38 cents)"]
+          },
+          "metadata": {
+            "description": "Ahava Raba is a fundamental mode in Eastern European Jewish music (known as 'Freygish' in Klezmer), closely related to the Arabic Hijaz maqam and Spanish Phrygian. It features a distinctive augmented second interval and microtonal adjustments that give it its characteristic emotional quality.",
+            "historicalContext": "Deeply rooted in Ashkenazi synagogue traditions and Eastern European Jewish folk music, later becoming a cornerstone of Klezmer musical expression",
+            "usageExamples": "Synagogue prayers, traditional Jewish wedding music, Klezmer instrumental pieces, cantorial improvisation, emotional or introspective musical moments"
+          }
+        },
+        {
+          "name": "Hashem Malach",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": "Minor Dorian-like",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Serene and meditative with prayerful quality",
+          "chordTypes": ["Minor with raised 4th", "Modified Dorian", "Prayer mode"],
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Tonic", "cents": 0, "comment": "Temel ton"},
+            {"step": 2, "frequency": 325.88, "note": "E (1 koma bemol)", "function": "Minor 2nd", "cents": 187, "comment": "Küçük ikinci"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Major 2nd", "cents": 303, "comment": "Büyük ikinci"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Minor 3rd", "cents": 503, "comment": "Küçük üçüncü"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect 4th", "cents": 702, "comment": "Büyük üçüncü"},
+            {"step": 6, "frequency": 488.14, "note": "B (1 koma bemol)", "function": "Diminished 5th", "cents": 888, "comment": "Dörtlü"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Augmented 5th", "cents": 1004, "comment": "Artırılmış dörtlü"},
+            {"step": 8, "frequency": 587.33, "note": "D (oktav)", "function": "Tonic octave", "cents": 1200, "comment": "Oktav"},
+            {"step": 9, "frequency": 651.76, "note": "E (oktav, 1 koma bemol)", "function": "Minor 2nd octave", "cents": 1387, "comment": "Küçük ikinci oktav"},
+            {"step": 10, "frequency": 698.46, "note": "F (oktav)", "function": "Major 2nd octave", "cents": 1503, "comment": "Büyük ikinci oktav"},
+            {"step": 11, "frequency": 783.99, "note": "G (oktav)", "function": "Minor 3rd octave", "cents": 1703, "comment": "Küçük üçüncü oktav"},
+            {"step": 12, "frequency": 880.00, "note": "A (oktav)", "function": "Perfect 4th octave", "cents": 1902, "comment": "Büyük üçüncü oktav"},
+            {"step": 13, "frequency": 976.28, "note": "B (oktav, 1 koma bemol)", "function": "Diminished 5th octave", "cents": 2088, "comment": "Dörtlü oktav"},
+            {"step": 14, "frequency": 1046.50, "note": "C (oktav)", "function": "Augmented 5th octave", "cents": 2204, "comment": "Artırılmış dörtlü oktav"},
+            {"step": 15, "frequency": 1174.66, "note": "D (2 oktav)", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Çift oktav"},
+            {"step": 16, "frequency": 1303.52, "note": "E (2 oktav, 1 koma bemol)", "function": "Minor 2nd 2 octaves", "cents": 2587, "comment": "Küçük ikinci çift oktav"}
+          ],
+          "voicingPattern": [1, 4, 5, 7, 8, 11, 12, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Jewish liturgical with comma adjustments",
+            "intervalStructure": "1-2-2-2-1-2-2 with microtonal adjustments",
+            "signatureIntervals": ["Minor 2nd with comma adjustment (187 cents)", "Diminished 5th (888 cents)", "Augmented 5th (1004 cents)"]
+          },
+          "metadata": {
+            "description": "Hashem Malach ('The Lord Reigns') is a contemplative mode used primarily in prayer contexts, creating a meditative atmosphere suitable for personal devotion and communal worship. Its distinctive intervals create a sense of gentle introspection.",
+            "historicalContext": "Developed within synagogue traditions for specific liturgical texts, especially prayers emphasizing humility before divine sovereignty",
+            "usageExamples": "Quiet devotional prayers, meditative moments in services, personal prayer melodies (nigunim), contemplative instrumental pieces"
+          }
+        },
+        {
+          "name": "Mi Sheberach",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Ukrainian Dorian-like",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Comforting and healing with hopeful quality",
+          "chordTypes": ["Minor with raised 4th and 6th", "Modified Dorian", "Healing mode"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic", "cents": 0, "comment": "Temel ton"},
+            {"step": 2, "frequency": 244.07, "note": "B (1 koma bemol)", "function": "Minor 2nd", "cents": 180, "comment": "Küçük ikinci"},
+            {"step": 3, "frequency": 261.63, "note": "C", "function": "Major 2nd", "cents": 300, "comment": "Büyük ikinci"},
+            {"step": 4, "frequency": 297.94, "note": "D (1 koma diyez)", "function": "Augmented 3rd", "cents": 537, "comment": "Artırılmış dördüncü"},
+            {"step": 5, "frequency": 329.63, "note": "E", "function": "Perfect 4th", "cents": 700, "comment": "Beşli"},
+            {"step": 6, "frequency": 355.39, "note": "F (1 koma diyez)", "function": "Augmented 5th", "cents": 837, "comment": "Artırılmış altılı"},
+            {"step": 7, "frequency": 392.00, "note": "G", "function": "Minor 6th", "cents": 1000, "comment": "Küçük yedili"},
+            {"step": 8, "frequency": 440.00, "note": "A (oktav)", "function": "Tonic octave", "cents": 1200, "comment": "Oktav"},
+            {"step": 9, "frequency": 488.14, "note": "B (oktav, 1 koma bemol)", "function": "Minor 2nd octave", "cents": 1380, "comment": "Küçük ikinci oktav"},
+            {"step": 10, "frequency": 523.25, "note": "C (oktav)", "function": "Major 2nd octave", "cents": 1500, "comment": "Büyük ikinci oktav"},
+            {"step": 11, "frequency": 595.88, "note": "D (oktav, 1 koma diyez)", "function": "Augmented 3rd octave", "cents": 1737, "comment": "Artırılmış dördüncü oktav"},
+            {"step": 12, "frequency": 659.26, "note": "E (oktav)", "function": "Perfect 4th octave", "cents": 1900, "comment": "Beşli oktav"},
+            {"step": 13, "frequency": 710.78, "note": "F (oktav, 1 koma diyez)", "function": "Augmented 5th octave", "cents": 2037, "comment": "Artırılmış altılı oktav"},
+            {"step": 14, "frequency": 783.99, "note": "G (oktav)", "function": "Minor 6th octave", "cents": 2200, "comment": "Küçük yedili oktav"},
+            {"step": 15, "frequency": 880.00, "note": "A (2 oktav)", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Çift oktav"},
+            {"step": 16, "frequency": 976.28, "note": "B (2 oktav, 1 koma bemol)", "function": "Minor 2nd 2 octaves", "cents": 2580, "comment": "Küçük ikinci çift oktav"}
+          ],
+          "voicingPattern": [1, 3, 4, 5, 8, 10, 11, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Jewish liturgical with comma adjustments",
+            "intervalStructure": "1-2-2-1-2-1-2 with microtonal adjustments",
+            "signatureIntervals": ["Minor 2nd with comma adjustment (180 cents)", "Augmented 3rd (537 cents)", "Augmented 5th (837 cents)"]
+          },
+          "metadata": {
+            "description": "Mi Sheberach (meaning 'May the One who blessed') is a mode associated with prayers for healing and well-being. Its characteristic raised fourth and sixth degrees with microtonal adjustments create a sense of yearning and hopefulness, making it ideal for prayers seeking divine intervention.",
+            "historicalContext": "Named after the healing prayer recited in synagogues for those who are ill, this mode developed particularly in Eastern European Jewish communities",
+            "usageExamples": "Healing prayers, blessing ceremonies, compassionate liturgical moments, emotional cantorial recitatives, modern Jewish folk melodies"
+          }
+        },
+        {
+          "name": "Yishtabach",
+          "fundamentalNote": "E",
+          "fundamentalFrequency":329.63,
+          "parentScale": "Major-like with raised fourths",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Joyful and celebratory with bright quality",
+          "chordTypes": ["Major with raised 2nd and 5th", "Lydian-like", "Praise mode"],
+          "steps": [
+            {"step": 1, "frequency": 329.63, "note": "E", "function": "Tonic", "cents": 0, "comment": "Fundamental Tone"},
+            {"step": 2, "frequency": 355.39, "note": "F (1 koma diyez)", "function": "Augmented 1st", "cents": 137, "comment": "Küçük ikinci"},
+            {"step": 3, "frequency": 392.00, "note": "G", "function": "Major 2nd", "cents": 300, "comment": "Major 2nd"},
+            {"step": 4, "frequency": 440.00, "note": "A", "function": "Minor 3rd", "cents": 500, "comment": "Minor 3rd"},
+            {"step": 5, "frequency": 493.88, "note": "B", "function": "Major 3rd", "cents": 700, "comment": "Major 3rd"},
+            {"step": 6, "frequency": 523.25, "note": "C", "function": "Perfect 4th", "cents": 800, "comment": "Perfect 4"},
+            {"step": 7, "frequency": 595.88, "note": "D (1 koma diyez)", "function": "Augmented 5th", "cents": 1037, "comment": "Beşli"},
+            {"step": 8, "frequency": 659.26, "note": "E (oktav)", "function": "Tonic octave", "cents": 1200, "comment": "Oktav"},
+            {"step": 9, "frequency": 710.78, "note": "F (oktav, 1 koma diyez)", "function": "Augmented 1st octave", "cents": 1337, "comment": "Augmented 1st octave""},
+            {"step": 10, "frequency": 783.99, "note": "G (oktav)", "function": "Major 2nd octave", "cents": 1500, "comment": "Major 2nd octave"},
+            {"step": 11, "frequency": 880.00, "note": "A (oktav)", "function": "Minor 3rd octave", "cents": 1700, "comment": "Minor 3rd octave"},
+            {"step": 12, "frequency": 987.77, "note": "B (oktav)", "function": "Major 3rd octave", "cents": 1900, "comment": "Büyük üçüncü oktav"},
+            {"step": 13, "frequency": 1046.50, "note": "C (oktav)", "function": "Perfect 4th octave", "cents": 2000, "comment": "Major 3rd octave"},
+            {"step": 14, "frequency": 1191.76, "note": "D (oktav, 1 koma diyez)", "function": "Augmented 5th octave", "cents": 2237, "comment": "Beşli oktav"},
+            {"step": 15, "frequency": 1318.51, "note": "E (2 oktav)", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Çift oktav"},
+            {"step": 16, "frequency": 1421.56, "note": "F (2 oktav, 1 koma diyez)", "function": "Augmented 1st 2 octaves", "cents": 2537, "comment": "Küçük ikinci çift oktav"}
+          ],
+          "voicingPattern": [1, 3, 5, 7, 8, 10, 12, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Jewish liturgical with comma adjustments",
+            "intervalStructure": "1-2-2-2-1-2-1 with microtonal adjustments",
+            "signatureIntervals": ["Augmented 1st (137 cents)", "Major 3rd (700 cents)", "Augmented 5th (1037 cents)"]
+          },
+          "metadata": {
+            "description": "Yishtabach (meaning 'May [His Name] be praised') is a joyful mode used for prayers of praise and thanksgiving. Its bright character with characteristic raised intervals creates an uplifting, celebratory atmosphere ideal for expressions of gratitude and joy.",
+            "historicalContext": "Named after a prayer of praise in the morning service, developed in Jewish liturgical traditions for texts emphasizing divine praise",
+            "usageExamples": "Psalms of praise, celebratory prayers, joyful ceremonies, festive cantorial pieces, uplifting instrumental melodies for holidays"
+          }
+        }
+
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Jewish modal music employs subtle microtonal adjustments based on regional tradition, with Eastern European traditions using different microtonal inflections than Middle Eastern or Sephardic traditions. The comma value of ~5.38 cents creates distinctive character.",
+      "rhythmic_features": "Performance typically employs flexible, speech-rhythm phrasing in prayer contexts, while featuring characteristic dance rhythms in folk and celebratory contexts.",
+      "ornamentation": "Vocal krekhts (catch-breath ornaments), bent notes, trills, and slides are essential expressive elements, particularly in cantorial and klezmer traditions.",
+      "instrumentation": "Traditionally performed vocally by cantors, or on instruments like clarinet, violin, and accordion in klezmer ensembles. Each instrument has idiomatic approaches to the microtonal aspects."
+    }
+  }
+}

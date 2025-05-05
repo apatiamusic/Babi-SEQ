@@ -1,0 +1,356 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Byzantine Modes (Echoi)",
+  "description": "The eight Byzantine modal systems (Echoi) used in Greek Orthodox liturgical music with their microtonal structures",
+  "version": "1.0",
+  "reference": "Based on the Octoechos system of Byzantine chant | 1 koma = 1/6 tone ≈ 33.33 cents | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Byzantine Modal System (Octoechos)",
+      "collectionType": "byzantine",
+      "culturalOrigin": "Eastern Orthodox Church",
+      "description": "The eight-mode system (Octoechos) used in Byzantine liturgical chant",
+      "modes": [
+        {
+          "name": "First Echos (Dorian)",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":146.83,
+          "parentScale": "Dorian",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "solemn, reverent",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 146.83, "note": "D", "function": "Finalis", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 164.81, "note": "E", "function": "Supertonic", "cents": 200, "comment": "Whole tone above finalis"},
+            {"step": 3, "frequency": 172.06, "note": "F (1 koma bemol)", "function": "Softened third", "cents": 267, "comment": "Slightly lowered minor third"},
+            {"step": 4, "frequency": 196.00, "note": "G", "function": "Dominant", "cents": 498, "comment": "Perfect fourth above finalis"},
+            {"step": 5, "frequency": 220.00, "note": "A", "function": "Subdominant", "cents": 700, "comment": "Perfect fifth above finalis"},
+            {"step": 6, "frequency": 244.07, "note": "B (1 koma bemol)", "function": "Softened sixth", "cents": 867, "comment": "Slightly lowered major sixth"},
+            {"step": 7, "frequency": 261.63, "note": "C", "function": "Subtonic", "cents": 1000, "comment": "Minor seventh above finalis"},
+            {"step": 8, "frequency": 293.66, "note": "D", "function": "Finalis octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 329.63, "note": "E", "function": "Supertonic octave", "cents": 1400, "comment": "Whole tone above octave"},
+            {"step": 10, "frequency": 344.12, "note": "F (1 koma bemol)", "function": "Softened third octave", "cents": 1467, "comment": "Slightly lowered minor third octave"},
+            {"step": 11, "frequency": 392.00, "note": "G", "function": "Dominant octave", "cents": 1698, "comment": "Perfect fourth octave"},
+            {"step": 12, "frequency": 440.00, "note": "A", "function": "Subdominant octave", "cents": 1900, "comment": "Perfect fifth octave"},
+            {"step": 13, "frequency": 488.14, "note": "B (1 koma bemol)", "function": "Softened sixth octave", "cents": 2067, "comment": "Slightly lowered major sixth octave"},
+            {"step": 14, "frequency": 523.25, "note": "C", "function": "Subtonic octave", "cents": 2200, "comment": "Minor seventh octave"},
+            {"step": 15, "frequency": 587.33, "note": "D", "function": "Finalis 2 octaves", "cents": 2400, "comment": "Two octaves"},
+            {"step": 16, "frequency": 659.26, "note": "E", "function": "Supertonic 2 octaves", "cents": 2600, "comment": "Whole tone above two octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "softenedThird": "F lowered by 1 koma (33 cents), creating a neutral-like interval",
+            "softenedSixth": "B lowered by 1 koma (33 cents)",
+            "signatureIntervals": ["D-E-F1kb-G characteristic pattern"]
+          },
+          "metadata": {
+            "description": "The authentic Dorian mode centered on the finalis D with characteristic Byzantine intonation",
+            "liturgicalUse": "Associated with Sunday services, penitential hymns",
+            "modalCharacteristics": "Ethos characterized by dignity and solemnity"
+          }
+        },
+        {
+          "name": "First Plagal Echos (Hypodorian)",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":146.83,
+          "parentScale": "Hypodorian",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "plaintive, expressive",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 110.00, "note": "A", "function": "Proslambanomenos", "cents": 0, "comment": "Low note below finalis"},
+            {"step": 2, "frequency": 123.47, "note": "B", "function": "Lower supertonic", "cents": 200, "comment": "Second degree"},
+            {"step": 3, "frequency": 130.81, "note": "C", "function": "Lower third", "cents": 300, "comment": "Third degree"},
+            {"step": 4, "frequency": 146.83, "note": "D", "function": "Finalis", "cents": 500, "comment": "Fourth above proslambanomenos"},
+            {"step": 5, "frequency": 164.81, "note": "E", "function": "Supertonic", "cents": 700, "comment": "Fifth above proslambanomenos"},
+            {"step": 6, "frequency": 172.06, "note": "F (1 koma bemol)", "function": "Softened third", "cents": 767, "comment": "Slightly lowered sixth"},
+            {"step": 7, "frequency": 196.00, "note": "G", "function": "Dominant", "cents": 1000, "comment": "Seventh above proslambanomenos"},
+            {"step": 8, "frequency": 220.00, "note": "A", "function": "Proslambanomenos octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 246.94, "note": "B", "function": "Lower supertonic octave", "cents": 1400, "comment": "Ninth"},
+            {"step": 10, "frequency": 261.63, "note": "C", "function": "Lower third octave", "cents": 1500, "comment": "Tenth"},
+            {"step": 11, "frequency": 293.66, "note": "D", "function": "Finalis octave", "cents": 1700, "comment": "Eleventh"},
+            {"step": 12, "frequency": 329.63, "note": "E", "function": "Supertonic octave", "cents": 1900, "comment": "Twelfth"},
+            {"step": 13, "frequency": 344.12, "note": "F (1 koma bemol)", "function": "Softened third octave", "cents": 1967, "comment": "Slightly lowered thirteenth"},
+            {"step": 14, "frequency": 392.00, "note": "G", "function": "Dominant octave", "cents": 2200, "comment": "Fourteenth"},
+            {"step": 15, "frequency": 440.00, "note": "A", "function": "Proslambanomenos 2 octaves", "cents": 2400, "comment": "Two octaves"},
+            {"step": 16, "frequency": 493.88, "note": "B", "function": "Lower supertonic 2 octaves", "cents": 2600, "comment": "Two octaves plus whole tone"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "extendedRange": "Range extends below the finalis, characteristic of plagal modes",
+            "softenedVoices": "Softened F (1 koma lower) creates distinctive color",
+            "signatureIntervals": ["A-B-C-D-E pattern with finalis as fourth degree"]
+          },
+          "metadata": {
+            "description": "The plagal form of First Echos with range extending below the finalis",
+            "liturgicalUse": "Resurrection hymns, evening services",
+            "modalCharacteristics": "Used for joyful, triumphant expressions"
+          }
+        },
+        {
+          "name": "Fourth Echos (Mixolydian)",
+          "fundamentalNote": "G",
+          "fundamentalFrequency":196.00,
+          "parentScale": "Mixolydian",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "bright, celebratory",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Finalis", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Supertonic", "cents": 200, "comment": "Whole tone above finalis"},
+            {"step": 3, "frequency": 244.07, "note": "B (1 koma bemol)", "function": "Softened third", "cents": 367, "comment": "Slightly lowered major third"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Dominant", "cents": 498, "comment": "Perfect fourth above finalis"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Subdominant", "cents": 700, "comment": "Perfect fifth above finalis"},
+            {"step": 6, "frequency": 325.88, "note": "E (1 koma bemol)", "function": "Softened sixth", "cents": 867, "comment": "Slightly lowered major sixth"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Subtonic", "cents": 1000, "comment": "Minor seventh above finalis"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Finalis octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Supertonic octave", "cents": 1400, "comment": "Whole tone above octave"},
+            {"step": 10, "frequency": 488.14, "note": "B (1 koma bemol)", "function": "Softened third octave", "cents": 1567, "comment": "Slightly lowered major third octave"},
+            {"step": 11, "frequency": 523.25, "note": "C", "function": "Dominant octave", "cents": 1698, "comment": "Perfect fourth octave"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Subdominant octave", "cents": 1900, "comment": "Perfect fifth octave"},
+            {"step": 13, "frequency": 651.76, "note": "E (1 koma bemol)", "function": "Softened sixth octave", "cents": 2067, "comment": "Slightly lowered major sixth octave"},
+            {"step": 14, "frequency": 698.46, "note": "F", "function": "Subtonic octave", "cents": 2200, "comment": "Minor seventh octave"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Finalis 2 octaves", "cents": 2400, "comment": "Two octaves"},
+            {"step": 16, "frequency": 880.00, "note": "A", "function": "Supertonic 2 octaves", "cents": 2600, "comment": "Whole tone above two octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "softenedThirdAndSixth": "Both B and E are lowered by 1 koma (33 cents)",
+            "signatureIntervals": ["G-A-B1kb-C pattern with distinctive minor seventh (F)"]
+          },
+          "metadata": {
+            "description": "The authentic Mixolydian mode with Byzantine treatment of the seventh degree",
+            "liturgicalUse": "Festal hymns, celebratory occasions",
+            "modalCharacteristics": "Associated with brightness and joy"
+          }
+        },
+        {
+            "name": "Third Echos (Phrygian)",
+            "fundamentalNote": "F",
+            "fundamentalFrequency":174.61,
+            "parentScale": "Phrygian",
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "mournful, penitential",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 174.61, "note": "F", "function": "Finalis", "cents": 0, "comment": "Tonic"},
+              {"step": 2, "frequency": 182.35, "note": "G (4 koma bemol)", "function": "Flattened supertonic", "cents": 75, "comment": "Heavily flattened second"},
+              {"step": 3, "frequency": 220.00, "note": "A", "function": "Third", "cents": 400, "comment": "Major third above finalis"},
+              {"step": 4, "frequency": 233.08, "note": "Bb", "function": "Dominant", "cents": 500, "comment": "Perfect fourth above finalis"},
+              {"step": 5, "frequency": 261.63, "note": "C", "function": "Subdominant", "cents": 700, "comment": "Perfect fifth above finalis"},
+              {"step": 6, "frequency": 272.54, "note": "D (4 koma bemol)", "function": "Flattened sixth", "cents": 775, "comment": "Heavily flattened sixth"},
+              {"step": 7, "frequency": 311.13, "note": "Eb", "function": "Subtonic", "cents": 1000, "comment": "Minor seventh above finalis"},
+              {"step": 8, "frequency": 349.23, "note": "F", "function": "Finalis octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 364.70, "note": "G (4 koma bemol)", "function": "Flattened supertonic octave", "cents": 1275, "comment": "Heavily flattened ninth"},
+              {"step": 10, "frequency": 440.00, "note": "A", "function": "Third octave", "cents": 1600, "comment": "Major third octave"},
+              {"step": 11, "frequency": 466.16, "note": "Bb", "function": "Dominant octave", "cents": 1700, "comment": "Perfect fourth octave"},
+              {"step": 12, "frequency": 523.25, "note": "C", "function": "Subdominant octave", "cents": 1900, "comment": "Perfect fifth octave"},
+              {"step": 13, "frequency": 545.08, "note": "D (4 koma bemol)", "function": "Flattened sixth octave", "cents": 1975, "comment": "Heavily flattened thirteenth"},
+              {"step": 14, "frequency": 622.25, "note": "Eb", "function": "Subtonic octave", "cents": 2200, "comment": "Minor seventh octave"},
+              {"step": 15, "frequency": 698.46, "note": "F", "function": "Finalis 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 729.40, "note": "G (4 koma bemol)", "function": "Flattened supertonic 2 octaves", "cents": 2475, "comment": "Heavily flattened 16th"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "flattenedSecond": "G lowered by 4 kommas (133 cents), creating very small step from finalis",
+              "flattenedSixth": "D lowered by 4 kommas (133 cents)",
+              "signatureIntervals": ["F-G4kb-A pattern with extreme microtonal coloration"]
+            },
+            "metadata": {
+              "description": "The authentic Phrygian mode with Byzantine microtonal adjustments to the second degree",
+              "liturgicalUse": "Associated with Tuesday services, penitential hymns",
+              "modalCharacteristics": "Conveys deep sorrow and repentance"
+            }
+          },
+          {
+            "name": "Third Plagal Echos (Hypophrygian)",
+            "fundamentalNote": "C",
+            "fundamentalFrequency":130.81,
+            "parentScale": "Hypophrygian",
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "mystical, introspective",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 130.81, "note": "C", "function": "Proslambanomenos", "cents": 0, "comment": "Low note below finalis"},
+              {"step": 2, "frequency": 136.27, "note": "D (4 koma bemol)", "function": "Flattened lower supertonic", "cents": 75, "comment": "Heavily flattened second degree"},
+              {"step": 3, "frequency": 155.56, "note": "Eb", "function": "Lower third", "cents": 300, "comment": "Minor third degree"},
+              {"step": 4, "frequency": 174.61, "note": "F", "function": "Finalis", "cents": 500, "comment": "Fourth above proslambanomenos"},
+              {"step": 5, "frequency": 182.35, "note": "G (4 koma bemol)", "function": "Flattened supertonic", "cents": 575, "comment": "Heavily flattened fifth"},
+              {"step": 6, "frequency": 220.00, "note": "A", "function": "Third", "cents": 900, "comment": "Major sixth above proslambanomenos"},
+              {"step": 7, "frequency": 233.08, "note": "Bb", "function": "Dominant", "cents": 1000, "comment": "Minor seventh above proslambanomenos"},
+              {"step": 8, "frequency": 261.63, "note": "C", "function": "Proslambanomenos octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 272.54, "note": "D (4 koma bemol)", "function": "Flattened lower supertonic octave", "cents": 1275, "comment": "Heavily flattened ninth"},
+              {"step": 10, "frequency": 311.13, "note": "Eb", "function": "Lower third octave", "cents": 1500, "comment": "Minor tenth"},
+              {"step": 11, "frequency": 349.23, "note": "F", "function": "Finalis octave", "cents": 1700, "comment": "Eleventh"},
+              {"step": 12, "frequency": 364.70, "note": "G (4 koma bemol)", "function": "Flattened supertonic octave", "cents": 1775, "comment": "Heavily flattened twelfth"},
+              {"step": 13, "frequency": 440.00, "note": "A", "function": "Third octave", "cents": 2100, "comment": "Major thirteenth"},
+              {"step": 14, "frequency": 466.16, "note": "Bb", "function": "Dominant octave", "cents": 2200, "comment": "Minor fourteenth"},
+              {"step": 15, "frequency": 523.25, "note": "C", "function": "Proslambanomenos 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 545.08, "note": "D (4 koma bemol)", "function": "Flattened lower supertonic 2 octaves", "cents": 2475, "comment": "Heavily flattened sixteenth"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "extendedRange": "Range extends below the finalis, characteristic of plagal modes",
+              "flattenedDegrees": "Both D and G are lowered by 4 kommas (133 cents) each",
+              "signatureIntervals": ["C-D4kb-Eb-F pattern with finalis as fourth degree"]
+            },
+            "metadata": {
+              "description": "The plagal form of Third Echos with expanded lower range and microtonal inflections",
+              "liturgicalUse": "Used in Great Lent and penitential periods",
+              "modalCharacteristics": "Creates atmosphere of introspection and mysticism"
+            }
+          },
+          {
+            "name": "Second Echos (Lydian)",
+            "fundamentalNote": "E",
+            "fundamentalFrequency":164.81,
+            "parentScale": "Lydian",
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "mystical, ethereal",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 164.81, "note": "E", "function": "Finalis", "cents": 0, "comment": "Tonic"},
+              {"step": 2, "frequency": 185.00, "note": "F#", "function": "Supertonic", "cents": 200, "comment": "Whole tone above finalis"},
+              {"step": 3, "frequency": 198.40, "note": "G (1 koma diyez)", "function": "Augmented third", "cents": 320, "comment": "Slightly raised minor third"},
+              {"step": 4, "frequency": 220.00, "note": "A", "function": "Dominant", "cents": 500, "comment": "Perfect fourth above finalis"},
+              {"step": 5, "frequency": 246.94, "note": "B", "function": "Subdominant", "cents": 700, "comment": "Perfect fifth above finalis"},
+              {"step": 6, "frequency": 277.18, "note": "C#", "function": "Supertonic sixth", "cents": 900, "comment": "Major sixth above finalis"},
+              {"step": 7, "frequency": 293.66, "note": "D", "function": "Subtonic", "cents": 1000, "comment": "Minor seventh above finalis"},
+              {"step": 8, "frequency": 329.63, "note": "E", "function": "Finalis octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 369.99, "note": "F#", "function": "Supertonic octave", "cents": 1400, "comment": "Whole tone above octave"},
+              {"step": 10, "frequency": 396.80, "note": "G (1 koma diyez)", "function": "Augmented third octave", "cents": 1520, "comment": "Slightly raised minor third octave"},
+              {"step": 11, "frequency": 440.00, "note": "A", "function": "Dominant octave", "cents": 1700, "comment": "Perfect fourth octave"},
+              {"step": 12, "frequency": 493.88, "note": "B", "function": "Subdominant octave", "cents": 1900, "comment": "Perfect fifth octave"},
+              {"step": 13, "frequency": 554.37, "note": "C#", "function": "Supertonic sixth octave", "cents": 2100, "comment": "Major sixth octave"},
+              {"step": 14, "frequency": 587.33, "note": "D", "function": "Subtonic octave", "cents": 2200, "comment": "Minor seventh octave"},
+              {"step": 15, "frequency": 659.26, "note": "E", "function": "Finalis 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 739.99, "note": "F#", "function": "Supertonic 2 octaves", "cents": 2600, "comment": "Whole tone above two octaves"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "raisedThird": "G raised by 1 koma (33 cents), creating an exotic interval",
+              "chromaAlteration": "Characteristic sharp intervals create mystical quality",
+              "signatureIntervals": ["E-F#-G1k#-A distinctive pattern"]
+            },
+            "metadata": {
+              "description": "The authentic Lydian mode with characteristic Byzantine inflection on the fourth degree",
+              "liturgicalUse": "Associated with Thursday services, contemplative chants",
+              "modalCharacteristics": "Often described as mystical and otherworldly"
+            }
+          },
+          {
+            "name": "Second Plagal Echos (Hypolydian)",
+            "fundamentalNote": "B",
+            "fundamentalFrequency":123.47,
+            "parentScale": "Hypolydian",
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "sorrowful, prayerful",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 123.47, "note": "B", "function": "Proslambanomenos", "cents": 0, "comment": "Low note below finalis"},
+              {"step": 2, "frequency": 138.59, "note": "C#", "function": "Lower supertonic", "cents": 200, "comment": "Second degree"},
+              {"step": 3, "frequency": 146.83, "note": "D", "function": "Lower third", "cents": 300, "comment": "Third degree"},
+              {"step": 4, "frequency": 164.81, "note": "E", "function": "Finalis", "cents": 500, "comment": "Fourth above proslambanomenos"},
+              {"step": 5, "frequency": 185.00, "note": "F#", "function": "Supertonic", "cents": 700, "comment": "Fifth above proslambanomenos"},
+              {"step": 6, "frequency": 198.40, "note": "G (1 koma diyez)", "function": "Augmented third", "cents": 820, "comment": "Slightly raised sixth"},
+              {"step": 7, "frequency": 220.00, "note": "A", "function": "Dominant", "cents": 1000, "comment": "Seventh above proslambanomenos"},
+              {"step": 8, "frequency": 246.94, "note": "B", "function": "Proslambanomenos octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 277.18, "note": "C#", "function": "Lower supertonic octave", "cents": 1400, "comment": "Ninth"},
+              {"step": 10, "frequency": 293.66, "note": "D", "function": "Lower third octave", "cents": 1500, "comment": "Tenth"},
+              {"step": 11, "frequency": 329.63, "note": "E", "function": "Finalis octave", "cents": 1700, "comment": "Eleventh"},
+              {"step": 12, "frequency": 369.99, "note": "F#", "function": "Supertonic octave", "cents": 1900, "comment": "Twelfth"},
+              {"step": 13, "frequency": 396.80, "note": "G (1 koma diyez)", "function": "Augmented third octave", "cents": 2020, "comment": "Slightly raised thirteenth"},
+              {"step": 14, "frequency": 440.00, "note": "A", "function": "Dominant octave", "cents": 2200, "comment": "Fourteenth"},
+              {"step": 15, "frequency": 493.88, "note": "B", "function": "Proslambanomenos 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 554.37, "note": "C#", "function": "Lower supertonic 2 octaves", "cents": 2600, "comment": "Two octaves plus whole tone"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "extendedRange": "Range extends below the finalis, characteristic of plagal modes",
+              "raisedG": "G raised by 1 koma (33 cents) creates distinctive color",
+              "signatureIntervals": ["B-C#-D-E pattern with finalis as fourth degree"]
+            },
+            "metadata": {
+              "description": "The plagal form of Second Echos with characteristic Byzantine cadential patterns",
+              "liturgicalUse": "Funerals, memorial services, Lenten period",
+              "modalCharacteristics": "Conveys deep sorrow and compunction"
+            }
+          },
+          {
+            "name": "Fourth Plagal Echos (Hypomixolydian)",
+            "fundamentalNote": "D",
+            "fundamentalFrequency":146.83,
+            "parentScale": "Hypomixolydian",
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "majestic, triumphant",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 146.83, "note": "D", "function": "Proslambanomenos", "cents": 0, "comment": "Low note below finalis"},
+              {"step": 2, "frequency": 164.81, "note": "E", "function": "Lower supertonic", "cents": 200, "comment": "Second degree"},
+              {"step": 3, "frequency": 172.06, "note": "F (1 koma bemol)", "function": "Softened lower third", "cents": 267, "comment": "Slightly lowered third degree"},
+              {"step": 4, "frequency": 196.00, "note": "G", "function": "Finalis", "cents": 500, "comment": "Fourth above proslambanomenos"},
+              {"step": 5, "frequency": 220.00, "note": "A", "function": "Supertonic", "cents": 700, "comment": "Fifth above proslambanomenos"},
+              {"step": 6, "frequency": 244.07, "note": "B (1 koma bemol)", "function": "Softened third", "cents": 867, "comment": "Slightly lowered sixth"},
+              {"step": 7, "frequency": 261.63, "note": "C", "function": "Dominant", "cents": 1000, "comment": "Seventh above proslambanomenos"},
+              {"step": 8, "frequency": 293.66, "note": "D", "function": "Proslambanomenos octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 329.63, "note": "E", "function": "Lower supertonic octave", "cents": 1400, "comment": "Ninth"},
+              {"step": 10, "frequency": 344.12, "note": "F (1 koma bemol)", "function": "Softened lower third octave", "cents": 1467, "comment": "Slightly lowered tenth"},
+              {"step": 11, "frequency": 392.00, "note": "G", "function": "Finalis octave", "cents": 1700, "comment": "Eleventh"},
+              {"step": 12, "frequency": 440.00, "note": "A", "function": "Supertonic octave", "cents": 1900, "comment": "Twelfth"},
+              {"step": 13, "frequency": 488.14, "note": "B (1 koma bemol)", "function": "Softened third octave", "cents": 2067, "comment": "Slightly lowered thirteenth"},
+              {"step": 14, "frequency": 523.25, "note": "C", "function": "Dominant octave", "cents": 2200, "comment": "Fourteenth"},
+              {"step": 15, "frequency": 587.33, "note": "D", "function": "Proslambanomenos 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 659.26, "note": "E", "function": "Lower supertonic 2 octaves", "cents": 2600, "comment": "Two octaves plus whole tone"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "extendedRange": "Range extends below the finalis, characteristic of plagal modes",
+              "softenedVoices": "Both F and B are lowered by 1 koma (33 cents)",
+              "signatureIntervals": ["D-E-F1kb-G pattern with finalis as fourth degree"]
+            },
+            "metadata": {
+              "description": "The plagal form of Fourth Echos with characteristic Byzantine melodic formulas",
+              "liturgicalUse": "Major feasts, especially Easter and Pentecost",
+              "modalCharacteristics": "Most frequently used mode in Byzantine chant"
+            }
+          }
+      ]
+    }
+  ],
+  "appendix": {
+  "performance_practices": {
+    "microtonal_inflections": "Byzantine modes use a complex system of microtonal intervals called 'kommas', where 1 koma equals approximately 1/6 of a tone",
+    "rhythmic_features": "Byzantine chant is traditionally performed in free rhythm, following textual phrasing and breathing patterns",
+    "ornamentation": "Elaborate melodic formulas (theseis) and ornaments (neumes) are essential to authentic performance",
+    "instrumentation": "Traditionally performed a cappella, with ison (drone) support in some traditions"
+    }
+  }
+}

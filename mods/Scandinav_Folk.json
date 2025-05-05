@@ -1,0 +1,237 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Scandinavian Folk Music Modes",
+  "description": "Traditional modal scales used in Nordic folk music with characteristic tunings",
+  "version": "1.0",
+  "reference": "Nordic folk music often uses just intonation and historical temperaments | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Nordic Folk Modes",
+      "collectionType": "scandinavian",
+      "culturalOrigin": "Norway, Sweden",
+      "description": "Traditional modes used in Scandinavian folk music with unique tunings",
+      "modes": [
+        {
+          "name": "Bonden",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Swedish peasant scale",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 11,
+          "character": "Drone-like, earthy",
+          "chordTypes": ["Drone fifths", "Open chords"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic drone", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 290.00, "note": "D", "function": "Soft second", "cents": -31, "comment": "Slightly flat"},
+            {"step": 3, "frequency": 315.00, "note": "E", "function": "Low third", "cents": -82, "comment": "Very flat"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Drone fifth", "cents": 0, "comment": "Perfect fifth"},
+            {"step": 5, "frequency": 435.00, "note": "A", "function": "Soft sixth", "cents": -31, "comment": "Slightly flat"},
+            {"step": 6, "frequency": 523.25, "note": "C", "function": "Upper drone", "cents": 0, "comment": "Octave"},
+            {"step": 7, "frequency": 580.00, "note": "D", "function": "Upper soft second", "cents": -31, "comment": "Octave of step 2"},
+            {"step": 8, "frequency": 630.00, "note": "E", "function": "Upper low third", "cents": -82, "comment": "Octave of step 3"},
+            {"step": 9, "frequency": 783.99, "note": "G", "function": "Upper drone fifth", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 10, "frequency": 870.00, "note": "A", "function": "Upper soft sixth", "cents": -31, "comment": "Octave of step 5"},
+            {"step": 11, "frequency": 1046.50, "note": "C", "function": "Upper octave drone", "cents": 0, "comment": "2 octaves"},
+            {"step": 12, "frequency": 1046.50, "note": "C", "function": "Sustain", "cents": 0, "comment": "Extended drone"},
+            {"step": 13, "frequency": 1046.50, "note": "C", "function": "Sustain", "cents": 0, "comment": "Extended drone"},
+            {"step": 14, "frequency": 1046.50, "note": "C", "function": "Sustain", "cents": 0, "comment": "Extended drone"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Sustain", "cents": 0, "comment": "Extended drone"},
+            {"step": 16, "frequency": 1046.50, "note": "C", "function": "Final", "cents": 0, "comment": "Resolution"}
+          ],
+          "voicingPattern": ["Drone + melody"],
+          "microtonalCharacteristics": {
+            "soft_seconds": "Characteristic slightly flat seconds (~31 cents)",
+            "low_thirds": "Very flat thirds (~82 cents flat)",
+            "signatureIntervals": ["Soft second (D)", "Low third (E)"]
+          },
+          "metadata": {
+            "description": "Swedish peasant mode with persistent drone notes creating a hypnotic effect",
+            "typical_instruments": "Nyckelharpa, fiddle",
+            "dance_form": "Gånglåt (walking tune)"
+          }
+        },
+        {
+          "name": "Halling",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": "Norwegian dance scale",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 15,
+          "character": "Bright, energetic",
+          "chordTypes": ["Major variants", "Lydian"],
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 325.00, "note": "E", "function": "Softened major second", "cents": -21, "comment": "Slightly flat"},
+            {"step": 3, "frequency": 369.99, "note": "F#", "function": "Characteristic third", "cents": 0, "comment": "Raised third"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Perfect fourth", "cents": 0, "comment": "Pure interval"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect fifth", "cents": 0, "comment": "Pure interval"},
+            {"step": 6, "frequency": 485.00, "note": "B", "function": "Nordic sixth", "cents": -35, "comment": "Slightly flat"},
+            {"step": 7, "frequency": 554.37, "note": "C#", "function": "Leading tone", "cents": 0, "comment": "Sharp seventh"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "Resolution", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 650.00, "note": "E", "function": "Upper softened second", "cents": -21, "comment": "Octave of step 2"},
+            {"step": 10, "frequency": 739.99, "note": "F#", "function": "Upper characteristic third", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 11, "frequency": 783.99, "note": "G", "function": "Upper perfect fourth", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 12, "frequency": 880.00, "note": "A", "function": "Upper perfect fifth", "cents": 0, "comment": "Octave of step 5"},
+            {"step": 13, "frequency": 970.00, "note": "B", "function": "Upper Nordic sixth", "cents": -35, "comment": "Octave of step 6"},
+            {"step": 14, "frequency": 1108.73, "note": "C#", "function": "Upper leading tone", "cents": 0, "comment": "Octave of step 7"},
+            {"step": 15, "frequency": 1174.66, "note": "D", "function": "Upper resolution", "cents": 0, "comment": "2 octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "D", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "voicingPattern": ["Melodic lines with occasional drones"],
+          "microtonalCharacteristics": {
+            "soft_seconds": "Slightly flat seconds (~21 cents)",
+            "nordic_sixths": "Characteristic flat sixths (~35 cents)",
+            "signatureIntervals": ["Soft second (E)", "Nordic sixth (B)"]
+          },
+          "metadata": {
+            "description": "Norwegian dance mode with bright character and distinctive tuning",
+            "typical_instruments": "Hardanger fiddle, langeleik",
+            "dance_form": "Halling (acrobatic dance)"
+          }
+        },
+        {
+          "name": "Ole Haakonsen",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Hardanger fiddle tuning",
+          "modeDegree": "Special tuning",
+          "totalSteps": 16,
+          "baseSteps": 13,
+          "character": "Resonant, complex",
+          "chordTypes": ["Drone chords", "Sympathetic resonances"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic (low string)", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 440.00, "note": "A", "function": "Octave drone", "cents": 0, "comment": "Sympathetic string"},
+            {"step": 3, "frequency": 293.66, "note": "D", "function": "Second string", "cents": 0, "comment": "Main string"},
+            {"step": 4, "frequency": 587.33, "note": "D", "function": "Fifth drone", "cents": 0, "comment": "Sympathetic string"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Third string", "cents": 0, "comment": "Main string"},
+            {"step": 6, "frequency": 332.50, "note": "E", "function": "Tuned high", "cents": 41, "comment": "Slightly sharp"},
+            {"step": 7, "frequency": 659.26, "note": "E", "function": "Third drone", "cents": 0, "comment": "Sympathetic string"},
+            {"step": 8, "frequency": 440.00, "note": "A", "function": "High string", "cents": 0, "comment": "Main string"},
+            {"step": 9, "frequency": 275.00, "note": "C#", "function": "Cross-tuned", "cents": -29, "comment": "Slightly flat"},
+            {"step": 10, "frequency": 739.99, "note": "F#", "function": "Leading tone drone", "cents": 0, "comment": "Sympathetic string"},
+            {"step": 11, "frequency": 480.00, "note": "B", "function": "Resonance tone", "cents": -70, "comment": "Very flat"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Upper second string", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "High octave", "cents": 0, "comment": "2 octaves"},
+            {"step": 14, "frequency": 880.00, "note": "A", "function": "Sustain", "cents": 0, "comment": "Extended drone"},
+            {"step": 15, "frequency": 880.00, "note": "A", "function": "Sustain", "cents": 0, "comment": "Extended drone"},
+            {"step": 16, "frequency": 880.00, "note": "A", "function": "Final", "cents": 0, "comment": "Resolution"}
+          ],
+          "voicingPattern": ["Sympathetic strings + melody strings"],
+          "microtonalCharacteristics": {
+            "cross_tunings": "Multiple strings with intentional detunings",
+            "sympathetic_resonances": "Complex interaction with drone strings",
+            "signatureIntervals": ["Sharp E (+41 cents)", "Flat B (-70 cents)"]
+          },
+          "metadata": {
+            "description": "Norwegian Hardanger fiddle tuning with sympathetic strings and characteristic detunings",
+            "typical_instruments": "Hardanger fiddle",
+            "performance_style": "Polyphonic with underbow technique"
+          }
+        },
+        {
+          "name": "Polska",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Swedish dance scale",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 15,
+          "character": "Melancholic, lyrical",
+          "chordTypes": ["Minor variants", "Neutral thirds"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 237.50, "note": "B", "function": "Lowered second", "cents": -151, "comment": "Very flat"},
+            {"step": 3, "frequency": 277.18, "note": "C#", "function": "Minor third", "cents": 0, "comment": "Pure minor third"},
+            {"step": 4, "frequency": 293.66, "note": "D", "function": "Neutral third", "cents": 0, "comment": "Between major/minor"},
+            {"step": 5, "frequency": 329.63, "note": "E", "function": "Perfect fourth", "cents": 0, "comment": "Pure interval"},
+            {"step": 6, "frequency": 369.99, "note": "F#", "function": "Perfect fifth", "cents": 0, "comment": "Pure interval"},
+            {"step": 7, "frequency": 410.00, "note": "G#", "function": "Minor sixth", "cents": -29, "comment": "Slightly flat"},
+            {"step": 8, "frequency": 440.00, "note": "A", "function": "Resolution", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 475.00, "note": "B", "function": "Upper lowered second", "cents": -151, "comment": "Octave of step 2"},
+            {"step": 10, "frequency": 554.37, "note": "C#", "function": "Upper minor third", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 11, "frequency": 587.33, "note": "D", "function": "Upper neutral third", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 12, "frequency": 659.26, "note": "E", "function": "Upper perfect fourth", "cents": 0, "comment": "Octave of step 5"},
+            {"step": 13, "frequency": 739.99, "note": "F#", "function": "Upper perfect fifth", "cents": 0, "comment": "Octave of step 6"},
+            {"step": 14, "frequency": 820.00, "note": "G#", "function": "Upper minor sixth", "cents": -29, "comment": "Octave of step 7"},
+            {"step": 15, "frequency": 880.00, "note": "A", "function": "Upper resolution", "cents": 0, "comment": "2 octaves"},
+            {"step": 16, "frequency": 880.00, "note": "A", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "voicingPattern": ["Melodic lines with occasional double stops"],
+          "microtonalCharacteristics": {
+            "lowered_seconds": "Very flat seconds (~151 cents)",
+            "neutral_thirds": "Third between major and minor",
+            "signatureIntervals": ["Lowered second (B)", "Neutral third (D)"]
+          },
+          "metadata": {
+            "description": "Swedish dance mode with melancholic quality and distinctive intervals",
+            "typical_instruments": "Nyckelharpa, fiddle",
+            "dance_form": "Polska (3/4 dance)"
+          }
+        },
+        {
+          "name": "Springar",
+          "fundamentalNote": "G",
+          "fundamentalFrequency":196.00,
+          "parentScale": "Norwegian dance scale",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 13,
+          "character": "Distinctive, asymmetric",
+          "chordTypes": ["Open fifths", "Drone chords"],
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 222.50, "note": "A", "function": "Raised second", "cents": 41, "comment": "Slightly sharp"},
+            {"step": 3, "frequency": 240.00, "note": "B", "function": "Low third", "cents": -112, "comment": "Very flat"},
+            {"step": 4, "frequency": 293.66, "note": "D", "function": "Perfect fifth", "cents": 0, "comment": "Pure interval"},
+            {"step": 5, "frequency": 315.00, "note": "E", "function": "Low sixth", "cents": -82, "comment": "Very flat"},
+            {"step": 6, "frequency": 369.99, "note": "F#", "function": "Leading tone", "cents": 0, "comment": "Sharp seventh"},
+            {"step": 7, "frequency": 392.00, "note": "G", "function": "Resolution", "cents": 0, "comment": "Octave"},
+            {"step": 8, "frequency": 445.00, "note": "A", "function": "Upper raised second", "cents": 41, "comment": "Octave of step 2"},
+            {"step": 9, "frequency": 480.00, "note": "B", "function": "Upper low third", "cents": -112, "comment": "Octave of step 3"},
+            {"step": 10, "frequency": 587.33, "note": "D", "function": "Upper perfect fifth", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 11, "frequency": 630.00, "note": "E", "function": "Upper low sixth", "cents": -82, "comment": "Octave of step 5"},
+            {"step": 12, "frequency": 739.99, "note": "F#", "function": "Upper leading tone", "cents": 0, "comment": "Octave of step 6"},
+            {"step": 13, "frequency": 783.99, "note": "G", "function": "Upper resolution", "cents": 0, "comment": "2 octaves"},
+            {"step": 14, "frequency": 783.99, "note": "G", "function": "Sustain", "cents": 0, "comment": "Extended drone"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Sustain", "cents": 0, "comment": "Extended drone"},
+            {"step": 16, "frequency": 783.99, "note": "G", "function": "Final", "cents": 0, "comment": "Resolution"}
+          ],
+          "voicingPattern": ["Drone + melody with rhythmic emphasis"],
+          "microtonalCharacteristics": {
+            "raised_seconds": "Slightly sharp seconds (~41 cents)",
+            "low_thirds": "Very flat thirds (~112 cents)",
+            "signatureIntervals": ["Raised second (A)", "Low third (B)"]
+          },
+          "metadata": {
+            "description": "Norwegian triple-time dance with distinctive tuning and uneven rhythms",
+            "typical_instruments": "Hardanger fiddle, langeleik",
+            "dance_form": "Springar (asymmetric 3/4)"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Characteristic detunings of seconds, thirds and sixths create distinctive Nordic sound",
+      "rhythmic_features": "Asymmetric patterns common, especially in Springar (3/4 with uneven beats)",
+      "ornamentation": "Extensive use of drones, double stops, and complex bowing patterns",
+      "instrumentation": "Typically played on Hardanger fiddle (Norway), nyckelharpa (Sweden), or regular violin"
+    }
+  }
+}

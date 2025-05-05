@@ -1,0 +1,233 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "African Music Modes for 16-Step Sequencer",
+  "description": "Traditional African scales adapted for electronic music production with precise tunings",
+  "version": "1.0",
+  "reference": "Non-Western tuning systems with unique interval structures | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "African Traditional Scales",
+      "collectionType": "african",
+      "culturalOrigin": "Sub-Saharan Africa",
+      "description": "Indigenous scales and tuning systems from various African traditions",
+      "modes": [
+        {
+          "name": "Akan Hexatonic",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 6,
+          "character": "ritual, communal",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Fundamental tone", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 290.70, "note": "D", "function": "Second degree", "cents": 189, "comment": "Slightly flat second"},
+            {"step": 3, "frequency": 315.00, "note": "E", "function": "Third degree", "cents": 323, "comment": "Very flat third"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Fourth degree", "cents": 498, "comment": "Perfect fourth"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Fifth degree", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 446.50, "note": "A", "function": "Sixth degree", "cents": 936, "comment": "Slightly sharp sixth"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Octave", "cents": 1200, "comment": "Octave repetition (1/6)"},
+            {"step": 8, "frequency": 581.40, "note": "D", "function": "Ninth degree", "cents": 1389, "comment": "Octave flat second (2/6)"},
+            {"step": 9, "frequency": 630.00, "note": "E", "function": "Tenth degree", "cents": 1523, "comment": "Octave flat third (3/6)"},
+            {"step": 10, "frequency": 698.46, "note": "F", "function": "Eleventh degree", "cents": 1698, "comment": "Upper fourth (4/6)"},
+            {"step": 11, "frequency": 783.99, "note": "G", "function": "Twelfth degree", "cents": 1900, "comment": "Upper fifth (5/6)"},
+            {"step": 12, "frequency": 893.00, "note": "A", "function": "Thirteenth degree", "cents": 2136, "comment": "Upper sharp sixth (6/6)"},
+            {"step": 13, "frequency": 1046.50, "note": "C", "function": "Two octaves", "cents": 2400, "comment": "Second octave (1/6)"},
+            {"step": 14, "frequency": 1162.80, "note": "D", "function": "High ninth", "cents": 2589, "comment": "High flat second (2/6)"},
+            {"step": 15, "frequency": 1260.00, "note": "E", "function": "High tenth", "cents": 2723, "comment": "High flat third (3/6)"},
+            {"step": 16, "frequency": 1396.91, "note": "F", "function": "High eleventh", "cents": 2898, "comment": "High fourth (4/6)"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "intervalStructure": "Hexatonic (6-note) scale",
+            "signatureIntervals": ["C-D (189c)", "D-E (134c)", "A-C (264c)"]
+          },
+          "metadata": {
+            "regionalOrigin": "Ghana, Akan people",
+            "traditionalUse": "Ceremonial and social music",
+            "instruments": ["Talking drums", "Flutes", "Xylophones"]
+          }
+        },
+        {
+          "name": "Kumbengo",
+          "fundamentalNote": "F",
+          "fundamentalFrequency":349.23,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "flowing, cyclical",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 349.23, "note": "F", "function": "Fundamental tone", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 388.00, "note": "G", "function": "Second degree", "cents": 186, "comment": "Slightly flat second"},
+            {"step": 3, "frequency": 440.00, "note": "A", "function": "Third degree", "cents": 398, "comment": "Natural third"},
+            {"step": 4, "frequency": 475.00, "note": "B", "function": "Fourth degree", "cents": 529, "comment": "Very flat fourth"},
+            {"step": 5, "frequency": 523.25, "note": "C", "function": "Fifth degree", "cents": 700, "comment": "Perfect fourth"},
+            {"step": 6, "frequency": 587.33, "note": "D", "function": "Sixth degree", "cents": 900, "comment": "Perfect fifth"},
+            {"step": 7, "frequency": 650.00, "note": "E", "function": "Seventh degree", "cents": 1079, "comment": "Slightly flat sixth"},
+            {"step": 8, "frequency": 698.46, "note": "F", "function": "Octave", "cents": 1200, "comment": "Octave repetition (1/7)"},
+            {"step": 9, "frequency": 776.00, "note": "G", "function": "Ninth degree", "cents": 1386, "comment": "Upper flat second (2/7)"},
+            {"step": 10, "frequency": 880.00, "note": "A", "function": "Tenth degree", "cents": 1598, "comment": "Upper third (3/7)"},
+            {"step": 11, "frequency": 950.00, "note": "B", "function": "Eleventh degree", "cents": 1729, "comment": "Upper flat fourth (4/7)"},
+            {"step": 12, "frequency": 1046.50, "note": "C", "function": "Twelfth degree", "cents": 1900, "comment": "Upper fourth (5/7)"},
+            {"step": 13, "frequency": 1174.66, "note": "D", "function": "Thirteenth degree", "cents": 2100, "comment": "Upper fifth (6/7)"},
+            {"step": 14, "frequency": 1300.00, "note": "E", "function": "Fourteenth degree", "cents": 2279, "comment": "Upper flat sixth (7/7)"},
+            {"step": 15, "frequency": 1396.91, "note": "F", "function": "Two octaves", "cents": 2400, "comment": "Second octave (1/7)"},
+            {"step": 16, "frequency": 1552.00, "note": "G", "function": "High ninth", "cents": 2586, "comment": "High flat second (2/7)"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "intervalStructure": "Heptatonic (7-note) with unstable intonation",
+            "signatureIntervals": ["F-G (186c)", "B-C (171c)", "E-F (121c)"]
+          },
+          "metadata": {
+            "regionalOrigin": "West Africa, Mande culture",
+            "traditionalUse": "Accompaniment patterns for griots",
+            "instruments": ["Kora", "Balafon", "Ngoni"]
+          }
+        },
+        {
+          "name": "Pygmy Tetraton",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 4,
+          "character": "minimalist, layered",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Fundamental tone", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 315.00, "note": "E", "function": "Second degree", "cents": 323, "comment": "Very flat third"},
+            {"step": 3, "frequency": 392.00, "note": "G", "function": "Third degree", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 4, "frequency": 475.00, "note": "B", "function": "Fourth degree", "cents": 1029, "comment": "Very flat seventh"},
+            {"step": 5, "frequency": 523.25, "note": "C", "function": "Octave", "cents": 1200, "comment": "Octave repetition (1/4)"},
+            {"step": 6, "frequency": 630.00, "note": "E", "function": "Ninth degree", "cents": 1523, "comment": "Octave flat third (2/4)"},
+            {"step": 7, "frequency": 783.99, "note": "G", "function": "Tenth degree", "cents": 1900, "comment": "Octave fifth (3/4)"},
+            {"step": 8, "frequency": 950.00, "note": "B", "function": "Eleventh degree", "cents": 2229, "comment": "Octave flat seventh (4/4)"},
+            {"step": 9, "frequency": 1046.50, "note": "C", "function": "Two octaves", "cents": 2400, "comment": "Second octave (1/4)"},
+            {"step": 10, "frequency": 1260.00, "note": "E", "function": "High ninth", "cents": 2723, "comment": "High flat third (2/4)"},
+            {"step": 11, "frequency": 1567.98, "note": "G", "function": "High tenth", "cents": 3100, "comment": "High fifth (3/4)"},
+            {"step": 12, "frequency": 1900.00, "note": "B", "function": "High eleventh", "cents": 3429, "comment": "High flat seventh (4/4)"},
+            {"step": 13, "frequency": 2093.00, "note": "C", "function": "Three octaves", "cents": 3600, "comment": "Triple octave (1/4)"},
+            {"step": 14, "frequency": 2520.00, "note": "E", "function": "Very high ninth", "cents": 3923, "comment": "Very high flat third (2/4)"},
+            {"step": 15, "frequency": 3135.96, "note": "G", "function": "Very high tenth", "cents": 4300, "comment": "Very high fifth (3/4)"},
+            {"step": 16, "frequency": 3800.00, "note": "B", "function": "Very high eleventh", "cents": 4629, "comment": "Very high flat seventh (4/4)"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "intervalStructure": "Tetratonic (4-note) scale",
+            "signatureIntervals": ["C-E (323c)", "E-G (377c)", "G-B (329c)"]
+          },
+          "metadata": {
+            "regionalOrigin": "Central Africa, Pygmy communities",
+            "traditionalUse": "Vocal polyphony, forest communication",
+            "instruments": ["Voice", "Simple flutes", "Percussion"]
+          }
+        },
+        {
+          "name": "Malagasy Salegy",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "energetic, dance-oriented",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Fundamental tone", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 329.63, "note": "E", "function": "Second degree", "cents": 200, "comment": "Major second"},
+            {"step": 3, "frequency": 369.99, "note": "F#", "function": "Third degree", "cents": 400, "comment": "Major third"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Fourth degree", "cents": 498, "comment": "Perfect fourth"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Fifth degree", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 493.88, "note": "B", "function": "Sixth degree", "cents": 900, "comment": "Major sixth"},
+            {"step": 7, "frequency": 554.37, "note": "C#", "function": "Seventh degree", "cents": 1100, "comment": "Major seventh"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "Octave", "cents": 1200, "comment": "Octave repetition (1/7)"},
+            {"step": 9, "frequency": 659.26, "note": "E", "function": "Ninth degree", "cents": 1400, "comment": "Upper second (2/7)"},
+            {"step": 10, "frequency": 739.99, "note": "F#", "function": "Tenth degree", "cents": 1600, "comment": "Upper third (3/7)"},
+            {"step": 11, "frequency": 783.99, "note": "G", "function": "Eleventh degree", "cents": 1698, "comment": "Upper fourth (4/7)"},
+            {"step": 12, "frequency": 880.00, "note": "A", "function": "Twelfth degree", "cents": 1900, "comment": "Upper fifth (5/7)"},
+            {"step": 13, "frequency": 987.77, "note": "B", "function": "Thirteenth degree", "cents": 2100, "comment": "Upper sixth (6/7)"},
+            {"step": 14, "frequency": 1108.73, "note": "C#", "function": "Fourteenth degree", "cents": 2300, "comment": "Upper seventh (7/7)"},
+            {"step": 15, "frequency": 1174.66, "note": "D", "function": "Two octaves", "cents": 2400, "comment": "Second octave (1/7)"},
+            {"step": 16, "frequency": 1318.51, "note": "E", "function": "High ninth", "cents": 2600, "comment": "High second (2/7)"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "intervalStructure": "Major scale with some flexible intonation",
+            "signatureIntervals": ["D-E-F# (Western Major tonality)"]
+          },
+          "metadata": {
+            "regionalOrigin": "Madagascar",
+            "traditionalUse": "Popular dance music",
+            "instruments": ["Electric guitar", "Bass", "Accordion", "Percussion"]
+          }
+        },
+        {
+          "name": "Kora Instrument",
+          "fundamentalNote": "F",
+          "fundamentalFrequency":349.23,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "melodic, storytelling",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 349.23, "note": "F", "function": "Fundamental tone", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 395.50, "note": "G", "function": "Second degree", "cents": 214, "comment": "Slightly sharp second"},
+            {"step": 3, "frequency": 440.00, "note": "A", "function": "Third degree", "cents": 398, "comment": "Natural third"},
+            {"step": 4, "frequency": 485.00, "note": "B", "function": "Fourth degree", "cents": 561, "comment": "Slightly flat fourth"},
+            {"step": 5, "frequency": 523.25, "note": "C", "function": "Fifth degree", "cents": 700, "comment": "Perfect fourth"},
+            {"step": 6, "frequency": 587.33, "note": "D", "function": "Sixth degree", "cents": 900, "comment": "Perfect fifth"},
+            {"step": 7, "frequency": 635.00, "note": "E", "function": "Seventh degree", "cents": 1035, "comment": "Very flat sixth"},
+            {"step": 8, "frequency": 698.46, "note": "F", "function": "Octave", "cents": 1200, "comment": "Octave repetition (1/7)"},
+            {"step": 9, "frequency": 791.00, "note": "G", "function": "Ninth degree", "cents": 1414, "comment": "Upper sharp second (2/7)"},
+            {"step": 10, "frequency": 880.00, "note": "A", "function": "Tenth degree", "cents": 1598, "comment": "Upper third (3/7)"},
+            {"step": 11, "frequency": 970.00, "note": "B", "function": "Eleventh degree", "cents": 1761, "comment": "Upper flat fourth (4/7)"},
+            {"step": 12, "frequency": 1046.50, "note": "C", "function": "Twelfth degree", "cents": 1900, "comment": "Upper fourth (5/7)"},
+            {"step": 13, "frequency": 1174.66, "note": "D", "function": "Thirteenth degree", "cents": 2100, "comment": "Upper fifth (6/7)"},
+            {"step": 14, "frequency": 1270.00, "note": "E", "function": "Fourteenth degree", "cents": 2235, "comment": "Upper flat sixth (7/7)"},
+            {"step": 15, "frequency": 1396.91, "note": "F", "function": "Two octaves", "cents": 2400, "comment": "Second octave (1/7)"},
+            {"step": 16, "frequency": 1582.00, "note": "G", "function": "High ninth", "cents": 2614, "comment": "High sharp second (2/7)"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "intervalStructure": "Heptatonic scale with flexible tuning",
+            "signatureIntervals": ["F-G (214c)", "B-C (139c)", "D-E (135c)"]
+          },
+          "metadata": {
+            "regionalOrigin": "West Africa (Gambia, Mali, Senegal)",
+            "traditionalUse": "Griot storytelling, royal courts",
+            "instruments": ["Kora (21-string harp)", "Voice"]
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "African traditional music often uses tuning systems that don't conform to equal temperament",
+      "rhythmic_features": "Polyrhythms and cross-rhythms are fundamental to most African music traditions",
+      "ornamentation": "Call-and-response patterns and improvisational elements are commonly used",
+      "instrumentation": "Traditional instruments include various drums, mbira (thumb piano), kora, and other regional string and percussion instruments"
+    }
+  }
+}
+

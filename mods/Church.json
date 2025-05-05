@@ -1,0 +1,317 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Classical Church Modes Collection",
+  "description": "This collection contains the 7 classical church modes with their note structures and frequencies, suitable for digital-analog sequencers.",
+  "version": "1.0",
+  "reference": "Modes are constructed using the white keys of the piano starting from different root notes | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Classical Church Modes",
+      "collectionType": "western",
+      "culturalOrigin": "European Medieval",
+      "description": "The seven classical church modes (also known as Medieval Modes) that form the foundation of Western music theory",
+      "modes": [
+        {
+          "name": "Ionian Mode",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":130.81,
+          "parentScale": "Diatonic Scale",
+          "modeDegree": 1,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Bright and happy, equivalent to the modern major scale",
+          "chordTypes": ["Major", "Major 7th", "Major 9th"],
+          "steps": [
+            {"step": 1, "frequency": 130.81, "note": "C", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 146.83, "note": "D", "function": "Supertonic", "cents": 200, "comment": "Supertonic"},
+            {"step": 3, "frequency": 164.81, "note": "E", "function": "Mediant", "cents": 400, "comment": "Mediant"},
+            {"step": 4, "frequency": 174.61, "note": "F", "function": "Subdominant", "cents": 500, "comment": "Subdominant"},
+            {"step": 5, "frequency": 196.00, "note": "G", "function": "Dominant", "cents": 700, "comment": "Dominant"},
+            {"step": 6, "frequency": 220.00, "note": "A", "function": "Submediant", "cents": 900, "comment": "Submediant"},
+            {"step": 7, "frequency": 246.94, "note": "B", "function": "Leading tone", "cents": 1100, "comment": "Leading tone"},
+            {"step": 8, "frequency": 261.63, "note": "C", "function": "Tonic octave", "cents": 1200, "comment": "Tonic octave"},
+            {"step": 9, "frequency": 293.66, "note": "D", "function": "Supertonic octave", "cents": 1400, "comment": "Supertonic octave"},
+            {"step": 10, "frequency": 329.63, "note": "E", "function": "Mediant octave", "cents": 1600, "comment": "Mediant octave"},
+            {"step": 11, "frequency": 349.23, "note": "F", "function": "Subdominant octave", "cents": 1700, "comment": "Subdominant octave"},
+            {"step": 12, "frequency": 392.00, "note": "G", "function": "Dominant octave", "cents": 1900, "comment": "Dominant octave"},
+            {"step": 13, "frequency": 440.00, "note": "A", "function": "Submediant octave", "cents": 2100, "comment": "Submediant octave"},
+            {"step": 14, "frequency": 493.88, "note": "B", "function": "Leading tone octave", "cents": 2300, "comment": "Leading tone octave"},
+            {"step": 15, "frequency": 523.25, "note": "C", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Tonic 2 octaves"},
+            {"step": 16, "frequency": 587.33, "note": "D", "function": "Supertonic 2 octaves", "cents": 2600, "comment": "Supertonic 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 8],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, whole tone, half tone, whole tone, whole tone, whole tone, half tone",
+            "signatureIntervals": ["Major 3rd", "Perfect 5th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "The Ionian mode corresponds to the modern major scale. It has a bright, positive character and is widely used in contemporary Western music.",
+            "historicalContext": "The Ionian mode became standardized as the major scale during the common practice period (1650-1900)",
+            "usageExamples": "Most classical, pop, and folk music in major keys"
+          }
+        },
+        {
+          "name": "Dorian Mode",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":146.83,
+          "parentScale": "Diatonic Scale",
+          "modeDegree": 2,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Minor scale with a raised sixth, slightly brighter minor sound",
+          "chordTypes": ["Minor", "Minor 7th", "Minor 9th"],
+          "steps": [
+            {"step": 1, "frequency": 146.83, "note": "D", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 164.81, "note": "E", "function": "Supertonic", "cents": 200, "comment": "Supertonic"},
+            {"step": 3, "frequency": 174.61, "note": "F", "function": "Mediant", "cents": 300, "comment": "Mediant"},
+            {"step": 4, "frequency": 196.00, "note": "G", "function": "Subdominant", "cents": 500, "comment": "Subdominant"},
+            {"step": 5, "frequency": 220.00, "note": "A", "function": "Dominant", "cents": 700, "comment": "Dominant"},
+            {"step": 6, "frequency": 246.94, "note": "B", "function": "Submediant", "cents": 900, "comment": "Submediant"},
+            {"step": 7, "frequency": 261.63, "note": "C", "function": "Subtonic", "cents": 1000, "comment": "Subtonic"},
+            {"step": 8, "frequency": 293.66, "note": "D", "function": "Tonic octave", "cents": 1200, "comment": "Tonic octave"},
+            {"step": 9, "frequency": 329.63, "note": "E", "function": "Supertonic octave", "cents": 1400, "comment": "Supertonic octave"},
+            {"step": 10, "frequency": 349.23, "note": "F", "function": "Mediant octave", "cents": 1500, "comment": "Mediant octave"},
+            {"step": 11, "frequency": 392.00, "note": "G", "function": "Subdominant octave", "cents": 1700, "comment": "Subdominant octave"},
+            {"step": 12, "frequency": 440.00, "note": "A", "function": "Dominant octave", "cents": 1900, "comment": "Dominant octave"},
+            {"step": 13, "frequency": 493.88, "note": "B", "function": "Submediant octave", "cents": 2100, "comment": "Submediant octave"},
+            {"step": 14, "frequency": 523.25, "note": "C", "function": "Subtonic octave", "cents": 2200, "comment": "Subtonic octave"},
+            {"step": 15, "frequency": 587.33, "note": "D", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Tonic 2 octaves"},
+            {"step": 16, "frequency": 659.26, "note": "E", "function": "Supertonic 2 octaves", "cents": 2600, "comment": "Supertonic 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 6],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, half tone, whole tone, whole tone, whole tone, half tone, whole tone",
+            "signatureIntervals": ["Minor 3rd", "Perfect 5th", "Major 6th"]
+          },
+          "metadata": {
+            "description": "The Dorian mode is a minor scale with a raised sixth degree, giving it a slightly brighter minor sound than the natural minor (Aeolian) mode.",
+            "historicalContext": "Widely used in Renaissance and Medieval music, and later in modal jazz and folk music",
+            "usageExamples": "Many folk songs, modal jazz pieces, and some rock/pop songs with a minor character but not overly dark"
+          }
+        },
+        {
+          "name": "Phrygian Mode",
+          "fundamentalNote": "E",
+          "fundamentalFrequency":164.81,
+          "parentScale": "Diatonic Scale",
+          "modeDegree": 3,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Minor scale with a lowered second, Spanish or Middle Eastern flavor",
+          "chordTypes": ["Minor", "Minor 7th flat 9"],
+          "steps": [
+            {"step": 1, "frequency": 164.81, "note": "E", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 174.61, "note": "F", "function": "Supertonic", "cents": 100, "comment": "Supertonic"},
+            {"step": 3, "frequency": 196.00, "note": "G", "function": "Mediant", "cents": 300, "comment": "Mediant"},
+            {"step": 4, "frequency": 220.00, "note": "A", "function": "Subdominant", "cents": 500, "comment": "Subdominant"},
+            {"step": 5, "frequency": 246.94, "note": "B", "function": "Dominant", "cents": 700, "comment": "Dominant"},
+            {"step": 6, "frequency": 261.63, "note": "C", "function": "Submediant", "cents": 800, "comment": "Submediant"},
+            {"step": 7, "frequency": 293.66, "note": "D", "function": "Subtonic", "cents": 1000, "comment": "Subtonic"},
+            {"step": 8, "frequency": 329.63, "note": "E", "function": "Tonic octave", "cents": 1200, "comment": "Tonic octave"},
+            {"step": 9, "frequency": 349.23, "note": "F", "function": "Supertonic octave", "cents": 1300, "comment": "Supertonic octave"},
+            {"step": 10, "frequency": 392.00, "note": "G", "function": "Mediant octave", "cents": 1500, "comment": "Mediant octave"},
+            {"step": 11, "frequency": 440.00, "note": "A", "function": "Subdominant octave", "cents": 1700, "comment": "Subdominant octave"},
+            {"step": 12, "frequency": 493.88, "note": "B", "function": "Dominant octave", "cents": 1900, "comment": "Dominant octave"},
+            {"step": 13, "frequency": 523.25, "note": "C", "function": "Submediant octave", "cents": 2000, "comment": "Submediant octave"},
+            {"step": 14, "frequency": 587.33, "note": "D", "function": "Subtonic octave", "cents": 2200, "comment": "Subtonic octave"},
+            {"step": 15, "frequency": 659.26, "note": "E", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Tonic 2 octaves"},
+            {"step": 16, "frequency": 698.46, "note": "F", "function": "Supertonic 2 octaves", "cents": 2500, "comment": "Supertonic 2 octaves"}
+          ],
+          "voicingPattern": [1, 2, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Half tone, whole tone, whole tone, whole tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 2nd", "Minor 3rd", "Perfect 5th"]
+          },
+          "metadata": {
+            "description": "The Phrygian mode is a minor scale with a lowered second degree, creating a distinctive Spanish or Middle Eastern sound.",
+            "historicalContext": "Used in Medieval church music, Spanish Flamenco music, and modern metal genres",
+            "usageExamples": "Flamenco music, metal and neoclassical guitar, film music for exotic or tense atmospheres"
+          }
+        },
+        {
+          "name": "Lydian Mode",
+          "fundamentalNote": "F",
+          "fundamentalFrequency":174.61,
+          "parentScale": "Diatonic Scale",
+          "modeDegree": 4,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Major scale with a raised fourth, dreamy and floating quality",
+          "chordTypes": ["Major", "Major 7th", "Lydian #11"],
+          "steps": [
+            {"step": 1, "frequency": 174.61, "note": "F", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 196.00, "note": "G", "function": "Supertonic", "cents": 200, "comment": "Supertonic"},
+            {"step": 3, "frequency": 220.00, "note": "A", "function": "Mediant", "cents": 400, "comment": "Mediant"},
+            {"step": 4, "frequency": 246.94, "note": "B", "function": "Augmented fourth", "cents": 600, "comment": "Subdominant"},
+            {"step": 5, "frequency": 261.63, "note": "C", "function": "Dominant", "cents": 700, "comment": "Dominant"},
+            {"step": 6, "frequency": 293.66, "note": "D", "function": "Submediant", "cents": 900, "comment": "Submediant"},
+            {"step": 7, "frequency": 329.63, "note": "E", "function": "Leading tone", "cents": 1100, "comment": "Leading tone"},
+            {"step": 8, "frequency": 349.23, "note": "F", "function": "Tonic octave", "cents": 1200, "comment": "Tonic octave"},
+            {"step": 9, "frequency": 392.00, "note": "G", "function": "Supertonic octave", "cents": 1400, "comment": "Supertonic octave"},
+            {"step": 10, "frequency": 440.00, "note": "A", "function": "Mediant octave", "cents": 1600, "comment": "Mediant octave"},
+            {"step": 11, "frequency": 493.88, "note": "B", "function": "Augmented fourth octave", "cents": 1800, "comment": "Subdominant octave"},
+            {"step": 12, "frequency": 523.25, "note": "C", "function": "Dominant octave", "cents": 1900, "comment": "Dominant octave"},
+            {"step": 13, "frequency": 587.33, "note": "D", "function": "Submediant octave", "cents": 2100, "comment": "Submediant octave"},
+            {"step": 14, "frequency": 659.26, "note": "E", "function": "Leading tone octave", "cents": 2300, "comment": "Leading tone octave"},
+            {"step": 15, "frequency": 698.46, "note": "F", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Tonic 2 octaves"},
+            {"step": 16, "frequency": 783.99, "note": "G", "function": "Supertonic 2 octaves", "cents": 2600, "comment": "Supertonic 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 4, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, whole tone, whole tone, half tone, whole tone, whole tone, half tone",
+            "signatureIntervals": ["Major 3rd", "Augmented 4th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "The Lydian mode is a major scale with a raised fourth degree, creating a dreamy, floating quality often associated with wonder and fantasy.",
+            "historicalContext": "Used in Medieval and Renaissance music, later embraced by jazz musicians and film composers",
+            "usageExamples": "Film scores (especially for fantasy or science fiction), jazz improvisation, progressive rock"
+          }
+        },
+        {
+          "name": "Mixolydian Mode",
+          "fundamentalNote": "G",
+          "fundamentalFrequency":196.00,
+          "parentScale": "Diatonic Scale",
+          "modeDegree": 5,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Major scale with a lowered seventh, bluesy or dominant seventh quality",
+          "chordTypes": ["Major", "Dominant 7th", "9th"],
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Supertonic", "cents": 200, "comment": "Supertonic"},
+            {"step": 3, "frequency": 246.94, "note": "B", "function": "Mediant", "cents": 400, "comment": "Mediant"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Subdominant", "cents": 500, "comment": "Subdominant"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Dominant", "cents": 700, "comment": "Dominant"},
+            {"step": 6, "frequency": 329.63, "note": "E", "function": "Submediant", "cents": 900, "comment": "Submediant"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Subtonic", "cents": 1000, "comment": "Subtonic"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Tonic octave", "cents": 1200, "comment": "Tonic octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Supertonic octave", "cents": 1400, "comment": "Supertonic octave"},
+            {"step": 10, "frequency": 493.88, "note": "B", "function": "Mediant octave", "cents": 1600, "comment": "Mediant octave"},
+            {"step": 11, "frequency": 523.25, "note": "C", "function": "Subdominant octave", "cents": 1700, "comment": "Subdominant octave"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Dominant octave", "cents": 1900, "comment": "Dominant octave"},
+            {"step": 13, "frequency": 659.26, "note": "E", "function": "Submediant octave", "cents": 2100, "comment": "Submediant octave"},
+            {"step": 14, "frequency": 698.46, "note": "F", "function": "Subtonic octave", "cents": 2200, "comment": "Subtonic octave"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Tonic 2 octaves"},
+            {"step": 16, "frequency": 880.00, "note": "A", "function": "Supertonic 2 octaves", "cents": 2600, "comment": "Supertonic 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, whole tone, half tone, whole tone, whole tone, half tone, whole tone",
+            "signatureIntervals": ["Major 3rd", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "The Mixolydian mode is a major scale with a lowered seventh degree, giving it a bluesy or dominant seventh quality popular in many genres.",
+            "historicalContext": "Used in Celtic folk music, blues, rock, and jazz",
+            "usageExamples": "Blues improvisations, rock guitar solos, Celtic folk tunes, funk and jazz"
+          }
+        },
+        {
+          "name": "Aeolian Mode",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Diatonic Scale",
+          "modeDegree": 6,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Natural minor scale, sad or melancholic character",
+          "chordTypes": ["Minor", "Minor 7th", "Minor 9th"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 246.94, "note": "B", "function": "Supertonic", "cents": 200, "comment": "Supertonic"},
+            {"step": 3, "frequency": 261.63, "note": "C", "function": "Mediant", "cents": 300, "comment": "Mediant"},
+            {"step": 4, "frequency": 293.66, "note": "D", "function": "Subdominant", "cents": 500, "comment": "Subdominant"},
+            {"step": 5, "frequency": 329.63, "note": "E", "function": "Dominant", "cents": 700, "comment": "Dominant"},
+            {"step": 6, "frequency": 349.23, "note": "F", "function": "Submediant", "cents": 800, "comment": "Submediant"},
+            {"step": 7, "frequency": 392.00, "note": "G", "function": "Subtonic", "cents": 1000, "comment": "Subtonic"},
+            {"step": 8, "frequency": 440.00, "note": "A", "function": "Tonic octave", "cents": 1200, "comment": "Tonic octave"},
+            {"step": 9, "frequency": 493.88, "note": "B", "function": "Supertonic octave", "cents": 1400, "comment": "Supertonic octave"},
+            {"step": 10, "frequency": 523.25, "note": "C", "function": "Mediant octave", "cents": 1500, "comment": "Mediant octave"},
+            {"step": 11, "frequency": 587.33, "note": "D", "function": "Subdominant octave", "cents": 1700, "comment": "Subdominant octave"},
+            {"step": 12, "frequency": 659.26, "note": "E", "function": "Dominant octave", "cents": 1900, "comment": "Dominant octave"},
+            {"step": 13, "frequency": 698.46, "note": "F", "function": "Submediant octave", "cents": 2000, "comment": "Submediant octave"},
+            {"step": 14, "frequency": 783.99, "note": "G", "function": "Subtonic octave", "cents": 2200, "comment": "Subtonic octave"},
+            {"step": 15, "frequency": 880.00, "note": "A", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Tonic 2 octaves"},
+            {"step": 16, "frequency": 987.77, "note": "B", "function": "Supertonic 2 octaves", "cents": 2600, "comment": "Supertonic 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, half tone, whole tone, whole tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 3rd", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "The Aeolian mode corresponds to the natural minor scale, with a sad or melancholic character widely used across many genres.",
+            "historicalContext": "Used in Renaissance church music, later standardized as the natural minor scale in Western music theory",
+            "usageExamples": "Classical music, rock, metal, folk songs, film scores for dramatic or sad scenes"
+          }
+        },
+        {
+          "name": "Locrian Mode",
+          "fundamentalNote": "B",
+          "fundamentalFrequency":246.94,
+          "parentScale": "Diatonic Scale",
+          "modeDegree": 7,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Diminished scale with lowered second and fifth, very unstable sound",
+          "chordTypes": ["Diminished", "Half-diminished 7th"],
+          "steps": [
+            {"step": 1, "frequency": 246.94, "note": "B", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 261.63, "note": "C", "function": "Supertonic", "cents": 100, "comment": "Supertonic"},
+            {"step": 3, "frequency": 293.66, "note": "D", "function": "Mediant", "cents": 300, "comment": "Mediant"},
+            {"step": 4, "frequency": 329.63, "note": "E", "function": "Subdominant", "cents": 500, "comment": "Subdominant"},
+            {"step": 5, "frequency": 349.23, "note": "F", "function": "Diminished fifth", "cents": 600, "comment": "Diminished fifth"},
+            {"step": 6, "frequency": 392.00, "note": "G", "function": "Submediant", "cents": 800, "comment": "Submediant"},
+            {"step": 7, "frequency": 440.00, "note": "A", "function": "Subtonic", "cents": 1000, "comment": "Subtonic"},
+            {"step": 8, "frequency": 493.88, "note": "B", "function": "Tonic octave", "cents": 1200, "comment": "Tonic octave"},
+            {"step": 9, "frequency": 523.25, "note": "C", "function": "Supertonic octave", "cents": 1300, "comment": "Supertonic octave"},
+            {"step": 10, "frequency": 587.33, "note": "D", "function": "Mediant octave", "cents": 1500, "comment": "Mediant octave"},
+            {"step": 11, "frequency": 659.26, "note": "E", "function": "Subdominant octave", "cents": 1700, "comment": "Subdominant octave"},
+            {"step": 12, "frequency": 698.46, "note": "F", "function": "Diminished fifth octave", "cents": 1800, "comment": "Diminished fifth octave"},
+            {"step": 13, "frequency": 783.99, "note": "G", "function": "Submediant octave", "cents": 2000, "comment": "Submediant octave"},
+            {"step": 14, "frequency": 880.00, "note": "A", "function": "Subtonic octave", "cents": 2200, "comment": "Subtonic octave"},
+            {"step": 15, "frequency": 987.77, "note": "B", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Tonic 2 octaves"},
+            {"step": 16, "frequency": 1046.50, "note": "C", "function": "Supertonic 2 octaves", "cents": 2500, "comment": "Supertonic 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Half tone, whole tone, whole tone, half tone, whole tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 3rd", "Diminished 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "The Locrian mode is a diminished scale with a lowered second and fifth, creating a very unstable sound rarely used as the main tonality.",
+            "historicalContext": "Rarely used in historical compositions as a central mode due to its instability, more common in modern jazz and experimental music",
+            "usageExamples": "Jazz improvisation, metal, avant-garde music, transitional passages"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "In historical practice, these modes were used with different tuning systems and had more flexible intonation than the equal temperament presented here.",
+      "rhythmic_features": "Church modes were historically used in plainchant which had free, speech-rhythm rather than measured time.",
+      "ornamentation": "Medieval and Renaissance performance included various ornamentations such as mordents, turns, and appoggiaturas, though notation practices differ from modern standards.",
+      "instrumentation": "Originally sung in monophonic plainchant, later developed into polyphonic arrangements for voice and early instruments"
+    }
+  }
+}

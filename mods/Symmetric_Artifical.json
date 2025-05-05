@@ -1,0 +1,271 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Symmetric and Artificial Modes",
+  "description": "Symmetrical and artificially constructed musical modes with their note structures and frequencies",
+  "version": "1.0",
+  "reference": "A4=440Hz equal temperament reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Symmetrical Modes Collection",
+      "collectionType": "artificial",
+      "culturalOrigin": "Western theoretical",
+      "description": "Mathematically constructed scales with symmetrical interval patterns",
+      "modes": [
+        {
+          "name": "Augmented Scale",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hexatonic",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 12,
+          "character": "Ambiguous, floating",
+          "chordTypes": ["Augmented triads", "Major 7th#5"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 311.13, "note": "Eb", "function": "Minor 3rd", "cents": 0, "comment": "First symmetrical division"},
+            {"step": 3, "frequency": 329.63, "note": "E", "function": "Major 3rd", "cents": 0, "comment": "Second symmetrical division"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Perfect 5th", "cents": 0, "comment": "Third symmetrical division"},
+            {"step": 5, "frequency": 415.30, "note": "Ab", "function": "Minor 6th", "cents": 0, "comment": "Fourth symmetrical division"},
+            {"step": 6, "frequency": 493.88, "note": "B", "function": "Major 7th", "cents": 0, "comment": "Fifth symmetrical division"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Tonic octave", "cents": 0, "comment": "Octave"},
+            {"step": 8, "frequency": 622.25, "note": "Eb", "function": "m3 octave", "cents": 0, "comment": "Octave of step 2"},
+            {"step": 9, "frequency": 659.26, "note": "E", "function": "M3 octave", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 10, "frequency": 783.99, "note": "G", "function": "P5 octave", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 11, "frequency": 830.61, "note": "Ab", "function": "m6 octave", "cents": 0, "comment": "Octave of step 5"},
+            {"step": 12, "frequency": 987.77, "note": "B", "function": "M7 octave", "cents": 0, "comment": "Octave of step 6"},
+            {"step": 13, "frequency": 1046.50, "note": "C", "function": "Tonic 2 octaves", "cents": 0, "comment": "2 octaves"},
+            {"step": 14, "frequency": 1046.50, "note": "C", "function": "Sustain", "cents": 0, "comment": "Extended"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Sustain", "cents": 0, "comment": "Extended"},
+            {"step": 16, "frequency": 1046.50, "note": "C", "function": "Final", "cents": 0, "comment": "Resolution"}
+          ],
+          "voicingPattern": ["Symmetrical arpeggios"],
+          "microtonalCharacteristics": {
+            "symmetrical_divisions": "Minor and major thirds alternate",
+            "signatureIntervals": ["Minor 3rd (Eb)", "Major 3rd (E)"]
+          },
+          "metadata": {
+            "description": "Symmetrical hexatonic scale alternating minor and major thirds",
+            "typical_usage": "Jazz, contemporary classical",
+            "harmonic_properties": "Creates ambiguous tonality"
+          }
+        },
+        {
+          "name": "Blues Scale (Minor Pentatonic + b5)",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Minor Pentatonic",
+          "modeDegree": "Blues variant",
+          "totalSteps": 16,
+          "baseSteps": 16,
+          "character": "Expressive, soulful",
+          "chordTypes": ["Dominant 7th", "Minor pentatonic"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 261.63, "note": "C", "function": "Minor 3rd", "cents": 0, "comment": "Blue note"},
+            {"step": 3, "frequency": 293.66, "note": "D", "function": "Perfect 4th", "cents": 0, "comment": "Characteristic interval"},
+            {"step": 4, "frequency": 311.13, "note": "Eb", "function": "Diminished 5th", "cents": 0, "comment": "Blue note"},
+            {"step": 5, "frequency": 329.63, "note": "E", "function": "Perfect 5th", "cents": 0, "comment": "Resolution point"},
+            {"step": 6, "frequency": 392.00, "note": "G", "function": "Minor 7th", "cents": 0, "comment": "Blue note"},
+            {"step": 7, "frequency": 440.00, "note": "A", "function": "Tonic octave", "cents": 0, "comment": "Octave"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "m3 octave", "cents": 0, "comment": "Octave of step 2"},
+            {"step": 9, "frequency": 587.33, "note": "D", "function": "P4 octave", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 10, "frequency": 622.25, "note": "Eb", "function": "d5 octave", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 11, "frequency": 659.26, "note": "E", "function": "P5 octave", "cents": 0, "comment": "Octave of step 5"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "m7 octave", "cents": 0, "comment": "Octave of step 6"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "Tonic 2 octaves", "cents": 0, "comment": "2 octaves"},
+            {"step": 14, "frequency": 1046.50, "note": "C", "function": "m3 2 octaves", "cents": 0, "comment": "2 octaves of step 2"},
+            {"step": 15, "frequency": 1174.66, "note": "D", "function": "P4 2 octaves", "cents": 0, "comment": "2 octaves of step 3"},
+            {"step": 16, "frequency": 1244.51, "note": "Eb", "function": "d5 2 octaves", "cents": 0, "comment": "2 octaves of step 4"}
+          ],
+          "voicingPattern": ["Call-and-response phrasing"],
+          "microtonalCharacteristics": {
+            "blue_notes": "Characteristic flattened 3rd, 5th and 7th",
+            "signatureIntervals": ["Minor 3rd (C)", "Diminished 5th (Eb)"]
+          },
+          "metadata": {
+            "description": "Essential blues scale adding the 'blue note' to minor pentatonic",
+            "typical_usage": "Blues, rock, jazz",
+            "performance_note": "Blue notes often played with microtonal inflections"
+          }
+        },
+        {
+          "name": "Octatonic Scale (Diminished - Half-Whole)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Diminished",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 16,
+          "character": "Tense, mysterious",
+          "chordTypes": ["Diminished 7th", "Altered dominants"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 277.18, "note": "Db", "function": "Minor 2nd", "cents": 0, "comment": "Half step"},
+            {"step": 3, "frequency": 311.13, "note": "Eb", "function": "Minor 3rd", "cents": 0, "comment": "Whole step"},
+            {"step": 4, "frequency": 329.63, "note": "E", "function": "Major 3rd", "cents": 0, "comment": "Half step"},
+            {"step": 5, "frequency": 369.99, "note": "F#", "function": "Augmented 4th", "cents": 0, "comment": "Whole step"},
+            {"step": 6, "frequency": 392.00, "note": "G", "function": "Perfect 5th", "cents": 0, "comment": "Half step"},
+            {"step": 7, "frequency": 440.00, "note": "A", "function": "Major 6th", "cents": 0, "comment": "Whole step"},
+            {"step": 8, "frequency": 466.16, "note": "Bb", "function": "Minor 7th", "cents": 0, "comment": "Half step"},
+            {"step": 9, "frequency": 523.25, "note": "C", "function": "Tonic octave", "cents": 0, "comment": "Octave"},
+            {"step": 10, "frequency": 554.37, "note": "Db", "function": "m2 octave", "cents": 0, "comment": "Octave of step 2"},
+            {"step": 11, "frequency": 622.25, "note": "Eb", "function": "m3 octave", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 12, "frequency": 659.26, "note": "E", "function": "M3 octave", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 13, "frequency": 739.99, "note": "F#", "function": "A4 octave", "cents": 0, "comment": "Octave of step 5"},
+            {"step": 14, "frequency": 783.99, "note": "G", "function": "P5 octave", "cents": 0, "comment": "Octave of step 6"},
+            {"step": 15, "frequency": 880.00, "note": "A", "function": "M6 octave", "cents": 0, "comment": "Octave of step 7"},
+            {"step": 16, "frequency": 932.33, "note": "Bb", "function": "m7 octave", "cents": 0, "comment": "Octave of step 8"}
+          ],
+          "voicingPattern": ["Alternating half-whole steps"],
+          "microtonalCharacteristics": {
+            "symmetrical_divisions": "Divides octave into 8 equal parts",
+            "signatureIntervals": ["Minor 2nd (Db)", "Augmented 4th (F#)"]
+          },
+          "metadata": {
+            "description": "Eight-note symmetrical scale alternating half and whole steps",
+            "typical_usage": "Jazz, impressionist music",
+            "harmonic_properties": "Creates tension and ambiguity"
+          }
+        },
+        {
+          "name": "Pentatonic Major",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Major",
+          "modeDegree": "Pentatonic variant",
+          "totalSteps": 16,
+          "baseSteps": 15,
+          "character": "Open, universal",
+          "chordTypes": ["Sus2", "Sus4", "Power chords"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Major 2nd", "cents": 0, "comment": "Characteristic interval"},
+            {"step": 3, "frequency": 329.63, "note": "E", "function": "Major 3rd", "cents": 0, "comment": "Bright third"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Perfect 5th", "cents": 0, "comment": "Stable fifth"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Major 6th", "cents": 0, "comment": "Open sound"},
+            {"step": 6, "frequency": 523.25, "note": "C", "function": "Tonic octave", "cents": 0, "comment": "Octave"},
+            {"step": 7, "frequency": 587.33, "note": "D", "function": "M2 octave", "cents": 0, "comment": "Octave of step 2"},
+            {"step": 8, "frequency": 659.26, "note": "E", "function": "M3 octave", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 9, "frequency": 783.99, "note": "G", "function": "P5 octave", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 10, "frequency": 880.00, "note": "A", "function": "M6 octave", "cents": 0, "comment": "Octave of step 5"},
+            {"step": 11, "frequency": 1046.50, "note": "C", "function": "Tonic 2 octaves", "cents": 0, "comment": "2 octaves"},
+            {"step": 12, "frequency": 1174.66, "note": "D", "function": "M2 2 octaves", "cents": 0, "comment": "2 octaves of step 2"},
+            {"step": 13, "frequency": 1318.51, "note": "E", "function": "M3 2 octaves", "cents": 0, "comment": "2 octaves of step 3"},
+            {"step": 14, "frequency": 1567.98, "note": "G", "function": "P5 2 octaves", "cents": 0, "comment": "2 octaves of step 4"},
+            {"step": 15, "frequency": 1760.00, "note": "A", "function": "M6 2 octaves", "cents": 0, "comment": "2 octaves of step 5"},
+            {"step": 16, "frequency": 2093.00, "note": "C", "function": "Tonic 3 octaves", "cents": 0, "comment": "3 octaves"}
+          ],
+          "voicingPattern": ["Open fifths and fourths"],
+          "microtonalCharacteristics": {
+            "gapped_scale": "Omits 4th and 7th degrees",
+            "signatureIntervals": ["Major 2nd (D)", "Major 6th (A)"]
+          },
+          "metadata": {
+            "description": "Five-note scale without semitones, widely used in folk music",
+            "typical_usage": "World music, folk, rock",
+            "harmonic_properties": "Creates open, consonant sound"
+          }
+        },
+        {
+          "name": "Pentatonic Minor",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Minor",
+          "modeDegree": "Pentatonic variant",
+          "totalSteps": 16,
+          "baseSteps": 15,
+          "character": "Dark, expressive",
+          "chordTypes": ["Minor triads", "Power chords"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 261.63, "note": "C", "function": "Minor 3rd", "cents": 0, "comment": "Characteristic interval"},
+            {"step": 3, "frequency": 293.66, "note": "D", "function": "Perfect 4th", "cents": 0, "comment": "Stable fourth"},
+            {"step": 4, "frequency": 329.63, "note": "E", "function": "Perfect 5th", "cents": 0, "comment": "Resolution point"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Minor 7th", "cents": 0, "comment": "Dark seventh"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Tonic octave", "cents": 0, "comment": "Octave"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "m3 octave", "cents": 0, "comment": "Octave of step 2"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "P4 octave", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 9, "frequency": 659.26, "note": "E", "function": "P5 octave", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 10, "frequency": 783.99, "note": "G", "function": "m7 octave", "cents": 0, "comment": "Octave of step 5"},
+            {"step": 11, "frequency": 880.00, "note": "A", "function": "Tonic 2 octaves", "cents": 0, "comment": "2 octaves"},
+            {"step": 12, "frequency": 1046.50, "note": "C", "function": "m3 2 octaves", "cents": 0, "comment": "2 octaves of step 2"},
+            {"step": 13, "frequency": 1174.66, "note": "D", "function": "P4 2 octaves", "cents": 0, "comment": "2 octaves of step 3"},
+            {"step": 14, "frequency": 1318.51, "note": "E", "function": "P5 2 octaves", "cents": 0, "comment": "2 octaves of step 4"},
+            {"step": 15, "frequency": 1567.98, "note": "G", "function": "m7 2 octaves", "cents": 0, "comment": "2 octaves of step 5"},
+            {"step": 16, "frequency": 1760.00, "note": "A", "function": "Tonic 3 octaves", "cents": 0, "comment": "3 octaves"}
+          ],
+          "voicingPattern": ["Minor blues phrasing"],
+          "microtonalCharacteristics": {
+            "gapped_scale": "Omits 2nd and 6th degrees",
+            "signatureIntervals": ["Minor 3rd (C)", "Minor 7th (G)"]
+          },
+          "metadata": {
+            "description": "Minor counterpart of pentatonic major, essential in blues and rock",
+            "typical_usage": "Blues, rock, metal",
+            "harmonic_properties": "Creates dark, powerful sound"
+          }
+        },
+        {
+          "name": "Whole Tone Scale",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hexatonic",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 12,
+          "character": "Dreamlike, floating",
+          "chordTypes": ["Augmented triads", "Dominant 7th#5"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Major 2nd", "cents": 0, "comment": "Whole step"},
+            {"step": 3, "frequency": 329.63, "note": "E", "function": "Major 3rd", "cents": 0, "comment": "Whole step"},
+            {"step": 4, "frequency": 369.99, "note": "F#", "function": "Augmented 4th", "cents": 0, "comment": "Whole step"},
+            {"step": 5, "frequency": 415.30, "note": "G#", "function": "Augmented 5th", "cents": 0, "comment": "Whole step"},
+            {"step": 6, "frequency": 466.16, "note": "Bb", "function": "Minor 7th", "cents": 0, "comment": "Whole step"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Tonic octave", "cents": 0, "comment": "Octave"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "M2 octave", "cents": 0, "comment": "Octave of step 2"},
+            {"step": 9, "frequency": 659.26, "note": "E", "function": "M3 octave", "cents": 0, "comment": "Octave of step 3"},
+            {"step": 10, "frequency": 739.99, "note": "F#", "function": "A4 octave", "cents": 0, "comment": "Octave of step 4"},
+            {"step": 11, "frequency": 830.61, "note": "G#", "function": "A5 octave", "cents": 0, "comment": "Octave of step 5"},
+            {"step": 12, "frequency": 932.33, "note": "Bb", "function": "m7 octave", "cents": 0, "comment": "Octave of step 6"},
+            {"step": 13, "frequency": 1046.50, "note": "C", "function": "Tonic 2 octaves", "cents": 0, "comment": "2 octaves"},
+            {"step": 14, "frequency": 1046.50, "note": "C", "function": "Sustain", "cents": 0, "comment": "Extended"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Sustain", "cents": 0, "comment": "Extended"},
+            {"step": 16, "frequency": 1046.50, "note": "C", "function": "Final", "cents": 0, "comment": "Resolution"}
+          ],
+          "voicingPattern": ["Floating arpeggios"],
+          "microtonalCharacteristics": {
+            "symmetrical_divisions": "Divides octave into 6 equal parts",
+            "signatureIntervals": ["Augmented 4th (F#)", "Augmented 5th (G#)"]
+          },
+          "metadata": {
+            "description": "Fully symmetrical scale built entirely from whole steps",
+            "typical_usage": "Impressionist music, jazz",
+            "harmonic_properties": "Creates tonally ambiguous sound"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Blues scale notes often played with microtonal bends in practice",
+      "rhythmic_features": "Symmetrical scales create ambiguous rhythmic phrasing opportunities",
+      "ornamentation": "Whole tone and octatonic scales benefit from glissando effects",
+      "instrumentation": "All standard Western instruments, particularly piano and guitar"
+    }
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "title": "Persian Dastgah System",
+  "description": "This JSON file contains the 12 principal Iranian Dastgah with their microtonal intervals and gusheh (sub-modes) structures.",
+  "reference": "Based on the Radif tradition with 24-tone equal temperament approximations (1/4 tone = 50 cents).",
+  "dastgahs": [
+    {
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Persian Dastgah Collection",
+  "description": "Traditional Iranian Dastgah modes with microtonal intervals and their characteristic melodic patterns, optimized for 16-step sequencing applications.",
+  "version": "1.0",
+  "reference": "Based on the Radif tradition with 24-tone equal temperament approximations (1/4 tone = 50 cents) | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Iranian Dastgah System",
+      "collectionType": "persian",
+      "culturalOrigin": "Classical Persian Music Tradition",
+      "description": "A collection of the principal dastgah (modal systems) of traditional Persian/Iranian classical music, featuring their distinctive microtonal intervals and melodic structures",
+      "modes": [
+        {
+          "name": "Abu'ata",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": "Subset of Shur",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Melancholic and introspective with distinctive quarter-tone intervals",
+          "chordTypes": ["Quarter-tone clusters", "Shur-based progressions", "Melodic patterns"],
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Neutral second", "cents": 140, "comment": "Abu'atā (quarter tone)"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Minor third", "cents": 300, "comment": "Mokhalef"},
+            {"step": 4, "frequency": 370.37, "note": "G 4k b", "function": "Neutral fourth", "cents": 400, "comment": "Gusheh (quarter tone)"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect fifth", "cents": 700, "comment": "Dugāh"},
+            {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Neutral sixth", "cents": 850, "comment": "Hosseini (quarter tone)"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Minor seventh", "cents": 1000, "comment": "Zābol"},
+            {"step": 8, "frequency": 587.33, "note": "D (octave)", "function": "Tonic octave", "cents": 1200, "comment": "Ist octave"},
+            {"step": 9, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral second octave", "cents": 1340, "comment": "Abu'atā octave"},
+            {"step": 10, "frequency": 698.46, "note": "F (octave)", "function": "Minor third octave", "cents": 1500, "comment": "Mokhalef octave"},
+            {"step": 11, "frequency": 740.74, "note": "G (octave, 4k b)", "function": "Neutral fourth octave", "cents": 1600, "comment": "Gusheh octave"},
+            {"step": 12, "frequency": 880.00, "note": "A (octave)", "function": "Perfect fifth octave", "cents": 1900, "comment": "Dugāh octave"},
+            {"step": 13, "frequency": 955.56, "note": "B (octave, 4k b)", "function": "Neutral sixth octave", "cents": 2050, "comment": "Hosseini octave"},
+            {"step": 14, "frequency": 1046.50, "note": "C (octave)", "function": "Minor seventh octave", "cents": 2200, "comment": "Zābol octave"},
+            {"step": 15, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1274.80, "note": "E (2 octaves, 4k b)", "function": "Neutral second 2 octaves", "cents": 2540, "comment": "Abu'atā 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7, 8, 10, 12, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian 24-tone system with quarter tones (koron)",
+            "intervalStructure": "Based on neutral second (140 cents) and quarter-tone inflections",
+            "signatureIntervals": ["Neutral second (140 cents)", "Neutral fourth (400 cents)", "Neutral sixth (850 cents)"]
+          },
+          "metadata": {
+            "description": "Abu'ata is a derivative dastgah of Shur, considered a sub-dastgah with its own distinctive melodic phrases and emotional character. It features characteristic quarter-tone intervals that give it a distinctive Persian sound, particularly the neutral second degree (E quarter-flat) that is essential to its identity.",
+            "historicalContext": "Developed as a specialized branch of the Shur dastgah in classical Persian tradition, gaining independent status in the modern Radif (repertoire) system",
+            "usageExamples": "Traditional Persian classical performances, spiritual and contemplative pieces, improvisation (avaz), and as accompaniment for classical Persian poetry"
+          }
+        },
+        {
+          "name": "Afshari",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": "Subset of Shur",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Regional folk character with distinctive melodic phrases",
+          "chordTypes": ["Quarter-tone structures", "Regional folk clusters", "Modal patterns"],
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Neutral second", "cents": 140, "comment": "Afshāri (quarter tone)"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Minor third", "cents": 300, "comment": "Mokhalef"},
+            {"step": 4, "frequency": 370.37, "note": "G 4k b", "function": "Neutral fourth", "cents": 400, "comment": "Gusheh (quarter tone)"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect fifth", "cents": 700, "comment": "Dugāh"},
+            {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Neutral sixth", "cents": 850, "comment": "Hosseini (quarter tone)"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Minor seventh", "cents": 1000, "comment": "Zābol"},
+            {"step": 8, "frequency": 587.33, "note": "D (octave)", "function": "Tonic octave", "cents": 1200, "comment": "Ist octave"},
+            {"step": 9, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral second octave", "cents": 1340, "comment": "Afshāri octave"},
+            {"step": 10, "frequency": 698.46, "note": "F (octave)", "function": "Minor third octave", "cents": 1500, "comment": "Mokhalef octave"},
+            {"step": 11, "frequency": 740.74, "note": "G (octave, 4k b)", "function": "Neutral fourth octave", "cents": 1600, "comment": "Gusheh octave"},
+            {"step": 12, "frequency": 880.00, "note": "A (octave)", "function": "Perfect fifth octave", "cents": 1900, "comment": "Dugāh octave"},
+            {"step": 13, "frequency": 955.56, "note": "B (octave, 4k b)", "function": "Neutral sixth octave", "cents": 2050, "comment": "Hosseini octave"},
+            {"step": 14, "frequency": 1046.50, "note": "C (octave)", "function": "Minor seventh octave", "cents": 2200, "comment": "Zābol octave"},
+            {"step": 15, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1274.80, "note": "E (2 octaves, 4k b)", "function": "Neutral second 2 octaves", "cents": 2540, "comment": "Afshāri 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7, 8, 10, 12, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian 24-tone system with quarter tones (koron)",
+            "intervalStructure": "Based on neutral second (140 cents) and folk-influenced melodic patterns",
+            "signatureIntervals": ["Neutral second (140 cents)", "Neutral fourth (400 cents)", "Neutral sixth (850 cents)"]
+          },
+          "metadata": {
+            "description": "Afshari is a regional variant of the Shur family with distinctive melodic phrases that reflect folk music traditions. While its interval structure resembles other Shur-derived dastgahs, it is distinguished by specific melodic patterns (gushehs) and a unique approach to ornamentation and expression.",
+            "historicalContext": "Developed from regional folk music traditions and incorporated into the classical Persian Radif, named after a regional tribe or geographical location",
+            "usageExamples": "Folk-influenced classical performances, regional celebrations, storytelling music, and as a bridge between classical and folk traditions in Iranian music"
+          }
+        },
+        {
+          "name": "Bayat-e Isfahan",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": "Related to Shur",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Lyrical and graceful with regional Isfahan characteristics",
+          "chordTypes": ["Quarter-tone structures", "Regional Isfahan patterns", "Modal progressions"],
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Neutral second", "cents": 140, "comment": "Bayāt-e Esfahān (quarter tone)"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Minor third", "cents": 300, "comment": "Mokhalef"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Fourth", "cents": 500, "comment": "Bayāt"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect fifth", "cents": 700, "comment": "Dugāh"},
+            {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Neutral sixth", "cents": 850, "comment": "Hosseini (quarter tone)"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Minor seventh", "cents": 1000, "comment": "Zābol"},
+            {"step": 8, "frequency": 587.33, "note": "D (octave)", "function": "Tonic octave", "cents": 1200, "comment": "Ist octave"},
+            {"step": 9, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral second octave", "cents": 1340, "comment": "Bayāt-e Esfahān octave"},
+            {"step": 10, "frequency": 698.46, "note": "F (octave)", "function": "Minor third octave", "cents": 1500, "comment": "Mokhalef octave"},
+            {"step": 11, "frequency": 783.99, "note": "G (octave)", "function": "Fourth octave", "cents": 1700, "comment": "Bayāt octave"},
+            {"step": 12, "frequency": 880.00, "note": "A (octave)", "function": "Perfect fifth octave", "cents": 1900, "comment": "Dugāh octave"},
+            {"step": 13, "frequency": 955.56, "note": "B (octave, 4k b)", "function": "Neutral sixth octave", "cents": 2050, "comment": "Hosseini octave"},
+            {"step": 14, "frequency": 1046.50, "note": "C (octave)", "function": "Minor seventh octave", "cents": 2200, "comment": "Zābol octave"},
+            {"step": 15, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1274.80, "note": "E (2 octaves, 4k b)", "function": "Neutral second 2 octaves", "cents": 2540, "comment": "Bayāt-e Esfahān 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7, 8, 10, 12, 15],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian 24-tone system with quarter tones (koron)",
+            "intervalStructure": "Based on neutral second (140 cents) with regional Isfahan characteristics",
+            "signatureIntervals": ["Neutral second (140 cents)", "Perfect fourth (500 cents)", "Neutral sixth (850 cents)"]
+          },
+          "metadata": {
+            "description": "Bayat-e Isfahan is a dastgah associated with the Isfahan region of Iran, characterized by its lyrical, flowing quality and distinctive melodic patterns. While sharing some structural similarities with other Shur-derived dastgahs, it has unique regional characteristics that give it a particular expressive quality.",
+            "historicalContext": "Developed in the Isfahan region, one of Iran's historical centers of arts and music, and incorporated into the classical repertoire over centuries of refinement",
+            "usageExamples": "Classical concerts featuring Isfahan regional style, accompaniment for Persian poetry with themes of love and beauty, meditative instrumental improvisations"
+          }
+        },
+        {
+          "name": "Bayat-e Kord",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": "Subset of Shur",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Dramatic and emotionally intense with a strong emphasis on the tonic",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Neutral second", "cents": -50, "comment": "Bayāt-e Kord (quarter tone)"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Minor third", "cents": 0, "comment": "Mokhalef"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Perfect fourth", "cents": 0, "comment": "Bayāt"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect fifth", "cents": 0, "comment": "Dugāh"},
+            {"step": 6, "frequency": 493.88, "note": "B", "function": "Major sixth", "cents": 0, "comment": "Avaz"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Minor seventh", "cents": 0, "comment": "Zābol"},
+            {"step": 8, "frequency": 587.33, "note": "D (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral second octave", "cents": -50, "comment": "Bayāt-e Kord octave"},
+            {"step": 10, "frequency": 698.46, "note": "F (octave)", "function": "Minor third octave", "cents": 0, "comment": "Mokhalef octave"},
+            {"step": 11, "frequency": 783.99, "note": "G (octave)", "function": "Perfect fourth octave", "cents": 0, "comment": "Bayāt octave"},
+            {"step": 12, "frequency": 880.00, "note": "A (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Dugāh octave"},
+            {"step": 13, "frequency": 987.77, "note": "B (octave)", "function": "Major sixth octave", "cents": 0, "comment": "Avaz octave"},
+            {"step": 14, "frequency": 1046.50, "note": "C (octave)", "function": "Minor seventh octave", "cents": 0, "comment": "Zābol octave"},
+            {"step": 15, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1274.80, "note": "E (2 octaves, 4k b)", "function": "Neutral second 2 octaves", "cents": -50, "comment": "Bayāt-e Kord 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with a quarter tone on the second degree",
+            "intervalStructure": "Features a neutral second, minor third, perfect fourth, perfect fifth, major sixth, and minor seventh",
+            "signatureIntervals": ["Neutral second (-50 cents)"]
+          },
+          "metadata": {
+            "description": "Bayat-e Kord is a significant sub-dastgah of Shur, known for its emotionally resonant and often dramatic character. It emphasizes the tonic and perfect fourth degrees, creating a distinct melodic contour. The use of the neutral second (E quarter-flat) is also crucial to its identity.",
+            "historicalContext": "An integral part of the Radif system, Bayat-e Kord is utilized in various forms of Persian classical music, including vocal and instrumental performances, often conveying themes of sorrow or intensity.",
+            "usageExamples": "Solemn vocal improvisations (avaz), instrumental pieces with a strong melodic focus, and accompaniment for poetry expressing deep emotions."
+          }
+        },
+        {
+          "name": "Bayat-e Turk",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Subset of Shur",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Expressive and often melancholic with a characteristic raised fourth degree",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 285.30, "note": "D 1k b", "function": "Neutral second", "cents": -60, "comment": "Bayāt-e Tork (3/4 tone)"},
+            {"step": 3, "frequency": 318.70, "note": "E 4k b", "function": "Neutral third", "cents": -50, "comment": "Segah (quarter tone)"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect fourth", "cents": 0, "comment": "Mokhalef"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect fifth", "cents": 0, "comment": "Bayāt"},
+            {"step": 6, "frequency": 427.47, "note": "A 1k b", "function": "Neutral sixth", "cents": -60, "comment": "Hosseini (3/4 tone)"},
+            {"step": 7, "frequency": 477.78, "note": "B 4k b", "function": "Neutral seventh", "cents": -50, "comment": "Ozzāl (quarter tone)"},
+            {"step": 8, "frequency": 523.25, "note": "C (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 570.60, "note": "D (octave, 1k b)", "function": "Neutral second octave", "cents": -60, "comment": "Bayāt-e Tork octave"},
+            {"step": 10, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral third octave", "cents": -50, "comment": "Segah octave"},
+            {"step": 11, "frequency": 698.46, "note": "F (octave)", "function": "Perfect fourth octave", "cents": 0, "comment": "Mokhalef octave"},
+            {"step": 12, "frequency": 783.99, "note": "G (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Bayāt octave"},
+            {"step": 13, "frequency": 854.94, "note": "A (octave, 1k b)", "function": "Neutral sixth octave", "cents": -60, "comment": "Hosseini octave"},
+            {"step": 14, "frequency": 955.56, "note": "B (octave, 4k b)", "function": "Neutral seventh octave", "cents": -50, "comment": "Ozzāl octave"},
+            {"step": 15, "frequency": 1046.50, "note": "C (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1141.20, "note": "D (2 octaves, 1k b)", "function": "Neutral second 2 octaves", "cents": -60, "comment": "Bayāt-e Tork 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with 3/4 and 1/4 tones",
+            "intervalStructure": "Characterized by the use of neutral second (3/4 tone) and neutral third (1/4 tone), creating its distinctive sound",
+            "signatureIntervals": ["Neutral second (-60 cents)", "Neutral third (-50 cents)", "Neutral sixth (-60 cents)", "Neutral seventh (-50 cents)"]
+          },
+          "metadata": {
+            "description": "Bayat-e Turk is another significant sub-dastgah of Shur, known for its expressive and often melancholic quality. It features characteristic neutral intervals that give it a unique flavor within the Persian musical tradition.",
+            "historicalContext": "A well-established part of the Persian classical repertoire, Bayat-e Turk is frequently used in both vocal and instrumental forms, often associated with themes of longing or lament.",
+            "usageExamples": "Expressive vocal improvisations, instrumental pieces with a poignant melodic character, and accompaniment for poetry with themes of sorrow or longing."
+          }
+        },
+        {
+          "name": "Chahargah",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Energetic and majestic with a bright and assertive quality",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Major second", "cents": 0, "comment": "Chahārgāh"},
+            {"step": 3, "frequency": 334.42, "note": "E 1k #", "function": "Augmented third", "cents": 40, "comment": "Māye (1 koma sharp)"},
+            {"step": 4, "frequency": 369.99, "note": "F#", "function": "Augmented fourth", "cents": -2, "comment": "Mokhālef"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect fifth", "cents": 0, "comment": "Chahārgāh"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Major sixth", "cents": 0, "comment": "Dugāh"},
+            {"step": 7, "frequency": 501.07, "note": "B 1k #", "function": "Major seventh", "cents": 40, "comment": "Mojannab (1 koma sharp)"},
+            {"step": 8, "frequency": 523.25, "note": "C (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 587.33, "note": "D (octave)", "function": "Major second octave", "cents": 0, "comment": "Chahārgāh octave"},
+            {"step": 10, "frequency": 668.84, "note": "E (octave, 1k #)", "function": "Augmented third octave", "cents": 40, "comment": "Māye octave"},
+            {"step": 11, "frequency": 739.99, "note": "F# (octave)", "function": "Augmented fourth octave", "cents": -2, "comment": "Mokhālef octave"},
+            {"step": 12, "frequency": 783.99, "note": "G (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Chahārgāh octave"},
+            {"step": 13, "frequency": 880.00, "note": "A (octave)", "function": "Major sixth octave", "cents": 0, "comment": "Dugāh octave"},
+            {"step": 14, "frequency": 1002.14, "note": "B (octave, 1k #)", "function": "Major seventh octave", "cents": 40, "comment": "Mojannab octave"},
+            {"step": 15, "frequency": 1046.50, "note": "C (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Major second 2 octaves", "cents": 0, "comment": "Chahārgāh 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with a 1 koma sharp on the third and seventh degrees",
+            "intervalStructure": "Features a major second, augmented third, augmented fourth, perfect fifth, major sixth, and major seventh",
+            "signatureIntervals": ["Augmented third (+40 cents)", "Augmented fourth (-2 cents)", "Major seventh (+40 cents)"]
+          },
+          "metadata": {
+            "description": "Chahargah is one of the principal dastgahs in Persian classical music, known for its energetic and often majestic character. It is unique in its structure and melodic development, featuring characteristic raised intervals that give it a bright and assertive quality.",
+            "historicalContext": "Considered one of the 'royal' dastgahs, Chahargah has a long and rich history in Persian music, often associated with formal and celebratory occasions. Its structure allows for a wide range of melodic and rhythmic explorations.",
+            "usageExamples": "Formal classical performances, celebratory music, instrumental improvisations showcasing virtuosity, and pieces with a strong sense of energy and grandeur."
+          }
+        },
+        {
+          "name": "Dashti",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": "Subset of Shur",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Pastoral and evocative, often conveying a sense of open space and longing",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Neutral second", "cents": -50, "comment": "Dashti (quarter tone)"},
+            {"step": 3, "frequency": 369.99, "note": "F#", "function": "Major third", "cents": -2, "comment": "Mokhalef"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Perfect fourth", "cents": 0, "comment": "Dashti"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect fifth", "cents": 0, "comment": "Dugāh"},
+            {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Neutral sixth", "cents": -50, "comment": "Hosseini (quarter tone)"},
+            {"step": 7, "frequency": 554.37, "note": "C#", "function": "Major seventh", "cents": 12, "comment": "Zābol"},
+            {"step": 8, "frequency": 587.33, "note": "D (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral second octave", "cents": -50, "comment": "Dashti octave"},
+            {"step": 10, "frequency": 739.99, "note": "F# (octave)", "function": "Major third octave", "cents": -2, "comment": "Mokhalef octave"},
+            {"step": 11, "frequency": 783.99, "note": "G (octave)", "function": "Perfect fourth octave", "cents": 0, "comment": "Dashti octave"},
+            {"step": 12, "frequency": 880.00, "note": "A (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Dugāh octave"},
+            {"step": 13, "frequency": 955.56, "note": "B (octave, 4k b)", "function": "Neutral sixth octave", "cents": -50, "comment": "Hosseini octave"},
+            {"step": 14, "frequency": 1108.73, "note": "C# (octave)", "function": "Major seventh octave", "cents": 12, "comment": "Zābol octave"},
+            {"step": 15, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1274.80, "note": "E (2 octaves, 4k b)", "function": "Neutral second 2 octaves", "cents": -50, "comment": "Dashti 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with a quarter tone on the second and sixth degrees",
+            "intervalStructure": "Features a neutral second, major third, perfect fourth, perfect fifth, neutral sixth, and major seventh",
+            "signatureIntervals": ["Neutral second (-50 cents)", "Neutral sixth (-50 cents)"]
+          },
+          "metadata": {
+            "description": "Dashti is a regional dastgah known for its evocative and often melancholic character, frequently associated with the Dasht region of Iran. Its unique melodic contours and the use of microtonal intervals create a sense of open space and longing.",
+            "historicalContext": "Rooted in the folk music traditions of the Dasht region, it has been integrated into the classical Radif, retaining its distinctive regional flavor and emotional depth.",
+            "usageExamples": "Vocal and instrumental improvisations expressing themes of nature, solitude, and longing, often used in regional folk music performances and classical interpretations of folk melodies."
+          }
+        },
+        {
+          "name": "Homayoun",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Melancholic Dastgah with lowered 2nd and 6th degrees",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 282.11, "note": "D 4k b", "function": "Minor second", "cents": -50, "comment": "Homayoun (quarter tone)"},
+            {"step": 3, "frequency": 318.70, "note": "E 4k b", "function": "Neutral third", "cents": -50, "comment": "Segah (quarter tone)"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect fourth", "cents": 0, "comment": "Mokhalef"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect fifth", "cents": 0, "comment": "Homayoun"},
+            {"step": 6, "frequency": 424.07, "note": "A 4k b", "function": "Minor sixth", "cents": -50, "comment": "Bidad (quarter tone)"},
+            {"step": 7, "frequency": 477.78, "note": "B 4k b", "function": "Neutral seventh", "cents": -50, "comment": "Ozzāl (quarter tone)"},
+            {"step": 8, "frequency": 523.25, "note": "C (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 564.22, "note": "D (octave, 4k b)", "function": "Minor second octave", "cents": -50, "comment": "Homayoun octave"},
+            {"step": 10, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral third octave", "cents": -50, "comment": "Segah octave"},
+            {"step": 11, "frequency": 698.46, "note": "F (octave)", "function": "Perfect fourth octave", "cents": 0, "comment": "Mokhalef octave"},
+            {"step": 12, "frequency": 783.99, "note": "G (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Homayoun octave"},
+            {"step": 13, "frequency": 848.14, "note": "A (octave, 4k b)", "function": "Minor sixth octave", "cents": -50, "comment": "Bidad octave"},
+            {"step": 14, "frequency": 955.56, "note": "B (octave, 4k b)", "function": "Neutral seventh octave", "cents": -50, "comment": "Ozzāl octave"},
+            {"step": 15, "frequency": 1046.50, "note": "C (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1128.44, "note": "D (2 octaves, 4k b)", "function": "Minor second 2 octaves", "cents": -50, "comment": "Homayoun 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with quarter tones on the second and sixth degrees",
+            "intervalStructure": "Characterized by the use of quarter-tone intervals on the second (lowered) and sixth (lowered) degrees, creating its melancholic character",
+            "signatureIntervals": ["Minor second (-50 cents)", "Neutral third (-50 cents)", "Minor sixth (-50 cents)", "Neutral seventh (-50 cents)"]
+          },
+          "metadata": {
+            "description": "Homayoun is a major dastgah known for its profound and often melancholic emotional quality. The lowered second and sixth degrees (quarter tones) are essential to its characteristic sound. It is often associated with contemplative and expressive performances.",
+            "historicalContext": "Homayoun is a significant dastgah in the Persian Radif and is frequently used in both vocal (avaz) and instrumental compositions, often conveying deep emotional narratives.",
+            "usageExamples": "Solemn vocal improvisations, instrumental pieces with a lyrical and introspective mood, and accompaniment for poetry with themes of sorrow or contemplation."
+          }
+        },
+        {
+          "name": "Mahur",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Similar to Western major but with variable 3rd and 7th degrees",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Major second", "cents": 0, "comment": "Mahur"},
+            {"step": 3, "frequency": 317.60, "note": "E 1k b", "function": "Minor third", "cents": -40, "comment": "Nahoft (3/4 tone)"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect fourth", "cents": 0, "comment": "Mokhalef"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect fifth", "cents": 0, "comment": "Mahur"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Major sixth", "cents": 0, "comment": "Dugāh"},
+            {"step": 7, "frequency": 476.90, "note": "B 1k b", "function": "Minor seventh", "cents": -40, "comment": "Māhur (3/4 tone)"},
+            {"step": 8, "frequency": 523.25, "note": "C (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 587.33, "note": "D (octave)", "function": "Major second octave", "cents": 0, "comment": "Mahur octave"},
+            {"step": 10, "frequency": 635.20, "note": "E (octave, 1k b)", "function": "Minor third octave", "cents": -40, "comment": "Nahoft octave"},
+            {"step": 11, "frequency": 698.46, "note": "F (octave)", "function": "Perfect fourth octave", "cents": 0, "comment": "Mokhalef octave"},
+            {"step": 12, "frequency": 783.99, "note": "G (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Mahur octave"},
+            {"step": 13, "frequency": 880.00, "note": "A (octave)", "function": "Major sixth octave", "cents": 0, "comment": "Dugāh octave"},
+            {"step": 14, "frequency": 953.80, "note": "B (octave, 1k b)", "function": "Minor seventh octave", "cents": -40, "comment": "Māhur octave"},
+            {"step": 15, "frequency": 1046.50, "note": "C (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Major second 2 octaves", "cents": 0, "comment": "Mahur 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Primarily diatonic with 3/4 tone variations on the 3rd and 7th degrees",
+            "intervalStructure": "Resembles the Western major scale but with potential microtonal inflections on the third and seventh degrees, adding a Persian character",
+            "signatureIntervals": ["Minor third (-40 cents)", "Minor seventh (-40 cents)"]
+          },
+          "metadata": {
+            "description": "Mahur is one of the main dastgahs and shares similarities with the Western major scale. However, the characteristic performance often includes microtonal alterations, particularly on the third and seventh degrees, giving it a distinct Persian flavor. It is known for its generally joyful and majestic character.",
+            "historicalContext": "Mahur is a significant part of the Radif and is often used in both instrumental and vocal performances, representing a wide range of moods and expressions.",
+            "usageExamples": "Formal instrumental pieces (pishdaramad, chaharmezrab), vocal performances (avaz, tasnif) with themes of joy, celebration, and grandeur."
+          }
+        },
+        {
+          "name": "Nava",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Gentle and lyrical Dastgah with flexible intonation",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 317.60, "note": "E 1k b", "function": "Minor second", "cents": -40, "comment": "Nahāft (3/4 tone)"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Minor third", "cents": 0, "comment": "Mokhalef"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Perfect fourth", "cents": 0, "comment": "Navā"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect fifth", "cents": 0, "comment": "Dugāh"},
+            {"step": 6, "frequency": 476.90, "note": "B 1k b", "function": "Minor sixth", "cents": -40, "comment": "Gereyli (3/4 tone)"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Minor seventh", "cents": 0, "comment": "Rāk"},
+            {"step": 8, "frequency": 587.33, "note": "D (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 635.20, "note": "E (octave, 1k b)", "function": "Minor second octave", "cents": -40, "comment": "Nahāft octave"},
+            {"step": 10, "frequency": 698.46, "note": "F (octave)", "function": "Minor third octave", "cents": 0, "comment": "Mokhalef octave"},
+            {"step": 11, "frequency": 783.99, "note": "G (octave)", "function": "Perfect fourth octave", "cents": 0, "comment": "Navā octave"},
+            {"step": 12, "frequency": 880.00, "note": "A (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Dugāh octave"},
+            {"step": 13, "frequency": 953.80, "note": "B (octave, 1k b)", "function": "Minor sixth octave", "cents": -40, "comment": "Gereyli octave"},
+            {"step": 14, "frequency": 1046.50, "note": "C (octave)", "function": "Minor seventh octave", "cents": 0, "comment": "Rāk octave"},
+            {"step": 15, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1270.40, "note": "E (2 octaves, 1k b)", "function": "Minor second 2 octaves", "cents": -40, "comment": "Nahāft 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with a 3/4 tone on the second and sixth degrees",
+            "intervalStructure": "Features a minor second, minor third, perfect fourth, perfect fifth, minor sixth, and minor seventh, with flexible intonation",
+            "signatureIntervals": ["Minor second (-40 cents)", "Minor sixth (-40 cents)"]
+          },
+          "metadata": {
+            "description": "Nava is a gentle and lyrical dastgah known for its flexible intonation and expressive possibilities. It often conveys a sense of tranquility and introspection.",
+            "historicalContext": "Nava is an important part of the Radif and is used in both vocal and instrumental music, often providing a space for delicate and nuanced melodic exploration.",
+            "usageExamples": "Lyrical vocal improvisations, instrumental pieces with a gentle and flowing character, and accompaniment for poetry expressing themes of peace and serenity."
+          }
+        },
+        {
+          "name": "Rast-Panjgah",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Combination of Rast and Panjgah characteristics",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Major second", "cents": 0, "comment": "Rāst"},
+            {"step": 3, "frequency": 317.60, "note": "E 1k b", "function": "Minor third", "cents": -40, "comment": "Panjgāh (3/4 tone)"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect fourth", "cents": 0, "comment": "Mokhalef"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect fifth", "cents": 0, "comment": "Rāst"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Major sixth", "cents": 0, "comment": "Dugāh"},
+            {"step": 7, "frequency": 476.90, "note": "B 1k b", "function": "Minor seventh", "cents": -40, "comment": "Panjgāh (3/4 tone)"},
+            {"step": 8, "frequency": 523.25, "note": "C (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 587.33, "note": "D (octave)", "function": "Major second octave", "cents": 0, "comment": "Rāst octave"},
+            {"step": 10, "frequency": 635.20, "note": "E (octave, 1k b)", "function": "Minor third octave", "cents": -40, "comment": "Panjgāh octave"},
+            {"step": 11, "frequency": 698.46, "note": "F (octave)", "function": "Perfect fourth octave", "cents": 0, "comment": "Mokhalef octave"},
+            {"step": 12, "frequency": 783.99, "note": "G (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Rāst octave"},
+            {"step": 13, "frequency": 880.00, "note": "A (octave)", "function": "Major sixth octave", "cents": 0, "comment": "Dugāh octave"},
+            {"step": 14, "frequency": 953.80, "note": "B (octave, 1k b)", "function": "Minor seventh octave", "cents": -40, "comment": "Panjgāh octave"},
+            {"step": 15, "frequency": 1046.50, "note": "C (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Major second 2 octaves", "cents": 0, "comment": "Rāst 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with a 3/4 tone on the third and seventh degrees",
+            "intervalStructure": "Combines characteristics of Rast and Panjgah, featuring a major second, minor third, perfect fourth, perfect fifth, major sixth, and minor seventh",
+            "signatureIntervals": ["Minor third (-40 cents)", "Minor seventh (-40 cents)"]
+          },
+          "metadata": {
+            "description": "Rast-Panjgah is a dastgah that combines the characteristics of Rast and Panjgah, creating a unique melodic and modal flavor. It draws on elements from both to offer a distinct expressive palette.",
+            "historicalContext": "As a composite dastgah, it integrates traditions from both Rast and Panjgah, showcasing the rich interconnectedness within the Persian musical system.",
+            "usageExamples": "Instrumental and vocal pieces that explore the combined melodic and emotional landscapes of Rast and Panjgah, often displaying a blend of majesty and introspection."
+          }
+        },
+        {
+          "name": "Segah",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "With distinctive neutral 2nd and 6th intervals",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Neutral second", "cents": -50, "comment": "Segah (quarter tone)"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Minor third", "cents": 0, "comment": "Mokhalef"},
+            {"step": 4, "frequency": 370.37, "note": "G 4k b", "function": "Neutral fourth", "cents": -50, "comment": "Māye (quarter tone)"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect fifth", "cents": 0, "comment": "Dugāh"},
+            {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Neutral sixth", "cents": -50, "comment": "Hosseini (quarter tone)"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Minor seventh", "cents": 0, "comment": "Zābol"},
+            {"step": 8, "frequency": 587.33, "note": "D (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral second octave", "cents": -50, "comment": "Segah octave"},
+            {"step": 10, "frequency": 698.46, "note": "F (octave)", "function": "Minor third octave", "cents": 0, "comment": "Mokhalef octave"},
+            {"step": 11, "frequency": 740.74, "note": "G (octave, 4k b)", "function": "Neutral fourth octave", "cents": -50, "comment": "Māye octave"},
+            {"step": 12, "frequency": 880.00, "note": "A (octave)", "function": "Perfect fifth octave", "cents": 0, "comment": "Dugāh octave"},
+            {"step": 13, "frequency": 955.56, "note": "B (octave, 4k b)", "function": "Neutral sixth octave", "cents": -50, "comment": "Hosseini octave"},
+            {"step": 14, "frequency": 1046.50, "note": "C (octave)", "function": "Minor seventh octave", "cents": 0, "comment": "Zābol octave"},
+            {"step": 15, "frequency": 1174.66, "note": "D (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1274.80, "note": "E (2 octaves, 4k b)", "function": "Neutral second 2 octaves", "cents": -50, "comment": "Segah 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with quarter tones on the second, fourth, and sixth degrees",
+            "intervalStructure": "Characterized by the use of neutral second, minor third, neutral fourth, perfect fifth, neutral sixth, and minor seventh intervals, creating a distinctive melodic flavor",
+            "signatureIntervals": ["Neutral second (-50 cents)", "Neutral fourth (-50 cents)", "Neutral sixth (-50 cents)"]
+          },
+          "metadata": {
+            "description": "Segah is a significant dastgah known for its emotional depth and unique melodic contours, largely defined by its characteristic neutral second and sixth intervals (quarter tones). It is often used to express a wide range of emotions from sorrow to joy.",
+            "historicalContext": "Segah holds a prominent place in the Radif and is frequently featured in both vocal and instrumental performances, with a rich tradition of improvisation and composition.",
+            "usageExamples": "Expressive vocal improvisations (avaz), instrumental pieces showcasing melodic complexity, and accompaniment for poetry with diverse emotional themes."
+          }
+        },
+        {
+          "name": "Shur",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "The most important Dastgah, often called 'mother of Dastgahs' with flexible intonation",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Ist (tonic)", "cents": 0, "comment": "Ist"},
+            {"step": 2, "frequency": 285.30, "note": "D 1k b", "function": "Neutral second", "cents": -60, "comment": "Husseini (3/4 tone)"},
+            {"step": 3, "frequency": 318.70, "note": "E 4k b", "function": "Neutral third", "cents": -50, "comment": "Segah (quarter tone)"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect fourth", "cents": 0, "comment": "Mokhalef"},
+            {"step": 5, "frequency": 374.42, "note": "G 1k b", "function": "Neutral fifth", "cents": -60, "comment": "Gusheh (3/4 tone)"},
+            {"step": 6, "frequency": 424.07, "note": "A 4k b", "function": "Neutral sixth", "cents": -50, "comment": "Shur (quarter tone)"},
+            {"step": 7, "frequency": 477.78, "note": "B 4k b", "function": "Neutral seventh", "cents": -50, "comment": "Hijaz (quarter tone)"},
+            {"step": 8, "frequency": 523.25, "note": "C (octave)", "function": "Tonic octave", "cents": 0, "comment": "Ist octave"},
+            {"step": 9, "frequency": 570.60, "note": "D (octave, 1k b)", "function": "Neutral second octave", "cents": -60, "comment": "Husseini octave"},
+            {"step": 10, "frequency": 637.40, "note": "E (octave, 4k b)", "function": "Neutral third octave", "cents": -50, "comment": "Segah octave"},
+            {"step": 11, "frequency": 698.46, "note": "F (octave)", "function": "Perfect fourth octave", "cents": 0, "comment": "Mokhalef octave"},
+            {"step": 12, "frequency": 748.84, "note": "G (octave, 1k b)", "function": "Neutral fifth octave", "cents": -60, "comment": "Gusheh octave"},
+            {"step": 13, "frequency": 848.14, "note": "A (octave, 4k b)", "function": "Neutral sixth octave", "cents": -50, "comment": "Shur octave"},
+            {"step": 14, "frequency": 955.56, "note": "B (octave, 4k b)", "function": "Neutral seventh octave", "cents": -50, "comment": "Hijaz octave"},
+            {"step": 15, "frequency": 1046.50, "note": "C (2 octaves)", "function": "Tonic 2 octaves", "cents": 0, "comment": "Ist 2 octaves"},
+            {"step": 16, "frequency": 1141.20, "note": "D (2 octaves, 1k b)", "function": "Neutral second 2 octaves", "cents": -60, "comment": "Husseini 2 octaves"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "tuningSystem": "Persian traditional tuning with flexible intonation and 3/4 and 1/4 tones",
+            "intervalStructure": "Characterized by the use of 3/4 and 1/4 tone intervals, leading to a unique melodic and harmonic landscape",
+            "signatureIntervals": ["Neutral second (-60 cents)", "Neutral third (-50 cents)", "Neutral fifth (-60 cents)", "Neutral sixth (-50 cents)", "Neutral seventh (-50 cents)"]
+          },
+          "metadata": {
+            "description": "Shur is considered the most fundamental and versatile dastgah in Persian classical music. It serves as the basis for several other avaz (vocal improvisations) and dastgahs, hence its title as the 'mother of dastgahs'. Its flexible intonation allows for a wide range of expressive possibilities.",
+            "historicalContext": "Shur has a central role in the Radif (the traditional repertoire of Persian classical music) and is one of the most frequently performed dastgahs.",
+            "usageExamples": "Vocal and instrumental improvisations, classical suites, and as a foundation for various other musical forms within Persian music."
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Persian Dastgah system uses flexible intonation with subtle microtonal inflections beyond the theoretical values. Quarter-tones (koron) and three-quarter tones (sori) are essential to the authentic character of each dastgah.",
+      "rhythmic_features": "Traditional performances often begin with free-rhythm improvisations (avaz) followed by metric sections. Complex rhythmic cycles (usul) may be employed in the composed sections (tasnif).",
+      "ornamentation": "Extensive use of ornamentations including tahrir (vocal trills), tekiyeh (microtonal inflections), riz (tremolo), and various grace note patterns are fundamental to authentic performance.",
+      "instrumentation": "Traditional instruments include tar and setar (lutes), kamancheh (spike fiddle), santur (hammered dulcimer), ney (end-blown flute), and percussion (daf, tombak). Contemporary performances may incorporate Western instruments with microtonal adaptations."
+    }
+  }
+}
+  ],
+  "footer": "Note: Persian Dastgah system uses flexible intonation with 24-tone equal temperament approximations. 1 koma = ~22.6 cents, 4 koma = ~90.2 cents (quarter tone). Actual performance practice may include additional microtonal nuances beyond these theoretical values. Each Dastgah includes numerous Gusheh (sub-modes) that aren't fully represented in the 16-note sequences."
+}

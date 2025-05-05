@@ -1,0 +1,837 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Indian Raga Collection",
+  "description": "A collection of traditional Hindustani classical ragas optimized for 16-step sequencing applications.",
+  "version": "1.0",
+  "reference": "Traditional Indian ragas with frequency calculations based on just intonation principles | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Hindustani Classical Ragas",
+      "collectionType": "indian",
+      "culturalOrigin": "North Indian Classical Tradition",
+      "description": "A selection of traditional ragas from the Hindustani classical music tradition of Northern India",
+      "modes": [
+        {
+          "name": "Bhimpalasi",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Romantic and introspective with afternoon serenity",
+          "chordTypes": ["Minor", "Minor 7th", "Minor 9th"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 302.27, "note": "kGa", "function": "Minor 3rd", "cents": 300, "comment": "komal Ga - Flat third degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 4, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 5, "frequency": 449.24, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 6, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 7, "frequency": 604.54, "note": "kGa", "function": "Minor 3rd octave", "cents": 1500, "comment": "komal Ga - Flat third degree octave"},
+            {"step": 8, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 9, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 10, "frequency": 898.48, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 11, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 12, "frequency": 1209.08, "note": "kGa", "function": "Minor 3rd 2 octaves", "cents": 2700, "comment": "komal Ga - Flat third degree 2 octaves"},
+            {"step": 13, "frequency": 1308.12, "note": "Ma", "function": "Perfect 4th 2 octaves", "cents": 2900, "comment": "Ma - Fourth degree 2 octaves"},
+            {"step": 14, "frequency": 1568.00, "note": "Pa", "function": "Perfect 5th 2 octaves", "cents": 3100, "comment": "Pa - Fifth degree 2 octaves"},
+            {"step": 15, "frequency": 1796.96, "note": "kNi", "function": "Minor 7th 2 octaves", "cents": 3400, "comment": "komal Ni - Flat seventh degree 2 octaves"},
+            {"step": 16, "frequency": 2093.00, "note": "Sa'''", "function": "Tonic 3 octaves", "cents": 3600, "comment": "Sa - 3 Octaves"}
+          ],
+          "voicingPattern": [1, 2, 4, 5],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Minor third, whole tone, whole tone, minor third, whole tone",
+            "signatureIntervals": ["Minor 3rd", "Perfect 4th", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Bhimpalasi is a melodious afternoon raga in Hindustani classical music that conveys a mood of introspection and romance. It has a distinctive pentatonic structure with the absence of Re (second) and Dha (sixth) degrees.",
+            "historicalContext": "A popular raga in the Hindustani classical tradition, performed during the afternoon hours and frequently used in light classical forms",
+            "usageExamples": "Afternoon concerts, light classical compositions like thumri and dadra, film music adaptations, fusion compositions"
+          }
+        },
+        {
+          "name": "Asavari",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Contemplative and serene with a sense of devotion",
+          "chordTypes": ["Minor", "Minor 7th", "Sus4"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 293.66, "note": "Re", "function": "Major 2nd", "cents": 200, "comment": "Re - Second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 4, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 5, "frequency": 411.61, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 6, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 7, "frequency": 587.33, "note": "Re", "function": "Major 2nd octave", "cents": 1400, "comment": "Re - Second degree octave"},
+            {"step": 8, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 9, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 10, "frequency": 823.22, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 11, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 12, "frequency": 1174.66, "note": "Re", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "Re - Second degree 2 octaves"},
+            {"step": 13, "frequency": 1308.12, "note": "Ma", "function": "Perfect 4th 2 octaves", "cents": 2900, "comment": "Ma - Fourth degree 2 octaves"},
+            {"step": 14, "frequency": 1568.00, "note": "Pa", "function": "Perfect 5th 2 octaves", "cents": 3100, "comment": "Pa - Fifth degree 2 octaves"},
+            {"step": 15, "frequency": 1646.44, "note": "kDha", "function": "Minor 6th 2 octaves", "cents": 3200, "comment": "komal Dha - Flat sixth degree 2 octaves"},
+            {"step": 16, "frequency": 2093.00, "note": "Sa'''", "function": "Tonic 3 octaves", "cents": 3600, "comment": "Sa - 3 Octaves"}
+          ],
+          "voicingPattern": [1, 3, 4, 5],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Whole tone, major third, whole tone, half tone, augmented fourth",
+            "signatureIntervals": ["Major 2nd", "Perfect 4th", "Perfect 5th", "Minor 6th"]
+          },
+          "metadata": {
+            "description": "Asavari is a pentatonic raga in Hindustani classical music that evokes a serene, contemplative mood. It is traditionally performed in the morning hours and is associated with devotional and introspective feelings.",
+            "historicalContext": "One of the traditional ragas of North Indian classical music with ancient origins, mentioned in historical treatises on Indian music",
+            "usageExamples": "Morning concerts, devotional compositions, meditative music, and alap (melodic improvisation) in Hindustani classical performances"
+          }
+        },
+        {
+          "name": "Bageshri",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Romantic and evocative with a sense of longing",
+          "chordTypes": ["Minor", "Minor 7th", "Minor 9th"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 302.27, "note": "kGa", "function": "Minor 3rd", "cents": 300, "comment": "komal Ga - Flat third degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 4, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 5, "frequency": 449.24, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 6, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 7, "frequency": 604.54, "note": "kGa", "function": "Minor 3rd octave", "cents": 1500, "comment": "komal Ga - Flat third degree octave"},
+            {"step": 8, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 9, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 10, "frequency": 898.48, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 11, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 12, "frequency": 1209.08, "note": "kGa", "function": "Minor 3rd 2 octaves", "cents": 2700, "comment": "komal Ga - Flat third degree 2 octaves"},
+            {"step": 13, "frequency": 1308.12, "note": "Ma", "function": "Perfect 4th 2 octaves", "cents": 2900, "comment": "Ma - Fourth degree 2 octaves"},
+            {"step": 14, "frequency": 1760.00, "note": "Dha", "function": "Major 6th 2 octaves", "cents": 3300, "comment": "Dha - Sixth degree 2 octaves"},
+            {"step": 15, "frequency": 1796.96, "note": "kNi", "function": "Minor 7th 2 octaves", "cents": 3400, "comment": "komal Ni - Flat seventh degree 2 octaves"},
+            {"step": 16, "frequency": 2093.00, "note": "Sa'''", "function": "Tonic 3 octaves", "cents": 3600, "comment": "Sa - 3 Octaves"}
+          ],
+          "voicingPattern": [1, 2, 4, 5],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Minor third, whole tone, augmented second, half tone, minor third",
+            "signatureIntervals": ["Minor 3rd", "Perfect 4th", "Major 6th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Bageshri is a popular late evening raga in Hindustani classical music that evokes romantic feelings and a sense of longing. It is especially effective in expressing the emotions of anticipation and yearning.",
+            "historicalContext": "A raga with historical significance in Hindustani classical tradition, often featured in vocal compositions and instrumental performances",
+            "usageExamples": "Late evening concerts, romantic compositions, khayal singing, instrumental alap exploration"
+          }
+        },
+        {
+          "name": "Bhairav",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Profound and meditative with a sense of divine awe",
+          "chordTypes": ["Diminished", "Augmented", "Half-diminished"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 274.69, "note": "kRe", "function": "Minor 2nd", "cents": 100, "comment": "komal Re - Flat second degree"},
+            {"step": 3, "frequency": 290.24, "note": "kGa", "function": "Minor 3rd", "cents": 300, "comment": "komal Ga - Flat third degree"},
+            {"step": 4, "frequency": 348.83, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 411.61, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 7, "frequency": 435.01, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 549.38, "note": "kRe", "function": "Minor 2nd octave", "cents": 1300, "comment": "komal Re - Flat second degree octave"},
+            {"step": 10, "frequency": 580.48, "note": "kGa", "function": "Minor 3rd octave", "cents": 1500, "comment": "komal Ga - Flat third degree octave"},
+            {"step": 11, "frequency": 697.66, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 823.22, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 14, "frequency": 870.02, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1098.76, "note": "kRe", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "komal Re - Flat second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 2, 4, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Half tone, whole tone, augmented second, half tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 2nd", "Minor 3rd", "Augmented 4th", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Bhairav is one of the most ancient and revered ragas in Hindustani classical music, associated with Lord Shiva in his terrible form. It evokes a profound, meditative mood and is traditionally performed during the first quarter of the day (early morning).",
+            "historicalContext": "One of the fundamental ragas in the Hindustani system, with origins dating back thousands of years in sacred music traditions",
+            "usageExamples": "Dawn performances, spiritual and devotional music, serious classical recitals, extended alap sections"
+          }
+        },
+        {
+          "name": "Bhairavi",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Profound and devotional with melancholic undertones",
+          "chordTypes": ["Minor", "Minor 7th flat 5", "Half-diminished"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 274.69, "note": "kRe", "function": "Minor 2nd", "cents": 100, "comment": "komal Re - Flat second degree"},
+            {"step": 3, "frequency": 302.27, "note": "kGa", "function": "Minor 3rd", "cents": 300, "comment": "komal Ga - Flat third degree"},
+            {"step": 4, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 411.61, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 7, "frequency": 449.24, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 549.38, "note": "kRe", "function": "Minor 2nd octave", "cents": 1300, "comment": "komal Re - Flat second degree octave"},
+            {"step": 10, "frequency": 604.54, "note": "kGa", "function": "Minor 3rd octave", "cents": 1500, "comment": "komal Ga - Flat third degree octave"},
+            {"step": 11, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 823.22, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 14, "frequency": 898.48, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1098.76, "note": "kRe", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "komal Re - Flat second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Half tone, whole tone, half tone, whole tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 2nd", "Minor 3rd", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Bhairavi is one of the most important ragas in Hindustani classical music, often used to conclude concerts. It has a profound emotional quality, evoking feelings of devotion and peaceful melancholy.",
+            "historicalContext": "Considered the 'queen of ragas' in the Hindustani tradition, with a history spanning centuries in Indian classical music",
+            "usageExamples": "Traditional morning performances, concluding pieces in concerts, devotional music, thumri semi-classical compositions"
+          }
+        },
+        {
+          "name": "Bilawal",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Pure, bright and auspicious with morning freshness",
+          "chordTypes": ["Major", "Major 7th", "Major 9th"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 293.66, "note": "Re", "function": "Major 2nd", "cents": 200, "comment": "Re - Second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 4, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 7, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 587.33, "note": "Re", "function": "Major 2nd octave", "cents": 1400, "comment": "Re - Second degree octave"},
+            {"step": 10, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 11, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 14, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "Re", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "Re - Second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 8],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Whole tone, whole tone, half tone, whole tone, whole tone, whole tone, half tone",
+            "signatureIntervals": ["Major 3rd", "Perfect 5th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Bilawal is considered the most fundamental raga in North Indian classical music, equivalent to the Western major scale. It has a pure, bright quality and is traditionally performed in the morning hours.",
+            "historicalContext": "Regarded as the fundamental 'shuddha' (pure) scale in Hindustani classical music, from which many other ragas are derived",
+            "usageExamples": "Morning concerts, devotional compositions, auspicious occasions, teaching basic principles of Hindustani music"
+          }
+        },
+        {
+          "name": "Darbari Kanada",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Profound, serious and majestic with royal dignity",
+          "chordTypes": ["Minor", "Minor 9th", "Half-diminished"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 293.66, "note": "Re", "function": "Major 2nd", "cents": 200, "comment": "Re - Second degree"},
+            {"step": 3, "frequency": 313.95, "note": "kGa", "function": "Minor 3rd", "cents": 300, "comment": "komal Ga - Flat third degree"},
+            {"step": 4, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 422.45, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 7, "frequency": 462.25, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 587.33, "note": "Re", "function": "Major 2nd octave", "cents": 1400, "comment": "Re - Second degree octave"},
+            {"step": 10, "frequency": 627.90, "note": "kGa", "function": "Minor 3rd octave", "cents": 1500, "comment": "komal Ga - Flat third degree octave"},
+            {"step": 11, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 844.90, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 14, "frequency": 924.50, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "Re", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "Re - Second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Whole tone, half tone, whole tone, whole tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 3rd", "Perfect 5th", "Minor 6th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Darbari Kanada is one of the most majestic and profound ragas in Hindustani classical music, traditionally associated with royal courts. It has a serious, dignified character and is performed in the late evening hours.",
+            "historicalContext": "Said to have been created or refined by Miyan Tansen for Emperor Akbar's court in the 16th century, representing the height of classical refinement",
+            "usageExamples": "Late night concerts, serious classical recitals, extended alap sections, showcases of technical mastery in vocal and instrumental performance"
+          }
+        },
+        {
+          "name": "Hindol",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Bold and majestic with a sense of grandeur",
+          "chordTypes": ["Major", "Add9", "Suspended 4th"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 3, "frequency": 392.00, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 4, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 5, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 6, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 7, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 8, "frequency": 784.00, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 9, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 10, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 11, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 12, "frequency": 1308.12, "note": "Ga", "function": "Major 3rd 2 octaves", "cents": 2800, "comment": "Ga - Third degree 2 octaves"},
+            {"step": 13, "frequency": 1568.00, "note": "tMa", "function": "Augmented 4th 2 octaves", "cents": 3000, "comment": "tivra Ma - Sharp fourth degree 2 octaves"},
+            {"step": 14, "frequency": 1760.00, "note": "Dha", "function": "Major 6th 2 octaves", "cents": 3300, "comment": "Dha - Sixth degree 2 octaves"},
+            {"step": 15, "frequency": 2004.28, "note": "Ni", "function": "Major 7th 2 octaves", "cents": 3500, "comment": "Ni - Seventh degree 2 octaves"},
+            {"step": 16, "frequency": 2093.00, "note": "Sa'''", "function": "Tonic 3 octaves", "cents": 3600, "comment": "Sa - 3 Octaves"}
+          ],
+          "voicingPattern": [1, 2, 4, 5],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Major third, whole tone, minor third, whole tone, whole tone",
+            "signatureIntervals": ["Major 3rd", "Augmented 4th", "Major 6th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Hindol is a bold and majestic pentatonic raga in Hindustani classical music, associated with spring season (vasant). It has a distinctive structure that creates a sense of grandeur and color.",
+            "historicalContext": "One of the ancient ragas in Indian classical music, traditionally associated with springtime and featured in paintings and poetry",
+            "usageExamples": "Spring festival performances, morning concerts, evocative instrumental pieces, depictions of heroic or majestic themes"
+          }
+        },
+        {
+          "name": "Kafi",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Light, romantic and versatile with gentle contemplation",
+          "chordTypes": ["Minor", "Minor 7th", "Minor 9th"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 293.66, "note": "Re", "function": "Major 2nd", "cents": 200, "comment": "Re - Second degree"},
+            {"step": 3, "frequency": 302.27, "note": "kGa", "function": "Minor 3rd", "cents": 300, "comment": "komal Ga - Flat third degree"},
+            {"step": 4, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 7, "frequency": 449.24, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 587.33, "note": "Re", "function": "Major 2nd octave", "cents": 1400, "comment": "Re - Second degree octave"},
+            {"step": 10, "frequency": 604.54, "note": "kGa", "function": "Minor 3rd octave", "cents": 1500, "comment": "komal Ga - Flat third degree octave"},
+            {"step": 11, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 14, "frequency": 898.48, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "Re", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "Re - Second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 6],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Whole tone, half tone, whole tone, whole tone, whole tone, half tone, whole tone",
+            "signatureIntervals": ["Minor 3rd", "Perfect 5th", "Major 6th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Kafi is a versatile and popular raga in Hindustani classical music with a gentle, contemplative character. It is the foundation for many folk songs and light classical compositions due to its adaptable melodic structure.",
+            "historicalContext": "One of the ten fundamental 'thaat' scales in Hindustani music theory, with influences from folk music traditions",
+            "usageExamples": "Semi-classical forms like thumri and dadra, bhajans (devotional songs), folk adaptations, evening performances"
+          }
+        },
+        {
+          "name": "Kedar",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Serene and devotional with calm dignity",
+          "chordTypes": ["Major", "Lydian", "Major 6th"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 392.00, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 4, "frequency": 392.00, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 7, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 784.00, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 10, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 11, "frequency": 784.00, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 14, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1568.00, "note": "tMa", "function": "Augmented 4th 2 octaves", "cents": 3000, "comment": "tivra Ma - Sharp fourth degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 6],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Major third, whole tone, half tone, whole tone, whole tone, whole tone, half tone",
+            "signatureIntervals": ["Major 3rd", "Augmented 4th", "Perfect 5th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Kedar is a serene and devotional raga in Hindustani classical music with a distinctive phrasing that emphasizes the tivra Ma (augmented 4th). It has a dignified, contemplative character and is traditionally performed in the late evening.",
+            "historicalContext": "Named after Lord Shiva (also known as Kedarnath), this raga has deep spiritual connotations in Indian classical tradition",
+            "usageExamples": "Evening concerts, devotional compositions, meditative instrumental performances, spiritual gatherings"
+          }
+        },
+        {
+          "name": "Khamaj",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Playful and romantic with light expressiveness",
+          "chordTypes": ["Major", "Dominant 7th", "Add9"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 293.66, "note": "Re", "function": "Major 2nd", "cents": 200, "comment": "Re - Second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 4, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 7, "frequency": 449.24, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 587.33, "note": "Re", "function": "Major 2nd octave", "cents": 1400, "comment": "Re - Second degree octave"},
+            {"step": 10, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 11, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 14, "frequency": 898.48, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "Re", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "Re - Second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Whole tone, whole tone, half tone, whole tone, whole tone, half tone, whole tone",
+            "signatureIntervals": ["Major 3rd", "Perfect 5th", "Major 6th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Khamaj is a bright and romantic raga in Hindustani classical music that evokes a playful, light mood. Its dominant 7th quality makes it popular for semi-classical and lighter forms of music.",
+            "historicalContext": "One of the ten fundamental thaats (parent scales) in Hindustani music, with significant influence on popular and folk music forms",
+            "usageExamples": "Light classical compositions, thumri, dadra, ghazal, bhajan, and evening concerts"
+          }
+        },
+        {
+          "name": "Lalit",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Profound and mystical with dawn serenity",
+          "chordTypes": ["Augmented", "Diminished", "Altered Dominant"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 274.69, "note": "kRe", "function": "Minor 2nd", "cents": 100, "comment": "komal Re - Flat second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 4, "frequency": 370.37, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 5, "frequency": 411.61, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 6, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 7, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 8, "frequency": 549.38, "note": "kRe", "function": "Minor 2nd octave", "cents": 1300, "comment": "komal Re - Flat second degree octave"},
+            {"step": 9, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 10, "frequency": 740.74, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 11, "frequency": 823.22, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 12, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 13, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 14, "frequency": 1098.76, "note": "kRe", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "komal Re - Flat second degree 2 octaves"},
+            {"step": 15, "frequency": 1308.12, "note": "Ga", "function": "Major 3rd 2 octaves", "cents": 2800, "comment": "Ga - Third degree 2 octaves"},
+            {"step": 16, "frequency": 1481.48, "note": "tMa", "function": "Augmented 4th 2 octaves", "cents": 3000, "comment": "tivra Ma - Sharp fourth degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 4, 6],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Half tone, minor third, whole tone, whole tone, augmented second, half tone, half tone",
+            "signatureIntervals": ["Minor 2nd", "Major 3rd", "Augmented 4th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Lalit is a mystical pre-dawn raga in Hindustani classical music with a distinctive combination of minor and major intervals. Its unusual structure creates a meditative atmosphere associated with the twilight hours before sunrise.",
+            "historicalContext": "A specialized raga traditionally performed in the early morning hours before sunrise (4-6 AM), considered auspicious for spiritual practice",
+            "usageExamples": "Pre-dawn concerts, devotional music, meditative instrumentals, spiritual gatherings at dawn"
+          }
+        },
+        {
+          "name": "Malkauns",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Profound and intense with a mystical quality",
+          "chordTypes": ["Minor", "Minor 7th flat 5", "Half-diminished"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 302.27, "note": "kGa", "function": "Minor 3rd", "cents": 300, "comment": "komal Ga - Flat third degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 4, "frequency": 425.32, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 5, "frequency": 449.24, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 6, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 7, "frequency": 604.54, "note": "kGa", "function": "Minor 3rd octave", "cents": 1500, "comment": "komal Ga - Flat third degree octave"},
+            {"step": 8, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 9, "frequency": 850.64, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 10, "frequency": 898.48, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 11, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 12, "frequency": 1209.08, "note": "kGa", "function": "Minor 3rd 2 octaves", "cents": 2700, "comment": "komal Ga - Flat third degree 2 octaves"},
+            {"step": 13, "frequency": 1308.12, "note": "Ma", "function": "Perfect 4th 2 octaves", "cents": 2900, "comment": "Ma - Fourth degree 2 octaves"},
+            {"step": 14, "frequency": 1701.28, "note": "kDha", "function": "Minor 6th 2 octaves", "cents": 3200, "comment": "komal Dha - Flat sixth degree 2 octaves"},
+            {"step": 15, "frequency": 1796.96, "note": "kNi", "function": "Minor 7th 2 octaves", "cents": 3400, "comment": "komal Ni - Flat seventh degree 2 octaves"},
+            {"step": 16, "frequency": 2093.00, "note": "Sa'''", "function": "Tonic 3 octaves", "cents": 3600, "comment": "Sa - 3 Octaves"}
+          ],
+          "voicingPattern": [1, 2, 3, 5],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Minor third, whole tone, minor third, whole tone, minor third",
+            "signatureIntervals": ["Minor 3rd", "Perfect 4th", "Minor 6th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Malkauns is one of the most profound pentatonic ragas in Hindustani classical music, characterized by its intense, serious mood. All non-tonic notes are flattened, creating a distinctive dark quality and meditative atmosphere.",
+            "historicalContext": "An ancient raga with mythological associations to Lord Shiva and the ability to create supernatural effects when properly performed",
+            "usageExamples": "Late night concerts, extended alap (improvisation), serious classical performances, spiritual contexts"
+          }
+        },
+        {
+          "name": "Marwa",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 6,
+          "character": "Serious and profound with sunset solemnity",
+          "chordTypes": ["Augmented", "Lydian Augmented", "Altered Dominant"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 282.11, "note": "kRe", "function": "Minor 2nd", "cents": 100, "comment": "komal Re - Flat second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 4, "frequency": 392.00, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 5, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 6, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 7, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 8, "frequency": 564.22, "note": "kRe", "function": "Minor 2nd octave", "cents": 1300, "comment": "komal Re - Flat second degree octave"},
+            {"step": 9, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 10, "frequency": 784.00, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 11, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 12, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 13, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 14, "frequency": 1128.44, "note": "kRe", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "komal Re - Flat second degree 2 octaves"},
+            {"step": 15, "frequency": 1308.12, "note": "Ga", "function": "Major 3rd 2 octaves", "cents": 2800, "comment": "Ga - Third degree 2 octaves"},
+            {"step": 16, "frequency": 1568.00, "note": "tMa", "function": "Augmented 4th 2 octaves", "cents": 3000, "comment": "tivra Ma - Sharp fourth degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 4, 6],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Half tone, major third, whole tone, minor third, whole tone, half tone",
+            "signatureIntervals": ["Minor 2nd", "Major 3rd", "Augmented 4th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Marwa is a profound and austere raga in Hindustani classical music that omits the perfect fifth (Pa) and creates a distinctive tension through its augmented fourth. Traditionally performed during sunset, it evokes a serious, contemplative mood.",
+            "historicalContext": "An ancient raga considered difficult to master, with historical significance in the court traditions of North Indian classical music",
+            "usageExamples": "Sunset performances, serious classical concerts, extended alap sections, advanced demonstration pieces"
+          }
+        },
+        {
+          "name": "Miyan Ki Malhar",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Expansive and majestic with monsoon imagery",
+          "chordTypes": ["Minor Major 7th", "Sus4", "Add9"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 293.66, "note": "Re", "function": "Major 2nd", "cents": 200, "comment": "Re - Second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ma", "function": "Perfect 4th", "cents": 500, "comment": "Ma - Fourth degree"},
+            {"step": 4, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 5, "frequency": 449.24, "note": "kNi", "function": "Minor 7th", "cents": 1000, "comment": "komal Ni - Flat seventh degree"},
+            {"step": 6, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 7, "frequency": 587.33, "note": "Re", "function": "Major 2nd octave", "cents": 1400, "comment": "Re - Second degree octave"},
+            {"step": 8, "frequency": 654.06, "note": "Ma", "function": "Perfect 4th octave", "cents": 1700, "comment": "Ma - Fourth degree octave"},
+            {"step": 9, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 10, "frequency": 898.48, "note": "kNi", "function": "Minor 7th octave", "cents": 2200, "comment": "komal Ni - Flat seventh degree octave"},
+            {"step": 11, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 12, "frequency": 1174.66, "note": "Re", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "Re - Second degree 2 octaves"},
+            {"step": 13, "frequency": 1308.12, "note": "Ma", "function": "Perfect 4th 2 octaves", "cents": 2900, "comment": "Ma - Fourth degree 2 octaves"},
+            {"step": 14, "frequency": 1568.00, "note": "Pa", "function": "Perfect 5th 2 octaves", "cents": 3100, "comment": "Pa - Fifth degree 2 octaves"},
+            {"step": 15, "frequency": 1796.96, "note": "kNi", "function": "Minor 7th 2 octaves", "cents": 3400, "comment": "komal Ni - Flat seventh degree 2 octaves"},
+            {"step": 16, "frequency": 2093.00, "note": "Sa'''", "function": "Tonic 3 octaves", "cents": 3600, "comment": "Sa - 3 Octaves"}
+          ],
+          "voicingPattern": [1, 2, 3, 4],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Whole tone, minor third, whole tone, minor third, whole tone",
+            "signatureIntervals": ["Major 2nd", "Perfect 4th", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Miyan Ki Malhar is a celebrated monsoon raga in Hindustani classical music, renowned for its ability to evoke the mood of the rainy season. It has a distinctive structure that creates the atmosphere of clouds gathering and rainfall.",
+            "historicalContext": "Attributed to Miyan Tansen, the legendary musician in Emperor Akbar's court (16th century), with many stories of its magical power to bring rainfall",
+            "usageExamples": "Monsoon season concerts, evocative nature portrayals, classical vocal performances with complex ornamentations"
+          }
+        },
+        {
+          "name": "Purvi",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Serious and contemplative with evening serenity",
+          "chordTypes": ["Augmented", "Altered Dominant", "Lydian #5"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 274.69, "note": "kRe", "function": "Minor 2nd", "cents": 100, "comment": "komal Re - Flat second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 4, "frequency": 370.37, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 411.61, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 7, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 549.38, "note": "kRe", "function": "Minor 2nd octave", "cents": 1300, "comment": "komal Re - Flat second degree octave"},
+            {"step": 10, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 11, "frequency": 740.74, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 823.22, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 14, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1098.76, "note": "kRe", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "komal Re - Flat second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 4, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Half tone, augmented second, whole tone, half tone, half tone, augmented second, half tone",
+            "signatureIntervals": ["Minor 2nd", "Major 3rd", "Augmented 4th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Purvi is a profound evening raga in Hindustani classical music with a complex structure that includes both the augmented fourth and major seventh. It creates a serious, contemplative atmosphere ideal for the early evening hours.",
+            "historicalContext": "One of the important ragas in the Purvi thaat family, traditionally performed during the early evening transitional hours",
+            "usageExamples": "Early evening concerts, serious classical recitals, extended instrumental explorations, spiritual gatherings"
+          }
+        },
+        {
+          "name": "Shri",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Serene and majestic with dignified expressiveness",
+          "chordTypes": ["Suspended", "Augmented", "Lydian"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 274.69, "note": "kRe", "function": "Minor 2nd", "cents": 100, "comment": "komal Re - Flat second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 4, "frequency": 370.37, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 411.61, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 7, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 549.38, "note": "kRe", "function": "Minor 2nd octave", "cents": 1300, "comment": "komal Re - Flat second degree octave"},
+            {"step": 10, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 11, "frequency": 740.74, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 823.22, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 14, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1098.76, "note": "kRe", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "komal Re - Flat second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Half tone, major third, whole tone, half tone, half tone, augmented second, half tone",
+            "signatureIntervals": ["Minor 2nd", "Major 3rd", "Perfect 5th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Shri is a dignified and serene raga in Hindustani classical music that creates a majestic, expansive atmosphere. Its distinctive slow phrases and carefully articulated notes evoke a feeling of reverence and grandeur.",
+            "historicalContext": "Named after the honorific 'Shri' (indicating respect), this raga has ancient origins and is associated with auspicious occasions and divine qualities",
+            "usageExamples": "Afternoon concerts, serious classical performances, devotional contexts, auspicious ceremonial occasions"
+          }
+        },
+        {
+          "name": "Sohini",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Vibrant and bright with pre-dawn expectancy",
+          "chordTypes": ["Major", "Lydian", "Augmented"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 3, "frequency": 392.00, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 4, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 5, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 6, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 7, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 8, "frequency": 784.00, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 9, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 10, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 11, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 12, "frequency": 1308.12, "note": "Ga", "function": "Major 3rd 2 octaves", "cents": 2800, "comment": "Ga - Third degree 2 octaves"},
+            {"step": 13, "frequency": 1568.00, "note": "tMa", "function": "Augmented 4th 2 octaves", "cents": 3000, "comment": "tivra Ma - Sharp fourth degree 2 octaves"},
+            {"step": 14, "frequency": 1760.00, "note": "Dha", "function": "Major 6th 2 octaves", "cents": 3300, "comment": "Dha - Sixth degree 2 octaves"},
+            {"step": 15, "frequency": 2004.28, "note": "Ni", "function": "Major 7th 2 octaves", "cents": 3500, "comment": "Ni - Seventh degree 2 octaves"},
+            {"step": 16, "frequency": 2093.00, "note": "Sa'''", "function": "Tonic 3 octaves", "cents": 3600, "comment": "Sa - 3 Octaves"}
+          ],
+          "voicingPattern": [1, 2, 3, 5],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Major third, whole tone, minor third, whole tone, whole tone",
+            "signatureIntervals": ["Major 3rd", "Augmented 4th", "Major 6th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Sohini is a vibrant and bright pentatonic raga in Hindustani classical music traditionally performed in the pre-dawn hours. It has a distinctive uplifting character with a bright, expectant quality.",
+            "historicalContext": "Associated with the early morning hours before sunrise, often paired with other morning ragas in traditional performances",
+            "usageExamples": "Pre-dawn concerts, end-of-night performances, spiritual gatherings at daybreak, morning invocations"
+          }
+        },
+        {
+          "name": "Todi",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Profound and meditative with serious intensity",
+          "chordTypes": ["Half-diminished", "Minor Major 7th", "Augmented"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 282.11, "note": "kRe", "function": "Minor 2nd", "cents": 100, "comment": "komal Re - Flat second degree"},
+            {"step": 3, "frequency": 313.95, "note": "kGa", "function": "Minor 3rd", "cents": 300, "comment": "komal Ga - Flat third degree"},
+            {"step": 4, "frequency": 359.46, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 422.45, "note": "kDha", "function": "Minor 6th", "cents": 800, "comment": "komal Dha - Flat sixth degree"},
+            {"step": 7, "frequency": 493.88, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 564.22, "note": "kRe", "function": "Minor 2nd octave", "cents": 1300, "comment": "komal Re - Flat second degree octave"},
+            {"step": 10, "frequency": 627.90, "note": "kGa", "function": "Minor 3rd octave", "cents": 1500, "comment": "komal Ga - Flat third degree octave"},
+            {"step": 11, "frequency": 718.92, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 844.90, "note": "kDha", "function": "Minor 6th octave", "cents": 2000, "comment": "komal Dha - Flat sixth degree octave"},
+            {"step": 14, "frequency": 987.76, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1128.44, "note": "kRe", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "komal Re - Flat second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Half tone, whole tone, augmented second, half tone, half tone, augmented second, half tone",
+            "signatureIntervals": ["Minor 2nd", "Minor 3rd", "Augmented 4th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Todi is considered one of the most complex and profound ragas in Hindustani classical music. Its unique combination of flattened and augmented notes creates a deeply meditative, serious atmosphere that requires intense concentration.",
+            "historicalContext": "One of the oldest and most revered ragas, with complex rules for performance and a distinguished position in morning concerts",
+            "usageExamples": "Late morning concerts, serious classical recitals, meditative performances, demonstrations of musical mastery"
+          }
+        },
+        {
+          "name": "Yaman",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hindustani Classical",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Serene and peaceful with evening tranquility",
+          "chordTypes": ["Major", "Lydian", "Major 9th"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "Sa", "function": "Tonic", "cents": 0, "comment": "Sa - Foundation note"},
+            {"step": 2, "frequency": 293.66, "note": "Re", "function": "Major 2nd", "cents": 200, "comment": "Re - Second degree"},
+            {"step": 3, "frequency": 327.03, "note": "Ga", "function": "Major 3rd", "cents": 400, "comment": "Ga - Third degree"},
+            {"step": 4, "frequency": 392.00, "note": "tMa", "function": "Augmented 4th", "cents": 600, "comment": "tivra Ma - Sharp fourth degree"},
+            {"step": 5, "frequency": 392.00, "note": "Pa", "function": "Perfect 5th", "cents": 700, "comment": "Pa - Fifth degree"},
+            {"step": 6, "frequency": 440.00, "note": "Dha", "function": "Major 6th", "cents": 900, "comment": "Dha - Sixth degree"},
+            {"step": 7, "frequency": 501.07, "note": "Ni", "function": "Major 7th", "cents": 1100, "comment": "Ni - Seventh degree"},
+            {"step": 8, "frequency": 523.25, "note": "Sa'", "function": "Tonic octave", "cents": 1200, "comment": "Sa - Octave"},
+            {"step": 9, "frequency": 587.33, "note": "Re", "function": "Major 2nd octave", "cents": 1400, "comment": "Re - Second degree octave"},
+            {"step": 10, "frequency": 654.06, "note": "Ga", "function": "Major 3rd octave", "cents": 1600, "comment": "Ga - Third degree octave"},
+            {"step": 11, "frequency": 784.00, "note": "tMa", "function": "Augmented 4th octave", "cents": 1800, "comment": "tivra Ma - Sharp fourth degree octave"},
+            {"step": 12, "frequency": 784.00, "note": "Pa", "function": "Perfect 5th octave", "cents": 1900, "comment": "Pa - Fifth degree octave"},
+            {"step": 13, "frequency": 880.00, "note": "Dha", "function": "Major 6th octave", "cents": 2100, "comment": "Dha - Sixth degree octave"},
+            {"step": 14, "frequency": 1002.14, "note": "Ni", "function": "Major 7th octave", "cents": 2300, "comment": "Ni - Seventh degree octave"},
+            {"step": 15, "frequency": 1046.50, "note": "Sa''", "function": "Tonic 2 octaves", "cents": 2400, "comment": "Sa - 2 Octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "Re", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "Re - Second degree 2 octaves"}
+          ],
+          "voicingPattern": [1, 3, 4, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Just intonation approximated in equal temperament",
+            "intervalStructure": "Whole tone, whole tone, whole tone, half tone, whole tone, whole tone, half tone",
+            "signatureIntervals": ["Major 3rd", "Augmented 4th", "Major 6th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Yaman (also known as Kalyan) is one of the most important and fundamental ragas in Hindustani classical music. Its tranquil, serene character makes it ideal for evening performances, and it is often one of the first ragas taught to students.",
+            "historicalContext": "One of the principal ragas of the Kalyan thaat, traditionally performed during the early evening hours at sunset",
+            "usageExamples": "Evening concerts, teaching basic principles of Hindustani music, devotional music, serene instrumental performances"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Indian ragas use subtle microtonal inflections called 'shrutis' that aren't captured in equal temperament. These intervals create the distinctive emotional resonance of each raga.",
+      "rhythmic_features": "Raga performances typically progress through structured rhythmic cycles called 'talas' which vary in length and complexity, creating distinctive rhythmic frameworks.",
+      "ornamentation": "Traditional performance includes various ornamentations such as meend (glides), kan (grace notes), andolan (oscillations), and gamak (heavy oscillations) that are essential to the raga's character.",
+      "instrumentation": "Traditionally performed on instruments like sitar, sarod, santoor, bansuri (flute), and tabla, with vocal performances being highly regarded in the classical tradition."
+    }
+  }
+}
