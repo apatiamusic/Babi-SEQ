@@ -1,0 +1,237 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Indonesian Gamelan Scales Collection",
+  "description": "Traditional Javanese and Balinese gamelan scales optimized for 16-step sequencing applications, with authentic tuning relationships.",
+  "version": "1.0",
+  "reference": "Traditional Javanese and Balinese gamelan scales with authentic tuning relationships | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Indonesian Gamelan Scales",
+      "collectionType": "gamelan",
+      "culturalOrigin": "Indonesian (Javanese and Balinese)",
+      "description": "Traditional Indonesian Gamelan scales featuring the distinctive non-Western tuning systems used in traditional Indonesian orchestral music",
+      "modes": [
+        {
+          "name": "Pelog 1 (Bem)",
+          "fundamentalNote": "B",
+          "fundamentalFrequency":240,
+          "parentScale": "Pelog",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Solemn and majestic with ceremonial gravity",
+          "chordTypes": ["Pentatonic clusters", "Layered fifths", "Heterophonic textures"],
+          "steps": [
+            {"step": 1, "frequency": 240.0, "note": "Bem", "function": "Tonic", "cents": 0, "comment": "Emphasized lowest tone"},
+            {"step": 2, "frequency": 280.0, "note": "Gulu", "function": "Second", "cents": 267, "comment": "4/3 ratio from bem"},
+            {"step": 3, "frequency": 320.0, "note": "Dada", "function": "Third", "cents": 498, "comment": "Neutral middle tone"},
+            {"step": 4, "frequency": 360.0, "note": "Pelog", "function": "Fourth", "cents": 702, "comment": "Scale namesake"},
+            {"step": 5, "frequency": 420.0, "note": "Lima", "function": "Fifth", "cents": 968, "comment": "Fifth tone"},
+            {"step": 6, "frequency": 480.0, "note": "Nem", "function": "Sixth", "cents": 1200, "comment": "High tension tone"},
+            {"step": 7, "frequency": 540.0, "note": "Barang", "function": "Seventh", "cents": 1405, "comment": "Bright high tone"},
+            {"step": 8, "frequency": 480.0, "note": "Nem", "function": "Sixth descending", "cents": 1200, "comment": "Descending sequence"},
+            {"step": 9, "frequency": 420.0, "note": "Lima", "function": "Fifth descending", "cents": 968, "comment": "Mirror point"},
+            {"step": 10, "frequency": 360.0, "note": "Pelog", "function": "Fourth descending", "cents": 702, "comment": "Center of gravity"},
+            {"step": 11, "frequency": 320.0, "note": "Dada", "function": "Third descending", "cents": 498, "comment": "Balancing tone"},
+            {"step": 12, "frequency": 280.0, "note": "Gulu", "function": "Second descending", "cents": 267, "comment": "Approaching resolution"},
+            {"step": 13, "frequency": 240.0, "note": "Bem", "function": "Tonic return", "cents": 0, "comment": "Tonic return"},
+            {"step": 14, "frequency": 280.0, "note": "Gulu", "function": "Second ascending", "cents": 267, "comment": "Cyclic movement"},
+            {"step": 15, "frequency": 320.0, "note": "Dada", "function": "Third ascending", "cents": 498, "comment": "Preparation"},
+            {"step": 16, "frequency": 360.0, "note": "Pelog", "function": "Fourth ascending", "cents": 702, "comment": "Suspended ending"}
+          ],
+          "voicingPattern": [1, 5, 9, 13],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Non-equal temperament with stretched octaves",
+            "intervalStructure": "Unequal intervals with specific cultural intonation",
+            "signatureIntervals": ["Pelog fifth (≈968 cents)", "Stretched octave (≈1200+ cents)", "Bem-Gulu (≈267 cents)"]
+          },
+          "metadata": {
+            "description": "Pelog 1 (Bem) is a seven-tone scale from Javanese gamelan music with a solemn, majestic character, typically used for ceremonial and serious compositions. The Pelog system features unequal intervals with specific cultural tuning that differs substantially from Western equal temperament.",
+            "historicalContext": "Central to traditional Javanese court gamelan ensembles (karawitan) for centuries, with regional variations across Central and East Java",
+            "usageExamples": "Ceremonial court music, wayang kulit shadow puppet performances, formal compositions for full gamelan ensembles, dance accompaniment"
+          }
+        },
+        {
+          "name": "Pelog 2 (Barang)",
+          "fundamentalNote": "Bb",
+          "fundamentalFrequency":230,
+          "parentScale": "Pelog",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Bright and vibrant with ethereal quality",
+          "chordTypes": ["Pentatonic clusters", "Layered fourths", "Heterophonic textures"],
+          "steps": [
+            {"step": 1, "frequency": 230.0, "note": "Bem", "function": "Tonic", "cents": 0, "comment": "Lowered tonic"},
+            {"step": 2, "frequency": 270.0, "note": "Gulu", "function": "Second", "cents": 278, "comment": "Brightened 2nd"},
+            {"step": 3, "frequency": 310.0, "note": "Dada", "function": "Third", "cents": 516, "comment": "Raised neutral"},
+            {"step": 4, "frequency": 350.0, "note": "Pelog", "function": "Fourth", "cents": 728, "comment": "Higher center"},
+            {"step": 5, "frequency": 410.0, "note": "Lima", "function": "Fifth", "cents": 986, "comment": "Dominant 5th"},
+            {"step": 6, "frequency": 470.0, "note": "Nem", "function": "Sixth", "cents": 1218, "comment": "Smooth high"},
+            {"step": 7, "frequency": 530.0, "note": "Barang", "function": "Seventh", "cents": 1432, "comment": "Emphasized peak"},
+            {"step": 8, "frequency": 470.0, "note": "Nem", "function": "Sixth descending", "cents": 1218, "comment": "Step descent"},
+            {"step": 9, "frequency": 410.0, "note": "Lima", "function": "Fifth descending", "cents": 986, "comment": "Structural tone"},
+            {"step": 10, "frequency": 350.0, "note": "Pelog", "function": "Fourth descending", "cents": 728, "comment": "Central axis"},
+            {"step": 11, "frequency": 310.0, "note": "Dada", "function": "Third descending", "cents": 516, "comment": "Approach tone"},
+            {"step": 12, "frequency": 270.0, "note": "Gulu", "function": "Second descending", "cents": 278, "comment": "Leading motion"},
+            {"step": 13, "frequency": 230.0, "note": "Bem", "function": "Tonic return", "cents": 0, "comment": "Grounded return"},
+            {"step": 14, "frequency": 270.0, "note": "Gulu", "function": "Second ascending", "cents": 278, "comment": "Upward motion"},
+            {"step": 15, "frequency": 310.0, "note": "Dada", "function": "Third ascending", "cents": 516, "comment": "Suspension"},
+            {"step": 16, "frequency": 350.0, "note": "Pelog", "function": "Fourth ascending", "cents": 728, "comment": "Open ending"}
+          ],
+          "voicingPattern": [1, 6, 11, 16],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Non-equal temperament with stretched octaves",
+            "intervalStructure": "Unequal intervals with specific cultural intonation",
+            "signatureIntervals": ["Barang emphasis (≈1432 cents)", "Stretched octave (≈1218 cents)", "Bem-Gulu (≈278 cents)"]
+          },
+          "metadata": {
+            "description": "Pelog 2 (Barang) is a brighter, more ethereal variant of the seven-tone Pelog scale, with emphasis on the high Barang tone creating a more vibrant, celestial character. This pathet (mode) within the Pelog system highlights different tonal centers and emotional qualities.",
+            "historicalContext": "Developed within Javanese court traditions and used for specific ceremonial functions and times of day, often associated with youthful or divine themes",
+            "usageExamples": "Court dances, sacred ceremonies, compositions evoking divine or celestial themes, morning performances"
+          }
+        },
+        {
+          "name": "Slendro 1 (Manyura)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":260,
+          "parentScale": "Slendro",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Bright, lively with balanced energy",
+          "chordTypes": ["Pentatonic clusters", "Open fifths", "Stacked fourths"],
+          "steps": [
+            {"step": 1, "frequency": 260.0, "note": "Manyura", "function": "Tonic", "cents": 0, "comment": "Bright tonic"},
+            {"step": 2, "frequency": 310.0, "note": "Gulu", "function": "Second", "cents": 304, "comment": "Ascending 2nd"},
+            {"step": 3, "frequency": 370.0, "note": "Dada", "function": "Third", "cents": 610, "comment": "Central pillar"},
+            {"step": 4, "frequency": 440.0, "note": "Lima", "function": "Fourth", "cents": 914, "comment": "Strong 4th"},
+            {"step": 5, "frequency": 520.0, "note": "Nem", "function": "Fifth", "cents": 1218, "comment": "Climax tone"},
+            {"step": 6, "frequency": 440.0, "note": "Lima", "function": "Fourth descending", "cents": 914, "comment": "Descent begins"},
+            {"step": 7, "frequency": 370.0, "note": "Dada", "function": "Third descending", "cents": 610, "comment": "Return center"},
+            {"step": 8, "frequency": 310.0, "note": "Gulu", "function": "Second descending", "cents": 304, "comment": "Approaching tonic"},
+            {"step": 9, "frequency": 260.0, "note": "Manyura", "function": "Tonic return", "cents": 0, "comment": "Tonic return"},
+            {"step": 10, "frequency": 310.0, "note": "Gulu", "function": "Second ascending", "cents": 304, "comment": "Cyclic ascent"},
+            {"step": 11, "frequency": 370.0, "note": "Dada", "function": "Third ascending", "cents": 610, "comment": "Central focus"},
+            {"step": 12, "frequency": 440.0, "note": "Lima", "function": "Fourth ascending", "cents": 914, "comment": "Upward thrust"},
+            {"step": 13, "frequency": 520.0, "note": "Nem", "function": "Fifth ascending", "cents": 1218, "comment": "Peak again"},
+            {"step": 14, "frequency": 440.0, "note": "Lima", "function": "Fourth descending", "cents": 914, "comment": "Falling motion"},
+            {"step": 15, "frequency": 370.0, "note": "Dada", "function": "Third descending", "cents": 610, "comment": "Settling"},
+            {"step": 16, "frequency": 310.0, "note": "Gulu", "function": "Second descending", "cents": 304, "comment": "Unresolved end"}
+          ],
+          "voicingPattern": [1, 5, 9, 13],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Non-equal pentatonic with nearly equidistant intervals",
+            "intervalStructure": "More equidistant than Pelog but still culturally specific",
+            "signatureIntervals": ["Slendro second (≈240-250 cents)", "Slendro fourth (≈914 cents)", "Nearly equidistant spacing"]
+          },
+          "metadata": {
+            "description": "Slendro 1 (Manyura) is a five-tone scale characterized by its nearly equidistant intervals, creating a bright, balanced sound. Unlike the Western pentatonic scale, Slendro features unique interval relationships that create its distinctive Indonesian sound quality.",
+            "historicalContext": "One of the oldest known tuning systems in Indonesia, with evidence suggesting use for over a millennium in various forms across Java and Bali",
+            "usageExamples": "Wayang kulit shadow puppet performances, dance accompaniment, court ceremonies, contemporary compositions, dynamic ensemble playing"
+          }
+        },
+        {
+          "name": "Slendro 2 (Sanga)",
+          "fundamentalNote": "B",
+          "fundamentalFrequency":250,
+          "parentScale": "Slendro",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Balanced and meditative with gentle flow",
+          "chordTypes": ["Pentatonic clusters", "Stacked thirds", "Overlapping fifths"],
+          "steps": [
+            {"step": 1, "frequency": 250.0, "note": "Bem", "function": "Tonic", "cents": 0, "comment": "Grounding tonic"},
+            {"step": 2, "frequency": 300.0, "note": "Gulu", "function": "Second", "cents": 312, "comment": "Soft ascent"},
+            {"step": 3, "frequency": 360.0, "note": "Dada", "function": "Third", "cents": 624, "comment": "Meditative center"},
+            {"step": 4, "frequency": 430.0, "note": "Lima", "function": "Fourth", "cents": 936, "comment": "Warm 4th"},
+            {"step": 5, "frequency": 510.0, "note": "Nem", "function": "Fifth", "cents": 1248, "comment": "Round peak"},
+            {"step": 6, "frequency": 430.0, "note": "Lima", "function": "Fourth descending", "cents": 936, "comment": "Gentle descent"},
+            {"step": 7, "frequency": 360.0, "note": "Dada", "function": "Third descending", "cents": 624, "comment": "Return to center"},
+            {"step": 8, "frequency": 300.0, "note": "Gulu", "function": "Second descending", "cents": 312, "comment": "Approaching tonic"},
+            {"step": 9, "frequency": 250.0, "note": "Bem", "function": "Tonic return", "cents": 0, "comment": "Full cycle"},
+            {"step": 10, "frequency": 300.0, "note": "Gulu", "function": "Second ascending", "cents": 312, "comment": "Re-initiate"},
+            {"step": 11, "frequency": 360.0, "note": "Dada", "function": "Third ascending", "cents": 624, "comment": "Central anchor"},
+            {"step": 12, "frequency": 430.0, "note": "Lima", "function": "Fourth ascending", "cents": 936, "comment": "Building"},
+            {"step": 13, "frequency": 510.0, "note": "Nem", "function": "Fifth ascending", "cents": 1248, "comment": "Subtle climax"},
+            {"step": 14, "frequency": 430.0, "note": "Lima", "function": "Fourth descending", "cents": 936, "comment": "Fading"},
+            {"step": 15, "frequency": 360.0, "note": "Dada", "function": "Third descending", "cents": 624, "comment": "Calming"},
+            {"step": 16, "frequency": 300.0, "note": "Gulu", "function": "Second descending", "cents": 312, "comment": "Floating end"}
+          ],
+          "voicingPattern": [1, 6, 11, 16],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Non-equal pentatonic with specific cultural intervals",
+            "intervalStructure": "Nearly equidistant intervals around 240-250 cents each",
+            "signatureIntervals": ["Slendro second (≈312 cents)", "Slendro fourth (≈936 cents)", "Stretched octave (≈1248 cents)"]
+          },
+          "metadata": {
+            "description": "Slendro 2 (Sanga) is a meditative variant of the five-tone Slendro scale system, with a more contemplative, balanced character. Its gentle flow and warm tone centers create a sense of tranquility and reflection.",
+            "historicalContext": "Traditional pathet (mode) within the Slendro system associated with specific times of day and emotional states in Javanese music theory",
+            "usageExamples": "Evening performances, meditative compositions, refined court music, subtle emotional expressions, ceremonial contexts"
+          }
+        },
+        {
+          "name": "Slendro 3 (Nem)",
+          "fundamentalNote": "B#",
+          "fundamentalFrequency":255,
+          "parentScale": "Slendro",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Dramatic and tense with dynamic energy",
+          "chordTypes": ["Pentatonic clusters", "Dissonant fourths", "Stacked seconds"],
+          "steps": [
+            {"step": 1, "frequency": 255.0, "note": "Bem", "function": "Tonic", "cents": 0, "comment": "Tense tonic"},
+            {"step": 2, "frequency": 305.0, "note": "Gulu", "function": "Second", "cents": 308, "comment": "Upward pull"},
+            {"step": 3, "frequency": 365.0, "note": "Dada", "function": "Third", "cents": 616, "comment": "Energetic center"},
+            {"step": 4, "frequency": 435.0, "note": "Lima", "function": "Fourth", "cents": 924, "comment": "Driving 4th"},
+            {"step": 5, "frequency": 515.0, "note": "Nem", "function": "Fifth", "cents": 1232, "comment": "Dramatic peak"},
+            {"step": 6, "frequency": 435.0, "note": "Lima", "function": "Fourth descending", "cents": 924, "comment": "Falling tension"},
+            {"step": 7, "frequency": 365.0, "note": "Dada", "function": "Third descending", "cents": 616, "comment": "Unstable center"},
+            {"step": 8, "frequency": 305.0, "note": "Gulu", "function": "Second descending", "cents": 308, "comment": "Descending"},
+            {"step": 9, "frequency": 255.0, "note": "Bem", "function": "Tonic return", "cents": 0, "comment": "Tense return"},
+            {"step": 10, "frequency": 305.0, "note": "Gulu", "function": "Second ascending", "cents": 308, "comment": "Rebuilding"},
+            {"step": 11, "frequency": 365.0, "note": "Dada", "function": "Third ascending", "cents": 616, "comment": "Central energy"},
+            {"step": 12, "frequency": 435.0, "note": "Lima", "function": "Fourth ascending", "cents": 924, "comment": "Climbing"},
+            {"step": 13, "frequency": 515.0, "note": "Nem", "function": "Fifth ascending", "cents": 1232, "comment": "Climax again"},
+            {"step": 14, "frequency": 435.0, "note": "Lima", "function": "Fourth descending", "cents": 924, "comment": "Release"},
+            {"step": 15, "frequency": 365.0, "note": "Dada", "function": "Third descending", "cents": 616, "comment": "Suspended"},
+            {"step": 16, "frequency": 305.0, "note": "Gulu", "function": "Second descending", "cents": 308, "comment": "Unresolved"}
+          ],
+          "voicingPattern": [1, 5, 9, 13],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Non-equal pentatonic with more tension",
+            "intervalStructure": "Nearly equidistant intervals with subtle variations for effect",
+            "signatureIntervals": ["Slendro second (≈308 cents)", "Slendro fourth (≈924 cents)", "Nem emphasis (dramatic 5th)"]
+          },
+          "metadata": {
+            "description": "Slendro 3 (Nem) is a more dramatic, tense variant of the five-tone Slendro scale, characterized by its energetic quality and dynamic range. Its intervallic structure creates a sense of forward motion and dramatic tension.",
+            "historicalContext": "Used for specific dramatic sections in traditional Javanese performances, particularly for intense narrative moments in shadow puppet theater",
+            "usageExamples": "Dramatic scenes in wayang performances, battle music, intense dance sequences, transitional passages between emotional states"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Gamelan tuning varies from ensemble to ensemble with deliberate mistuning (beating) between paired instruments creating the characteristic shimmer. These are not 'standardized' but are essential aesthetic elements.",
+      "rhythmic_features": "Organized through cyclic structures called gongan, with instruments marking specific points in the cycle. Dense interlocking patterns (kotekan) feature prominently in performance practice.",
+      "ornamentation": "Melodic ornamentation (cengkok) involves specific patterns for each instrument, with lead instruments (rebab, gender) guiding the ensemble through elaborate ornamental passages.",
+      "instrumentation": "Bronze metallophones, gongs, drums, and occasional strings and vocals form the traditional gamelan ensemble, with instruments grouped in families tuned to specific registers."
+    }
+  }
+}

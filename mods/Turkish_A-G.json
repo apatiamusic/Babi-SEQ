@@ -1,0 +1,567 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Turkish Makam Music for 16-Step Sequencer (A-G)",
+  "description": "Comprehensive collection of 20 fundamental Turkish makams adapted for electronic music production",
+  "version": "1.0",
+  "reference": "1 koma = ~5.38 cents (1/9 tone) | A4=440Hz reference | 53-TET compatible",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "expansionMethod": "fixed-scale",
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Turkish Makam Series",
+      "collectionType": "ottoman",
+      "culturalOrigin": "Ottoman-Turkish",
+      "description": "Traditional Turkish makams with microtonal intervals and characteristic melodic progressions",
+      "modes": [
+        {
+          "name": "ACEMASiRAN",
+          "originalName": "Acemaşiran Makamı",
+          "fundamentalNote": "F",
+          "fundamentalFrequency": 174.61,
+          "parentScale": "Çargah Family",
+          "modeDegree": "Şed",
+          "totalSteps": 16,
+          "baseSteps": 8,
+          "character": "Bright, classical",
+          "steps": [
+            {"step": 1, "frequency": 174.61, "note": "F", "function": "Acem-Aşiran (Karar)", "cents": 107.6, "comment": "20 koma"},
+            {"step": 2, "frequency": 196.00, "note": "G", "function": "Irak", "cents": 0, "comment": "Whole tone"},
+            {"step": 3, "frequency": 220.00, "note": "A", "function": "Dügâh", "cents": 0, "comment": "Major 3rd"},
+            {"step": 4, "frequency": 233.08, "note": "Bb", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Neva", "cents": 0, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 329.63, "note": "E", "function": "Hüseyni", "cents": 0, "comment": "Major 6th"},
+            {"step": 7, "frequency": 369.99, "note": "F#", "function": "Evç", "cents": 90.2, "comment": "18 koma"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Gerdaniye (Güçlü)", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 392.00, "note": "G", "function": "Tiz Irak", "cents": 0, "comment": "Upper whole tone"},
+            {"step": 10, "frequency": 440.00, "note": "A", "function": "Tiz Dügâh", "cents": 0, "comment": "Upper 3rd"},
+            {"step": 11, "frequency": 466.16, "note": "Bb", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper 5th"},
+            {"step": 13, "frequency": 659.26, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "Upper 6th"},
+            {"step": 14, "frequency": 739.99, "note": "F#", "function": "Tiz Evç", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octave"},
+            {"step": 16, "frequency": 783.99, "note": "G", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "microtonalCharacteristics": {
+            "acem_asiran": "20 koma raised (107.6 cents)",
+            "segah": "10 koma raised (53.8 cents)",
+            "evc": "18 koma lowered (90.2 cents)",
+            "signatureIntervals": ["Acem-Aşiran (F)", "Segâh (Bb)", "Evç (F#)"]
+          },
+          "metadata": {
+            "description": "Çargah dizisinin Acem-Aşiran perdesine şeddi",
+            "typical_form": "Peşrev, şarkı",
+            "emotional_character": "Parlak, klasik",
+            "example_works": [
+              "Yine bir hâl-i perişaneye düştüm gülüm - Şarkı",
+              "Acemaşiran Peşrevi - Tanburi Cemil Bey"
+            ]
+          }
+        },
+        {
+          "name": "ARABAN",
+          "originalName": "Araban Makamı",
+          "fundamentalNote": "G",
+          "fundamentalFrequency": 392.00,
+          "parentScale": "Rast Family",
+          "modeDegree": "Variant",
+          "totalSteps": 16,
+          "baseSteps": 8,
+          "character": "Deep, introspective",
+          "steps": [
+            {"step": 1, "frequency": 392.00, "note": "G", "function": "Rast (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 440.00, "note": "A", "function": "Dügâh", "cents": 0, "comment": "Upper tonic"},
+            {"step": 3, "frequency": 466.16, "note": "Bb", "function": "Segâh", "cents": 0, "comment": "Natural minor 3rd"},
+            {"step": 4, "frequency": 523.25, "note": "C", "function": "Çargâh", "cents": 0, "comment": "Perfect 4th"},
+            {"step": 5, "frequency": 587.33, "note": "D", "function": "Neva", "cents": 0, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 659.26, "note": "E", "function": "Hüseyni (Güçlü)", "cents": 0, "comment": "Major 6th"},
+            {"step": 7, "frequency": 698.46, "note": "F", "function": "Evç", "cents": 0, "comment": "Minor 7th"},
+            {"step": 8, "frequency": 783.99, "note": "G", "function": "Gerdaniye", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 880.00, "note": "A", "function": "Tiz Dügâh", "cents": 0, "comment": "Upper tonic"},
+            {"step": 10, "frequency": 932.33, "note": "Bb", "function": "Tiz Segâh", "cents": 0, "comment": "Upper minor 3rd"},
+            {"step": 11, "frequency": 1046.50, "note": "C", "function": "Tiz Çargâh", "cents": 0, "comment": "Upper 4th"},
+            {"step": 12, "frequency": 1174.66, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper 5th"},
+            {"step": 13, "frequency": 1318.51, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "Upper 6th"},
+            {"step": 14, "frequency": 1396.91, "note": "F", "function": "Tiz Evç", "cents": 0, "comment": "Upper minor 7th"},
+            {"step": 15, "frequency": 1567.98, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octave"},
+            {"step": 16, "frequency": 1567.98, "note": "G", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "microtonalCharacteristics": {
+            "evç_note": "Minor 7th degree",
+            "signatureIntervals": ["Hüseyni (E)", "Evç (F)"]
+          },
+          "metadata": {
+            "description": "Rast perdesinde karar kılan inici makam",
+            "typical_form": "Peşrev, saz semaisi",
+            "emotional_character": "Derin, içe dönük"
+          }
+        },
+        {
+          "name": "BEYATi",
+          "originalName": "Beyati Makamı",
+          "fundamentalNote": "A",
+          "fundamentalFrequency": 220.00,
+          "parentScale": "Bayati Family",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 16,
+          "character": "Lyrical, emotional",
+          "chordTypes": [null],
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Yegah", "cents": 0, "comment": "Low tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Dügah (Karar)", "cents": 0, "comment": "Main tonic"},
+            {"step": 3, "frequency": 241.45, "note": "B", "function": "Bayati", "cents": -21.5, "comment": "4 koma bemol"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Çargah", "cents": 0, "comment": "Neutral fourth"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Neva", "cents": 0, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 318.70, "note": "E", "function": "Buselik", "cents": -21.5, "comment": "4 koma bemol"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Acem", "cents": 0, "comment": "Natural seventh"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Gerdaniye", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Muhayyer", "cents": 0, "comment": "Upper tonic"},
+            {"step": 10, "frequency": 482.90, "note": "B", "function": "Tiz Bayati", "cents": -21.5, "comment": "4 koma bemol"},
+            {"step": 11, "frequency": 523.25, "note": "C", "function": "Tiz Çargah", "cents": 0, "comment": "Upper fourth"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper fifth"},
+            {"step": 13, "frequency": 637.40, "note": "E", "function": "Tiz Buselik", "cents": -21.5, "comment": "4 koma bemol"},
+            {"step": 14, "frequency": 698.46, "note": "F", "function": "Tiz Acem", "cents": 0, "comment": "Upper seventh"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octaves"},
+            {"step": 16, "frequency": 880.00, "note": "A", "function": "Tiz Muhayyer", "cents": 0, "comment": "Upper tonic"}
+          ],
+          "voicingPattern": ["Descending-ascending"],
+          "microtonalCharacteristics": {
+            "bayati_third": "Characteristic lowered 3rd (4 koma bemol)",
+            "buselik_sixth": "Lowered 6th degree (4 koma bemol)",
+            "signatureIntervals": ["Bayati perdesi (B)", "Buselik perdesi (E)"]
+          },
+          "metadata": {
+            "description": "Bayati family's principal makam resolving on Dügah (A)",
+            "typical_form": "Gazel, şarkı",
+            "emotional_character": "Nostalgic, melancholic"
+          }
+        },
+        {
+          "name": "BUSELiK",
+          "originalName": "Buselik Makamı",
+          "fundamentalNote": "E",
+          "fundamentalFrequency": 318.70,
+          "parentScale": "Western Minor",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 16,
+          "character": "Somber, introspective",
+          "chordTypes": [null],
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Yegah", "cents": 0, "comment": "Low tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Dügah", "cents": 0, "comment": "Upper tonic"},
+            {"step": 3, "frequency": 241.45, "note": "B", "function": "Kürdi", "cents": -21.5, "comment": "4 koma bemol"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Çargah", "cents": 0, "comment": "Neutral fourth"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Neva", "cents": 0, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 318.70, "note": "E", "function": "Buselik (Karar)", "cents": -21.5, "comment": "4 koma bemol"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Acem", "cents": 0, "comment": "Natural seventh"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Gerdaniye", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Muhayyer", "cents": 0, "comment": "Upper tonic"},
+            {"step": 10, "frequency": 482.90, "note": "B", "function": "Tiz Kürdi", "cents": -21.5, "comment": "4 koma bemol"},
+            {"step": 11, "frequency": 523.25, "note": "C", "function": "Tiz Çargah", "cents": 0, "comment": "Upper fourth"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper fifth"},
+            {"step": 13, "frequency": 637.40, "note": "E", "function": "Tiz Buselik", "cents": -21.5, "comment": "4 koma bemol"},
+            {"step": 14, "frequency": 698.46, "note": "F", "function": "Tiz Acem", "cents": 0, "comment": "Upper seventh"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octaves"},
+            {"step": 16, "frequency": 880.00, "note": "A", "function": "Tiz Muhayyer", "cents": 0, "comment": "Upper tonic"}
+          ],
+          "voicingPattern": ["Descending emphasis"],
+          "microtonalCharacteristics": {
+            "kürdi_third": "Lowered 3rd degree (4 koma bemol)",
+            "buselik_sixth": "Characteristic lowered 6th",
+            "signatureIntervals": ["Kürdi perdesi (B)", "Buselik perdesi (E)"]
+          },
+          "metadata": {
+            "description": "Western minor scale counterpart resolving on Buselik (E)",
+            "typical_form": "Şarkı, beste",
+            "emotional_character": "Pensive, sorrowful"
+          }
+        },
+        {
+          "name": "BUZURK",
+          "originalName": "Büzürk Makamı",
+          "fundamentalNote": "G",
+          "fundamentalFrequency": 196.00,
+          "parentScale": "Neveser Family",
+          "modeDegree": "Variant",
+          "totalSteps": 16,
+          "baseSteps": 8,
+          "character": "Profound, majestic",
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Rast (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Dügâh", "cents": 0, "comment": "Major 2nd"},
+            {"step": 3, "frequency": 233.08, "note": "Bb", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Çargâh", "cents": 0, "comment": "Perfect 4th"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Neva", "cents": 0, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 329.63, "note": "E", "function": "Hüseyni (Güçlü)", "cents": 0, "comment": "Dominant"},
+            {"step": 7, "frequency": 369.99, "note": "F#", "function": "Evç", "cents": -90.2, "comment": "18 koma"},
+            {"step": 8, "frequency": 415.30, "note": "G", "function": "Gerdaniye", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Tiz Dügâh", "cents": 0, "comment": "Upper 2nd"},
+            {"step": 10, "frequency": 466.16, "note": "Bb", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 11, "frequency": 523.25, "note": "C", "function": "Tiz Çargâh", "cents": 0, "comment": "Upper 4th"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper 5th"},
+            {"step": 13, "frequency": 659.26, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "Upper dominant"},
+            {"step": 14, "frequency": 739.99, "note": "F#", "function": "Tiz Evç", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octave"},
+            {"step": 16, "frequency": 783.99, "note": "G", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "microtonalCharacteristics": {
+            "segah": "10 koma raised (53.8 cents)",
+            "evc": "18 koma lowered (90.2 cents)",
+            "signatureIntervals": ["Segâh (Bb)", "Evç (F#)"]
+          },
+          "metadata": {
+            "description": "Neveser makamına yakın görkemli yapı",
+            "typical_form": "Beste, kâr",
+            "emotional_character": "Derin, heybetli"
+          }
+        },
+        {
+          "name": "CARGAH",
+          "originalName": "Çargah Makamı",
+          "fundamentalNote": "C",
+          "fundamentalFrequency": 261.63,
+          "parentScale": "Major",
+          "modeDegree": "I",
+          "totalSteps": 16,
+          "baseSteps": 16,
+          "character": "Bright, stable",
+          "chordTypes": [null],
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Yegah", "cents": 0, "comment": "Low tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Dügah", "cents": 0, "comment": "Upper tonic"},
+            {"step": 3, "frequency": 246.94, "note": "B", "function": "Buselik", "cents": 0, "comment": "Natural third"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Çargah (Karar)", "cents": 0, "comment": "Main tonic"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Neva", "cents": 0, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 329.63, "note": "E", "function": "Hüseyni", "cents": 0, "comment": "Natural sixth"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Acem", "cents": 0, "comment": "Natural seventh"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Gerdaniye", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Muhayyer", "cents": 0, "comment": "Upper tonic"},
+            {"step": 10, "frequency": 493.88, "note": "B", "function": "Tiz Buselik", "cents": 0, "comment": "Natural third"},
+            {"step": 11, "frequency": 523.25, "note": "C", "function": "Tiz Çargah", "cents": 0, "comment": "Upper tonic"},
+            {"step": 12, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper fifth"},
+            {"step": 13, "frequency": 659.26, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "Upper sixth"},
+            {"step": 14, "frequency": 698.46, "note": "F", "function": "Tiz Acem", "cents": 0, "comment": "Upper seventh"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octaves"},
+            {"step": 16, "frequency": 880.00, "note": "A", "function": "Tiz Muhayyer", "cents": 0, "comment": "Upper tonic"}
+          ],
+          "voicingPattern": ["Symmetric progression"],
+          "microtonalCharacteristics": {
+            "neutral_intervals": "Uses pure 12-TET intervals",
+            "signatureIntervals": ["Çargah perdesi (C)", "Hüseyni perdesi (E)"]
+          },
+          "metadata": {
+            "description": "Basic major scale equivalent resolving on Çargah (C)",
+            "typical_form": "Peşrev, saz semaisi",
+            "emotional_character": "Joyful, ceremonial"
+          }
+        },
+        {
+          "name": "DiLNiSiN",
+          "originalName": "Dilnişin Makamı",
+          "fundamentalNote": "G",
+          "fundamentalFrequency": 196.00,
+          "parentScale": "Hisar Family",
+          "modeDegree": "Variant",
+          "totalSteps": 16,
+          "baseSteps": 8,
+          "character": "Charming, delightful",
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Rast (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Dügâh", "cents": 0, "comment": "Major 2nd"},
+            {"step": 3, "frequency": 233.08, "note": "Bb", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Çargâh", "cents": 0, "comment": "Perfect 4th"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Neva (Güçlü)", "cents": 0, "comment": "Dominant"},
+            {"step": 6, "frequency": 311.13, "note": "Eb", "function": "Zirgüle", "cents": 90.2, "comment": "18 koma"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Gerdaniye", "cents": 107.6, "comment": "20 koma"},
+            {"step": 8, "frequency": 440.00, "note": "A", "function": "Muhayyer", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 466.16, "note": "Bb", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 10, "frequency": 523.25, "note": "C", "function": "Tiz Çargâh", "cents": 0, "comment": "Upper 4th"},
+            {"step": 11, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper dominant"},
+            {"step": 12, "frequency": 622.25, "note": "Eb", "function": "Tiz Zirgüle", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 13, "frequency": 698.46, "note": "F", "function": "Tiz Gerdaniye", "cents": 107.6, "comment": "Upper 20 koma"},
+            {"step": 14, "frequency": 880.00, "note": "A", "function": "Tiz Muhayyer", "cents": 0, "comment": "2 octave"},
+            {"step": 15, "frequency": 932.33, "note": "Bb", "function": "Upper extension", "cents": 53.8, "comment": ""},
+            {"step": 16, "frequency": 1046.50, "note": "C", "function": "Final", "cents": 0, "comment": "Resolution"}
+          ],
+          "microtonalCharacteristics": {
+            "segah": "10 koma raised (53.8 cents)",
+            "zirgule": "18 koma lowered (90.2 cents)",
+            "gerdaniye": "20 koma raised (107.6 cents)",
+            "signatureIntervals": ["Segâh (Bb)", "Zirgüle (Eb)", "Gerdaniye (F)"]
+          },
+          "metadata": {
+            "description": "Hisar ve Nigar makamlarına benzer çekici karakterde makam",
+            "typical_form": "Şarkı, semai",
+            "emotional_character": "Çekici, hoş",
+            "comparison": "Hisar makamıyla aynı dizi yapısına sahiptir ancak daha hafif bir karakteri vardır"
+          }
+        },
+        {
+          "name": "EVCARA",
+          "originalName": "Evcara Makamı",
+          "fundamentalNote": "G",
+          "fundamentalFrequency": 196.00,
+          "parentScale": "Zirgüleli Hicaz Family",
+          "modeDegree": "Şed",
+          "totalSteps": 16,
+          "baseSteps": 8,
+          "character": "Complex, ornamented",
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Irak (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 220.00, "note": "A", "function": "Dügâh", "cents": 0, "comment": "Major 2nd"},
+            {"step": 3, "frequency": 233.08, "note": "Bb", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 4, "frequency": 293.66, "note": "D", "function": "Neva (Güçlü)", "cents": 0, "comment": "Dominant"},
+            {"step": 5, "frequency": 311.13, "note": "Eb", "function": "Zirgüle", "cents": 90.2, "comment": "18 koma"},
+            {"step": 6, "frequency": 329.63, "note": "E", "function": "Hüseyni", "cents": 0, "comment": "Major 6th"},
+            {"step": 7, "frequency": 415.30, "note": "F#", "function": "Evç", "cents": -90.2, "comment": "18 koma"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Gerdaniye", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Tiz Dügâh", "cents": 0, "comment": "Upper 2nd"},
+            {"step": 10, "frequency": 466.16, "note": "Bb", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 11, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper dominant"},
+            {"step": 12, "frequency": 622.25, "note": "Eb", "function": "Tiz Zirgüle", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 13, "frequency": 659.26, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "Upper 6th"},
+            {"step": 14, "frequency": 739.99, "note": "F#", "function": "Tiz Evç", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 15, "frequency": 783.99, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octave"},
+            {"step": 16, "frequency": 783.99, "note": "G", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "microtonalCharacteristics": {
+            "segah": "10 koma raised (53.8 cents)",
+            "zirgule": "18 koma lowered (90.2 cents)",
+            "evc": "18 koma lowered (90.2 cents)",
+            "signatureIntervals": ["Segâh (Bb)", "Zirgüle (Eb)", "Evç (F#)"],
+            "characteristic_motifs": ["Neva'da Hicaz çeşnisi", "Gerdaniye'de geçici kararlar"]
+          },
+          "metadata": {
+            "description": "Zirgüleli Hicaz'ın Irak perdesine şeddi",
+            "typical_form": "Peşrev, kâr",
+            "emotional_character": "Süslü, girift",
+            "example_works": [
+              "Ne bağlandı feleğe bu gönül - Kâr",
+              "Dilşad olurum yâr - Şarkı"
+            ]
+          }
+        },
+        {
+          "name": "EViC",
+          "originalName": "Eviç Makamı",
+          "fundamentalNote": "G",
+          "fundamentalFrequency": 196.00,
+          "parentScale": "Hicaz Family",
+          "modeDegree": "Original",
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Fluid, flexible",
+          "steps": [
+            {"step": 1, "frequency": 196.00, "note": "G", "function": "Irak (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 233.08, "note": "Bb", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 3, "frequency": 293.66, "note": "D", "function": "Neva (Güçlü)", "cents": 0, "comment": "Dominant"},
+            {"step": 4, "frequency": 329.63, "note": "E", "function": "Hüseyni", "cents": 0, "comment": "Major 6th"},
+            {"step": 5, "frequency": 415.30, "note": "F#", "function": "Evç", "cents": -90.2, "comment": "18 koma"},
+            {"step": 6, "frequency": 392.00, "note": "G", "function": "Gerdaniye", "cents": 0, "comment": "Octave"},
+            {"step": 7, "frequency": 440.00, "note": "A", "function": "Acem", "cents": 0, "comment": "Major 9th"},
+            {"step": 8, "frequency": 466.16, "note": "Bb", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 9, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper dominant"},
+            {"step": 10, "frequency": 659.26, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "Upper 6th"},
+            {"step": 11, "frequency": 739.99, "note": "F#", "function": "Tiz Evç", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octave"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "Tiz Acem", "cents": 0, "comment": "Upper 9th"},
+            {"step": 14, "frequency": 932.33, "note": "Bb", "function": "Upper extension", "cents": 53.8, "comment": ""},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Upper extension", "cents": 0, "comment": ""},
+            {"step": 16, "frequency": 1174.66, "note": "D", "function": "Final", "cents": 0, "comment": "Climax"}
+          ],
+          "microtonalCharacteristics": {
+            "segah": "10 koma raised (53.8 cents)",
+            "evc": "18 koma lowered (90.2 cents)",
+            "signatureIntervals": ["Segâh (Bb)", "Evç (F#)"]
+          },
+          "metadata": {
+            "description": "Hicaz dizisinin Irak perdesinde karar kılan formu",
+            "typical_form": "Taksim, şarkı",
+            "emotional_character": "Akıcı, geçkili"
+          }
+        },
+
+        {
+          "name": "FERAHNUMA",
+          "originalName": "Ferahnüma Makamı",
+          "fundamentalNote": "E",
+          "fundamentalFrequency": 164.81,
+          "parentScale": "Kürdi Family",
+          "modeDegree": "Şed",
+          "totalSteps": 16,
+          "baseSteps": 8,
+          "character": "Bright, expansive",
+          "steps": [
+            {"step": 1, "frequency": 164.81, "note": "E", "function": "Yegâh (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 174.61, "note": "F", "function": "Nim Hicaz", "cents": 107.6, "comment": "20 koma"},
+            {"step": 3, "frequency": 196.00, "note": "G", "function": "Rast", "cents": 0, "comment": "Natural"},
+            {"step": 4, "frequency": 220.00, "note": "A", "function": "Dügâh", "cents": 0, "comment": "Major 2nd"},
+            {"step": 5, "frequency": 233.08, "note": "Bb", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 6, "frequency": 261.63, "note": "C", "function": "Çargâh", "cents": 0, "comment": "Perfect 4th"},
+            {"step": 7, "frequency": 293.66, "note": "D", "function": "Neva (Güçlü)", "cents": 0, "comment": "Dominant"},
+            {"step": 8, "frequency": 329.63, "note": "E", "function": "Hüseyni", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 349.23, "note": "F", "function": "Tiz Nim Hicaz", "cents": 107.6, "comment": "Upper 20 koma"},
+            {"step": 10, "frequency": 392.00, "note": "G", "function": "Tiz Rast", "cents": 0, "comment": "Upper natural"},
+            {"step": 11, "frequency": 440.00, "note": "A", "function": "Tiz Dügâh", "cents": 0, "comment": "Upper 2nd"},
+            {"step": 12, "frequency": 466.16, "note": "Bb", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 13, "frequency": 523.25, "note": "C", "function": "Tiz Çargâh", "cents": 0, "comment": "Upper 4th"},
+            {"step": 14, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper dominant"},
+            {"step": 15, "frequency": 659.26, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "2 octave"},
+            {"step": 16, "frequency": 659.26, "note": "E", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "microtonalCharacteristics": {
+            "nim_hicaz": "20 koma raised (107.6 cents)",
+            "segah_third": "10 koma raised (53.8 cents)",
+            "signatureIntervals": ["Nim Hicaz (F)", "Segâh (Bb)"]
+          },
+          "metadata": {
+            "description": "Kürdi makamının Yegâh perdesine şeddi",
+            "typical_form": "Şarkı, taksim",
+            "emotional_character": "Neşeli, ferahlatıcı"
+          }
+        },
+        {
+          "name": "GONCE-i RANA",
+          "originalName": "Gonce-i Rana Makamı",
+          "fundamentalNote": "E",
+          "fundamentalFrequency": 329.63,
+          "parentScale": "Hüseyni Family",
+          "modeDegree": "Original",
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Delicate, blossoming",
+          "steps": [
+            {"step": 1, "frequency": 329.63, "note": "E", "function": "Hüseyni (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 370.00, "note": "F#", "function": "Uşşak", "cents": -90.2, "comment": "18 koma"},
+            {"step": 3, "frequency": 392.00, "note": "G", "function": "Rast", "cents": 0, "comment": "Natural"},
+            {"step": 4, "frequency": 440.00, "note": "A", "function": "Dügâh", "cents": 0, "comment": "Major 2nd"},
+            {"step": 5, "frequency": 466.16, "note": "Bb", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 6, "frequency": 523.25, "note": "C", "function": "Çargâh", "cents": 0, "comment": "Perfect 4th"},
+            {"step": 7, "frequency": 587.33, "note": "D", "function": "Neva (Güçlü)", "cents": 0, "comment": "Dominant"},
+            {"step": 8, "frequency": 659.26, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 739.99, "note": "F#", "function": "Tiz Uşşak", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 10, "frequency": 783.99, "note": "G", "function": "Tiz Rast", "cents": 0, "comment": "Upper natural"},
+            {"step": 11, "frequency": 880.00, "note": "A", "function": "Tiz Dügâh", "cents": 0, "comment": "Upper 2nd"},
+            {"step": 12, "frequency": 932.33, "note": "Bb", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 13, "frequency": 1046.50, "note": "C", "function": "Tiz Çargâh", "cents": 0, "comment": "Upper 4th"},
+            {"step": 14, "frequency": 1174.66, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper dominant"},
+            {"step": 15, "frequency": 1318.51, "note": "E", "function": "2 Octave", "cents": 0, "comment": "Upper tonic"},
+            {"step": 16, "frequency": 1318.51, "note": "E", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "microtonalCharacteristics": {
+            "ussak": "18 koma lowered (90.2 cents)",
+            "segah": "10 koma raised (53.8 cents)",
+            "signatureIntervals": ["Uşşak (F#)", "Segâh (Bb)"]
+          },
+          "metadata": {
+            "description": "Hüseyni perdesinde karar eden nadir makamlardan",
+            "typical_form": "Şarkı, semai",
+            "emotional_character": "Narin, açan çiçek hissi"
+          }
+        },
+        {
+          "name": "GULZAR",
+          "originalName": "Gülzar Makamı",
+          "fundamentalNote": "A",
+          "fundamentalFrequency": 220.00,
+          "parentScale": "Araban Family",
+          "modeDegree": "Variant",
+          "totalSteps": 16,
+          "baseSteps": 8,
+          "character": "Lyrical, flowing",
+          "chordTypes": [null],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Dügâh (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 228.05, "note": "Bb", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 3, "frequency": 236.47, "note": "B", "function": "Nim Hicaz", "cents": 107.6, "comment": "20 koma"},
+            {"step": 4, "frequency": 261.63, "note": "C", "function": "Çargâh", "cents": 0, "comment": "Natural"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Neva", "cents": 0, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 329.63, "note": "E", "function": "Hüseyni (Güçlü)", "cents": 0, "comment": "Dominant"},
+            {"step": 7, "frequency": 349.23, "note": "F", "function": "Acem", "cents": 0, "comment": "Natural 7th"},
+            {"step": 8, "frequency": 392.00, "note": "G", "function": "Gerdaniye", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 440.00, "note": "A", "function": "Tiz Dügâh", "cents": 0, "comment": "Upper tonic"},
+            {"step": 10, "frequency": 456.10, "note": "Bb", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 11, "frequency": 472.94, "note": "B", "function": "Tiz Nim Hicaz", "cents": 107.6, "comment": "Upper 20 koma"},
+            {"step": 12, "frequency": 523.25, "note": "C", "function": "Tiz Çargâh", "cents": 0, "comment": "Upper natural"},
+            {"step": 13, "frequency": 587.33, "note": "D", "function": "Tiz Neva", "cents": 0, "comment": "Upper 5th"},
+            {"step": 14, "frequency": 659.26, "note": "E", "function": "Tiz Hüseyni", "cents": 0, "comment": "Upper dominant"},
+            {"step": 15, "frequency": 698.46, "note": "F", "function": "Tiz Acem", "cents": 0, "comment": "Upper 7th"},
+            {"step": 16, "frequency": 783.99, "note": "G", "function": "Tiz Gerdaniye", "cents": 0, "comment": "2 octave"}
+          ],
+          "microtonalCharacteristics": {
+            "segah_interval": "10 koma raised (53.8 cents)",
+            "nim_hicaz": "20 koma raised (107.6 cents)",
+            "signatureIntervals": ["Segâh (Bb)", "Nim Hicaz (B)"]
+          },
+          "metadata": {
+            "description": "Çıkıcı seyirli Dügâh perdesinde karar kılan makam",
+            "typical_form": "Şarkı, beste",
+            "emotional_character": "Duygusal, akıcı"
+          }
+        },
+        {
+          "name": "GULSEN-i VEFA",
+          "originalName": "Gülşen-i Vefa Makamı",
+          "fundamentalNote": "E",
+          "fundamentalFrequency": 164.81,
+          "parentScale": "Yegâh Family",
+          "modeDegree": "Variant",
+          "totalSteps": 16,
+          "baseSteps": 8,
+          "character": "Floral, delicate",
+          "steps": [
+            {"step": 1, "frequency": 164.81, "note": "E", "function": "Yegâh (Karar)", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 185.00, "note": "F#", "function": "Dügâh", "cents": 90.2, "comment": "18 koma"},
+            {"step": 3, "frequency": 196.00, "note": "G", "function": "Segâh", "cents": 53.8, "comment": "10 koma"},
+            {"step": 4, "frequency": 220.00, "note": "A", "function": "Neva (Güçlü)", "cents": 0, "comment": "Dominant"},
+            {"step": 5, "frequency": 246.94, "note": "B", "function": "Hüseyni", "cents": 0, "comment": "Major 3rd"},
+            {"step": 6, "frequency": 277.18, "note": "C#", "function": "Eviç", "cents": 90.2, "comment": "18 koma"},
+            {"step": 7, "frequency": 293.66, "note": "D", "function": "Gerdaniye", "cents": 0, "comment": "Perfect 4th"},
+            {"step": 8, "frequency": 329.63, "note": "E", "function": "Muhayyer", "cents": 0, "comment": "Octave"},
+            {"step": 9, "frequency": 369.99, "note": "F#", "function": "Tiz Dügâh", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 10, "frequency": 392.00, "note": "G", "function": "Tiz Segâh", "cents": 53.8, "comment": "Upper 10 koma"},
+            {"step": 11, "frequency": 440.00, "note": "A", "function": "Tiz Neva", "cents": 0, "comment": "Upper dominant"},
+            {"step": 12, "frequency": 493.88, "note": "B", "function": "Tiz Hüseyni", "cents": 0, "comment": "Upper 3rd"},
+            {"step": 13, "frequency": 554.37, "note": "C#", "function": "Tiz Eviç", "cents": 90.2, "comment": "Upper 18 koma"},
+            {"step": 14, "frequency": 587.33, "note": "D", "function": "Tiz Gerdaniye", "cents": 0, "comment": "Upper 4th"},
+            {"step": 15, "frequency": 659.26, "note": "E", "function": "Tiz Muhayyer", "cents": 0, "comment": "2 octave"},
+            {"step": 16, "frequency": 659.26, "note": "E", "function": "Final", "cents": 0, "comment": "Sustain"}
+          ],
+          "microtonalCharacteristics": {
+            "dugah": "18 koma raised (90.2 cents)",
+            "segah": "10 koma raised (53.8 cents)",
+            "evic": "18 koma lowered (90.2 cents)",
+            "signatureIntervals": ["Dügâh (F#)", "Segâh (G)", "Eviç (C#)"]
+          },
+          "metadata": {
+            "description": "Yegâh makamının varyasyonu",
+            "typical_form": "Şarkı, semai",
+            "emotional_character": "Narin, çiçeksi",
+            "comparison": "Yegâh makamıyla benzer dizi yapısına sahiptir ancak seyir karakteri daha hafiftir"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Performers often adjust koma values slightly based on musical context and tradition",
+      "rhythmic_features": "Usul patterns (rhythmic cycles) are essential for proper makam performance",
+      "ornamentation": "Extensive use of glissandi, trills (çarpma) and grace notes (mordent)",
+      "instrumentation": "Tanbur, ney, kemençe, kanun, ud are primary instruments for makam music"
+    },
+    "temperament_notes": "Frequencies based on A4=440Hz reference with koma adjustments. 1 koma ≈ 5.38 cents. Actual performances may vary slightly from theoretical values."
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Balkan and Eastern European Music Modes",
+  "description": "Characteristic modes from Balkan and Eastern European traditions with their microtonal variations",
+  "version": "1.0",
+  "reference": "Balkan music frequently uses modes with augmented seconds and microtonal inflections | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Balkan and Eastern European Modal System",
+      "collectionType": "balkan",
+      "culturalOrigin": "Balkan Peninsula and Eastern Europe",
+      "description": "Traditional modes featuring microtonal variations and augmented seconds",
+      "modes": [
+        {
+          "name": "Misheberakh (Jewish/Romani)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "expressive, prayer-like",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 277.18, "note": "Db (raised)", "function": "Augmented 2nd", "cents": 100, "comment": "Augmented 2nd below median"},
+            {"step": 3, "frequency": 315.00, "note": "E (very flat)", "function": "Neutral 3rd", "cents": 320, "comment": "Low third (neutral)"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Median", "cents": 498, "comment": "Median note"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Dominant", "cents": 700, "comment": "Dominant"},
+            {"step": 6, "frequency": 422.50, "note": "Ab (very sharp)", "function": "Augmented 6th", "cents": 830, "comment": "Augmented 6th"},
+            {"step": 7, "frequency": 475.00, "note": "B (very flat)", "function": "Leading tone", "cents": 1025, "comment": "Low leading tone"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Resolution", "cents": 1200, "comment": "Octave resolution"},
+            {"step": 9, "frequency": 554.37, "note": "Db (raised)", "function": "Upper aug 2nd", "cents": 1300, "comment": "Upper augmented 2nd"},
+            {"step": 10, "frequency": 630.00, "note": "E (very flat)", "function": "Upper neutral 3rd", "cents": 1520, "comment": "Upper low third"},
+            {"step": 11, "frequency": 698.46, "note": "F", "function": "Upper median", "cents": 1698, "comment": "Upper median"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Upper dominant", "cents": 1900, "comment": "Upper dominant"},
+            {"step": 13, "frequency": 845.00, "note": "Ab (very sharp)", "function": "Upper aug 6th", "cents": 2030, "comment": "Upper augmented 6th"},
+            {"step": 14, "frequency": 950.00, "note": "B (very flat)", "function": "Upper leading tone", "cents": 2225, "comment": "Upper low leading tone"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Upper resolution", "cents": 2400, "comment": "Upper resolution"},
+            {"step": 16, "frequency": 1108.72, "note": "Db (raised)", "function": "High aug 2nd", "cents": 2500, "comment": "High augmented 2nd"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "neutralThird": "Very flat E (320 cents above C)",
+            "raisedFlat2nd": "Raised Db (100 cents instead of 90)",
+            "signatureIntervals": ["C-Db+-E-- with compressed intervals"]
+          },
+          "metadata": {
+            "description": "A prayer mode with both Jewish and Romani musical characteristics",
+            "regionalVariants": ["Romanian Misheberakh", "Klezmer variations"],
+            "traditionalUse": "Religious services, folk music, celebrations"
+          }
+        },
+        {
+          "name": "Freygish (Phrygian Dominant)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Phrygian",
+          "modeDegree": 5,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "mysterious, intense",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 277.18, "note": "Db", "function": "Lowered 2nd", "cents": 100, "comment": "Lowered second"},
+            {"step": 3, "frequency": 329.63, "note": "E", "function": "Major 3rd", "cents": 400, "comment": "Major third"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect 4th", "cents": 500, "comment": "Perfect fourth"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect 5th", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 415.30, "note": "Ab", "function": "Minor 6th", "cents": 800, "comment": "Minor sixth"},
+            {"step": 7, "frequency": 466.16, "note": "Bb", "function": "Minor 7th", "cents": 1000, "comment": "Minor seventh"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Resolution", "cents": 1200, "comment": "Octave resolution"},
+            {"step": 9, "frequency": 554.37, "note": "Db", "function": "Upper lowered 2nd", "cents": 1300, "comment": "Upper lowered second"},
+            {"step": 10, "frequency": 659.26, "note": "E", "function": "Upper major 3rd", "cents": 1600, "comment": "Upper major third"},
+            {"step": 11, "frequency": 698.46, "note": "F", "function": "Upper perfect 4th", "cents": 1700, "comment": "Upper perfect fourth"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Upper perfect 5th", "cents": 1900, "comment": "Upper perfect fifth"},
+            {"step": 13, "frequency": 830.61, "note": "Ab", "function": "Upper minor 6th", "cents": 2000, "comment": "Upper minor sixth"},
+            {"step": 14, "frequency": 932.33, "note": "Bb", "function": "Upper minor 7th", "cents": 2200, "comment": "Upper minor seventh"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Upper resolution", "cents": 2400, "comment": "Upper resolution"},
+            {"step": 16, "frequency": 1108.72, "note": "Db", "function": "High lowered 2nd", "cents": 2500, "comment": "High lowered second"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "augmentedSecond": "Characteristic augmented 2nd between Db and E (300 cents)",
+            "signatureIntervals": ["C-Db-E-F pattern with distinctive augmented 2nd"]
+          },
+          "metadata": {
+            "description": "The iconic Jewish mode with a lowered second degree and major third",
+            "regionalVariants": ["Klezmer Freygish", "Balkan Phrygian Dominant"],
+            "traditionalUse": "Jewish religious music, klezmer, folk dance"
+          }
+        },
+        {
+          "name": "Ukrainian Dorian",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Dorian",
+          "modeDegree": 1,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "melancholic, lyrical",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Major 2nd", "cents": 200, "comment": "Major second"},
+            {"step": 3, "frequency": 311.13, "note": "Eb", "function": "Minor 3rd", "cents": 300, "comment": "Minor third"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect 4th", "cents": 500, "comment": "Perfect fourth"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect 5th", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Major 6th", "cents": 900, "comment": "Major sixth (characteristic)"},
+            {"step": 7, "frequency": 466.16, "note": "Bb", "function": "Minor 7th", "cents": 1000, "comment": "Minor seventh"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Resolution", "cents": 1200, "comment": "Octave resolution"},
+            {"step": 9, "frequency": 587.33, "note": "D", "function": "Upper major 2nd", "cents": 1400, "comment": "Upper major second"},
+            {"step": 10, "frequency": 622.25, "note": "Eb", "function": "Upper minor 3rd", "cents": 1500, "comment": "Upper minor third"},
+            {"step": 11, "frequency": 698.46, "note": "F", "function": "Upper perfect 4th", "cents": 1700, "comment": "Upper perfect fourth"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Upper perfect 5th", "cents": 1900, "comment": "Upper perfect fifth"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "Upper major 6th", "cents": 2100, "comment": "Upper major sixth"},
+            {"step": 14, "frequency": 932.33, "note": "Bb", "function": "Upper minor 7th", "cents": 2200, "comment": "Upper minor seventh"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Upper resolution", "cents": 2400, "comment": "Upper resolution"},
+            {"step": 16, "frequency": 1174.64, "note": "D", "function": "High major 2nd", "cents": 2600, "comment": "High major second"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "characteristicSixth": "Major sixth in minor context creates poignant feeling",
+            "signatureIntervals": ["C-D-Eb-F-G-A-Bb pattern"]
+          },
+          "metadata": {
+            "description": "Ukrainian folk mode with raised sixth over minor base",
+            "regionalVariants": ["Carpathian Ukrainian", "Eastern Ukrainian"],
+            "traditionalUse": "Folk songs, ballads, lyrical compositions"
+          }
+        },
+        {
+          "name": "Romani (Gypsy) Minor",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "passionate, virtuosic",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Major 2nd", "cents": 200, "comment": "Major second"},
+            {"step": 3, "frequency": 311.13, "note": "Eb", "function": "Minor 3rd", "cents": 300, "comment": "Minor third"},
+            {"step": 4, "frequency": 369.99, "note": "F#", "function": "Augmented 4th", "cents": 600, "comment": "Augmented fourth (1st augmented 2nd)"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect 5th", "cents": 700, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Major 6th", "cents": 900, "comment": "Major sixth"},
+            {"step": 7, "frequency": 466.16, "note": "Bb", "function": "Minor 7th", "cents": 1000, "comment": "Minor seventh"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Resolution", "cents": 1200, "comment": "Octave resolution"},
+            {"step": 9, "frequency": 587.33, "note": "D", "function": "Upper major 2nd", "cents": 1400, "comment": "Upper major second"},
+            {"step": 10, "frequency": 622.25, "note": "Eb", "function": "Upper minor 3rd", "cents": 1500, "comment": "Upper minor third"},
+            {"step": 11, "frequency": 739.99, "note": "F#", "function": "Upper aug 4th", "cents": 1800, "comment": "Upper augmented fourth"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Upper perfect 5th", "cents": 1900, "comment": "Upper perfect fifth"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "Upper major 6th", "cents": 2100, "comment": "Upper major sixth"},
+            {"step": 14, "frequency": 932.33, "note": "Bb", "function": "Upper minor 7th", "cents": 2200, "comment": "Upper minor seventh"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Upper resolution", "cents": 2400, "comment": "Upper resolution"},
+            {"step": 16, "frequency": 1174.64, "note": "D", "function": "High major 2nd", "cents": 2600, "comment": "High major second"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "doubleAugmented2nd": "Augmented seconds between Eb-F# and Bb-C#",
+            "signatureIntervals": ["C-D-Eb-F#-G pattern with characteristic augmented 2nd"]
+          },
+          "metadata": {
+            "description": "Romani characteristic scale with two augmented seconds",
+            "regionalVariants": ["Hungarian Romani", "Balkan Romani"],
+            "traditionalUse": "Virtuosic instrumental music, passionate songs"
+          }
+        },
+        {
+          "name": "Hijaz (Balkan version)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Hijaz",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "exotic, ornate",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 285.00, "note": "Db (very sharp)", "function": "Raised flat 2nd", "cents": 145, "comment": "Raised flat second"},
+            {"step": 3, "frequency": 329.63, "note": "E", "function": "Major 3rd", "cents": 400, "comment": "Major third"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect 4th", "cents": 500, "comment": "Perfect fourth"},
+            {"step": 5, "frequency": 388.00, "note": "G (slightly flat)", "function": "Lowered 5th", "cents": 680, "comment": "Slightly lowered fifth"},
+            {"step": 6, "frequency": 415.30, "note": "Ab", "function": "Minor 6th", "cents": 800, "comment": "Minor sixth"},
+            {"step": 7, "frequency": 475.00, "note": "B (very flat)", "function": "Low 7th", "cents": 1025, "comment": "Low seventh"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Resolution", "cents": 1200, "comment": "Octave resolution"},
+            {"step": 9, "frequency": 570.00, "note": "Db (very sharp)", "function": "Upper raised flat 2nd", "cents": 1345, "comment": "Upper raised flat second"},
+            {"step": 10, "frequency": 659.26, "note": "E", "function": "Upper major 3rd", "cents": 1600, "comment": "Upper major third"},
+            {"step": 11, "frequency": 698.46, "note": "F", "function": "Upper perfect 4th", "cents": 1700, "comment": "Upper perfect fourth"},
+            {"step": 12, "frequency": 776.00, "note": "G (slightly flat)", "function": "Upper lowered 5th", "cents": 1880, "comment": "Upper slightly lowered fifth"},
+            {"step": 13, "frequency": 830.61, "note": "Ab", "function": "Upper minor 6th", "cents": 2000, "comment": "Upper minor sixth"},
+            {"step": 14, "frequency": 950.00, "note": "B (very flat)", "function": "Upper low 7th", "cents": 2225, "comment": "Upper low seventh"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Upper resolution", "cents": 2400, "comment": "Upper resolution"},
+            {"step": 16, "frequency": 1140.00, "note": "Db (very sharp)", "function": "High raised flat 2nd", "cents": 2545, "comment": "High raised flat second"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "sharpFlatSecond": "Very sharp Db (145 cents instead of 100)",
+            "flatFifth": "Slightly flat G (680 cents instead of 700)",
+            "signatureIntervals": ["C-Db+-E with exaggerated augmented 2nd (255 cents)"]
+          },
+          "metadata": {
+            "description": "Balkan interpretation of the Middle Eastern Hijaz mode",
+            "regionalVariants": ["Bulgarian Hijaz", "Romanian Hijaz"],
+            "traditionalUse": "Folk melodies, dance music, emotional songs"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Balkan modes frequently use notes between standard equal temperament pitches",
+      "rhythmic_features": "These modes are typically performed with complex asymmetric rhythms (7/8, 9/8, 11/8 etc.)",
+      "ornamentation": "Heavy use of grace notes, slides, and elaborate ornamentation is characteristic",
+      "instrumentation": "Commonly performed on accordion, violin, clarinet, and various folk instruments"
+    }
+  }
+}

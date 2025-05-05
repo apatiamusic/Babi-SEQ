@@ -1,0 +1,342 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Microtonal Tuning Systems Collection",
+  "description": "Various microtonal and alternative tuning systems adapted for electronic music production and sequencing applications.",
+  "version": "1.0",
+  "reference": "All systems calculated from A4=440Hz reference unless otherwise noted",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Alternative Tuning Systems",
+      "collectionType": "microtonal",
+      "culturalOrigin": "Contemporary Experimental Music",
+      "description": "A collection of microtonal and non-standard tuning systems for exploring alternative harmonic relationships and extended tonality",
+      "modes": [
+        {
+          "name": "17-TET",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 17,
+          "baseSteps": 17,
+          "character": "Neutral-third system with unique harmonics",
+          "chordTypes": ["Neutral triads", "Neutral sevenths", "Extended neutral"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Base tone", "cents": 0, "comment": "0 steps"},
+            {"step": 2, "frequency": 272.54, "note": "C↑", "function": "Raised base", "cents": 71, "comment": "1 step (70.59 cents)"},
+            {"step": 3, "frequency": 283.91, "note": "C#", "function": "Sharpened base", "cents": 141, "comment": "2 steps"},
+            {"step": 4, "frequency": 295.77, "note": "D↓", "function": "Lowered second", "cents": 212, "comment": "3 steps"},
+            {"step": 5, "frequency": 308.14, "note": "D", "function": "Second", "cents": 282, "comment": "4 steps"},
+            {"step": 6, "frequency": 321.04, "note": "D↑", "function": "Raised second", "cents": 353, "comment": "5 steps"},
+            {"step": 7, "frequency": 334.49, "note": "D#", "function": "Neutral third", "cents": 424, "comment": "6 steps"},
+            {"step": 8, "frequency": 348.52, "note": "E↓", "function": "Lowered third", "cents": 494, "comment": "7 steps"},
+            {"step": 9, "frequency": 363.15, "note": "E", "function": "Major third", "cents": 565, "comment": "8 steps"},
+            {"step": 10, "frequency": 378.41, "note": "F", "function": "Fourth", "cents": 635, "comment": "9 steps"},
+            {"step": 11, "frequency": 394.32, "note": "F#↓", "function": "Lowered tritone", "cents": 706, "comment": "10 steps"},
+            {"step": 12, "frequency": 410.92, "note": "F#", "function": "Tritone", "cents": 776, "comment": "11 steps"},
+            {"step": 13, "frequency": 428.23, "note": "G↓", "function": "Lowered fifth", "cents": 847, "comment": "12 steps"},
+            {"step": 14, "frequency": 446.29, "note": "G", "function": "Fifth", "cents": 918, "comment": "13 steps"},
+            {"step": 15, "frequency": 465.12, "note": "G#↓", "function": "Lowered sixth", "cents": 988, "comment": "14 steps"},
+            {"step": 16, "frequency": 484.77, "note": "G#", "function": "Sixth", "cents": 1059, "comment": "15 steps"},
+            {"step": 17, "frequency": 505.26, "note": "A↓", "function": "Lowered seventh", "cents": 1129, "comment": "16 steps"}
+          ],
+          "voicingPattern": [1, 4, 7, 11, 14, 17],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament with 17 divisions per octave",
+            "intervalStructure": "70.59 cents per step (1200/17)",
+            "signatureIntervals": ["Neutral third (424 cents)", "Stretched fourth (635 cents)", "Compressed fifth (847 cents)"]
+          },
+          "metadata": {
+            "description": "17-TET divides the octave into 17 equal steps of approximately 70.59 cents each. This system is notable for its 'neutral' thirds that fall between major and minor, and for its good approximations of certain just intervals while creating unique harmonic possibilities not available in 12-TET.",
+            "historicalContext": "Explored by microtonal theorists in the 20th century, particularly for its neutral intervals and useful approximations of harmonics 7, 11, and 13",
+            "usageExamples": "Experimental electronic music, Middle Eastern-inspired compositions, neutral-third harmony exploration, alternative jazz harmonies"
+          }
+        },
+        {
+          "name": "24-TET (Quarter-tone)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "12-TET Extension",
+          "modeDegree": null,
+          "totalSteps": 24,
+          "baseSteps": 24,
+          "character": "Quarter-tone system with extended chromatic palette",
+          "chordTypes": ["Quarter-tone clusters", "Extended quarter harmonies", "Mixed chromatic"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Base tone", "cents": 0, "comment": "Standard"},
+            {"step": 2, "frequency": 269.29, "note": "C↑", "function": "Quarter-sharp base", "cents": 50, "comment": "Quarter-sharp"},
+            {"step": 3, "frequency": 277.18, "note": "C#", "function": "Half-sharp base", "cents": 100, "comment": "Half-sharp (50 cents)"},
+            {"step": 4, "frequency": 285.30, "note": "C#↑", "function": "Three-quarter-sharp base", "cents": 150, "comment": "Three-quarter-sharp"},
+            {"step": 5, "frequency": 293.66, "note": "D", "function": "Second", "cents": 200, "comment": "Standard"},
+            {"step": 6, "frequency": 302.27, "note": "D↑", "function": "Quarter-sharp second", "cents": 250, "comment": "Quarter-sharp"},
+            {"step": 7, "frequency": 311.13, "note": "D#", "function": "Half-sharp second", "cents": 300, "comment": "Half-sharp"},
+            {"step": 8, "frequency": 320.24, "note": "D#↑", "function": "Three-quarter-sharp second", "cents": 350, "comment": "Three-quarter-sharp"},
+            {"step": 9, "frequency": 329.63, "note": "E", "function": "Third", "cents": 400, "comment": "Standard"},
+            {"step": 10, "frequency": 349.23, "note": "F", "function": "Fourth", "cents": 500, "comment": "Standard"},
+            {"step": 11, "frequency": 359.46, "note": "F↑", "function": "Quarter-sharp fourth", "cents": 550, "comment": "Quarter-sharp"},
+            {"step": 12, "frequency": 369.99, "note": "F#", "function": "Half-sharp fourth", "cents": 600, "comment": "Half-sharp"},
+            {"step": 13, "frequency": 380.84, "note": "F#↑", "function": "Three-quarter-sharp fourth", "cents": 650, "comment": "Three-quarter-sharp"},
+            {"step": 14, "frequency": 392.00, "note": "G", "function": "Fifth", "cents": 700, "comment": "Standard"},
+            {"step": 15, "frequency": 403.48, "note": "G↑", "function": "Quarter-sharp fifth", "cents": 750, "comment": "Quarter-sharp"},
+            {"step": 16, "frequency": 415.30, "note": "G#", "function": "Half-sharp fifth", "cents": 800, "comment": "Half-sharp"},
+            {"step": 17, "frequency": 427.47, "note": "G#↑", "function": "Three-quarter-sharp fifth", "cents": 850, "comment": "Three-quarter-sharp"},
+            {"step": 18, "frequency": 440.00, "note": "A", "function": "Sixth", "cents": 900, "comment": "Standard"},
+            {"step": 19, "frequency": 452.89, "note": "A↑", "function": "Quarter-sharp sixth", "cents": 950, "comment": "Quarter-sharp"},
+            {"step": 20, "frequency": 466.16, "note": "A#", "function": "Half-sharp sixth", "cents": 1000, "comment": "Half-sharp"},
+            {"step": 21, "frequency": 479.82, "note": "A#↑", "function": "Three-quarter-sharp sixth", "cents": 1050, "comment": "Three-quarter-sharp"},
+            {"step": 22, "frequency": 493.88, "note": "B", "function": "Seventh", "cents": 1100, "comment": "Standard"},
+            {"step": 23, "frequency": 523.25, "note": "C (octave)", "function": "Octave", "cents": 1200, "comment": "Standard"},
+            {"step": 24, "frequency": 538.58, "note": "C↑ (octave)", "function": "Quarter-sharp octave", "cents": 1250, "comment": "Quarter-sharp octave"}
+          ],
+          "voicingPattern": [1, 5, 9, 14, 18, 23],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament with 24 divisions per octave",
+            "intervalStructure": "50 cents per step (1200/24)",
+            "signatureIntervals": ["Quarter-tone (50 cents)", "Three-quarter-tone (150 cents)", "Quarter-sharp fifth (750 cents)"]
+          },
+          "metadata": {
+            "description": "24-TET divides the octave into 24 equal steps of 50 cents each, effectively creating quarter-tones between each semitone of the standard 12-TET system. This system provides a richer chromatic palette while remaining somewhat related to conventional harmony.",
+            "historicalContext": "Used by composers like Charles Ives, Alois Hába, and Ivan Wyschnegradsky in the early 20th century; later adopted in electronic music and certain Middle Eastern-inspired compositions",
+            "usageExamples": "Contemporary classical compositions, Arabic-influenced electronic music, microtonal jazz, experimental film scores, avant-garde synthesizer works"
+          }
+        },
+        {
+          "name": "31-TET",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 32,
+          "baseSteps": 32,
+          "character": "Historically-inspired system with excellent just intonation approximations",
+          "chordTypes": ["Meantone triads", "Extended meantone", "Just-approximate"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Base tone", "cents": 0, "comment": "0 steps"},
+            {"step": 2, "frequency": 267.51, "note": "C↑1", "function": "First diesis", "cents": 39, "comment": "1 step (38.71 cents)"},
+            {"step": 3, "frequency": 273.54, "note": "C↑2", "function": "Second diesis", "cents": 77, "comment": "2 steps"},
+            {"step": 4, "frequency": 279.72, "note": "C↑3", "function": "Third diesis", "cents": 116, "comment": "3 steps"},
+            {"step": 5, "frequency": 286.05, "note": "C#", "function": "Minor second", "cents": 155, "comment": "4 steps"},
+            {"step": 6, "frequency": 292.53, "note": "C#↑1", "function": "Raised minor second", "cents": 194, "comment": "5 steps"},
+            {"step": 7, "frequency": 299.17, "note": "D↓", "function": "Lowered major second", "cents": 232, "comment": "6 steps"},
+            {"step": 8, "frequency": 305.97, "note": "D", "function": "Major second", "cents": 271, "comment": "7 steps"},
+            {"step": 9, "frequency": 312.93, "note": "D↑1", "function": "Raised major second", "cents": 310, "comment": "8 steps"},
+            {"step": 10, "frequency": 320.06, "note": "D↑2", "function": "Double raised second", "cents": 348, "comment": "9 steps"},
+            {"step": 11, "frequency": 327.35, "note": "D#↓", "function": "Lowered minor third", "cents": 387, "comment": "10 steps"},
+            {"step": 12, "frequency": 334.81, "note": "D#", "function": "Minor third", "cents": 426, "comment": "11 steps"},
+            {"step": 13, "frequency": 342.44, "note": "E↓", "function": "Lowered major third", "cents": 465, "comment": "12 steps"},
+            {"step": 14, "frequency": 350.25, "note": "E", "function": "Major third", "cents": 503, "comment": "13 steps"},
+            {"step": 15, "frequency": 358.23, "note": "F↓", "function": "Lowered fourth", "cents": 542, "comment": "14 steps"},
+            {"step": 16, "frequency": 366.40, "note": "F", "function": "Perfect fourth", "cents": 581, "comment": "15 steps"},
+            {"step": 17, "frequency": 374.75, "note": "F#↓", "function": "Lowered diminished fifth", "cents": 619, "comment": "16 steps"},
+            {"step": 18, "frequency": 383.29, "note": "F#", "function": "Diminished fifth", "cents": 658, "comment": "17 steps"},
+            {"step": 19, "frequency": 392.02, "note": "G↓", "function": "Lowered perfect fifth", "cents": 697, "comment": "18 steps"},
+            {"step": 20, "frequency": 400.94, "note": "G", "function": "Perfect fifth", "cents": 735, "comment": "19 steps"},
+            {"step": 21, "frequency": 410.06, "note": "G#↓", "function": "Lowered augmented fifth", "cents": 774, "comment": "20 steps"},
+            {"step": 22, "frequency": 419.38, "note": "G#", "function": "Augmented fifth", "cents": 813, "comment": "21 steps"},
+            {"step": 23, "frequency": 428.90, "note": "A↓", "function": "Lowered sixth", "cents": 852, "comment": "22 steps"},
+            {"step": 24, "frequency": 438.63, "note": "A", "function": "Major sixth", "cents": 890, "comment": "23 steps"},
+            {"step": 25, "frequency": 448.57, "note": "A#↓", "function": "Lowered minor seventh", "cents": 929, "comment": "24 steps"},
+            {"step": 26, "frequency": 458.72, "note": "A#", "function": "Minor seventh", "cents": 968, "comment": "25 steps"},
+            {"step": 27, "frequency": 469.09, "note": "B↓", "function": "Lowered major seventh", "cents": 1006, "comment": "26 steps"},
+            {"step": 28, "frequency": 479.69, "note": "B", "function": "Major seventh", "cents": 1045, "comment": "27 steps"},
+            {"step": 29, "frequency": 490.51, "note": "C↓ (octave)", "function": "Lowered octave", "cents": 1084, "comment": "28 steps"},
+            {"step": 30, "frequency": 501.56, "note": "C (octave)", "function": "Just-fifth octave", "cents": 1123, "comment": "29 steps"},
+            {"step": 31, "frequency": 512.85, "note": "C↑ (octave)", "function": "Raised octave", "cents": 1161, "comment": "30 steps"},
+            {"step": 32, "frequency": 523.25, "note": "C (double octave)", "function": "Pure octave", "cents": 1200, "comment": "31 steps"}
+          ],
+          "voicingPattern": [1, 8, 14, 20, 24, 28, 32],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament with 31 divisions per octave",
+            "intervalStructure": "38.71 cents per step (1200/31)",
+            "signatureIntervals": ["Almost-just major third (503 cents)", "Quarter-comma meantone fifth (697 cents)", "Excellent approximations of 7-limit just intervals"]
+          },
+          "metadata": {
+            "description": "31-TET divides the octave into 31 equal steps of approximately 38.71 cents each. This system closely approximates quarter-comma meantone temperament and provides excellent approximations of just intonation intervals, especially thirds and sixths.",
+            "historicalContext": "Theorized by Christiaan Huygens in the 17th century and later explored by Adriaan Fokker in the 20th century, who built a 31-tone organ",
+            "usageExamples": "Renaissance music recreations, meantone temperament emulations, experimental electronic compositions, microtonality with strong historical references"
+          }
+        },
+        {
+          "name": "Bohlen-Pierce 13-TET",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 13,
+          "character": "Non-octave system with tritave (3:1) periodicity",
+          "chordTypes": ["BP triads", "Non-octave structures", "Tritave-based harmonies"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "1", "function": "Base tone", "cents": 0, "comment": "Base tone"},
+            {"step": 2, "frequency": 284.68, "note": "2", "function": "First step", "cents": 146, "comment": "146.3 cents"},
+            {"step": 3, "frequency": 309.77, "note": "3", "function": "Second step", "cents": 293, "comment": "292.6 cents"},
+            {"step": 4, "frequency": 337.06, "note": "4", "function": "Third step", "cents": 439, "comment": "438.9 cents"},
+            {"step": 5, "frequency": 366.74, "note": "5", "function": "Fourth step", "cents": 585, "comment": "585.2 cents"},
+            {"step": 6, "frequency": 399.04, "note": "6", "function": "Fifth step", "cents": 732, "comment": "731.5 cents"},
+            {"step": 7, "frequency": 434.18, "note": "7", "function": "Sixth step", "cents": 878, "comment": "877.8 cents"},
+            {"step": 8, "frequency": 472.42, "note": "8", "function": "Seventh step", "cents": 1024, "comment": "1024.1 cents"},
+            {"step": 9, "frequency": 514.03, "note": "9", "function": "Eighth step", "cents": 1170, "comment": "1170.4 cents"},
+            {"step": 10, "frequency": 559.31, "note": "10", "function": "Ninth step", "cents": 1317, "comment": "1316.7 cents"},
+            {"step": 11, "frequency": 608.58, "note": "11", "function": "Tenth step", "cents": 1463, "comment": "1463.0 cents"},
+            {"step": 12, "frequency": 662.19, "note": "12", "function": "Eleventh step", "cents": 1609, "comment": "1609.3 cents"},
+            {"step": 13, "frequency": 720.53, "note": "13", "function": "Twelfth step", "cents": 1756, "comment": "1755.6 cents"},
+            {"step": 14, "frequency": 784.00, "note": "1 (next period)", "function": "Tritave", "cents": 1902, "comment": "1901.9 cents (3:1)"},
+            {"step": 15, "frequency": 853.07, "note": "2 (next period)", "function": "First step tritave", "cents": 2048, "comment": "2048.2 cents"},
+            {"step": 16, "frequency": 928.27, "note": "3 (next period)", "function": "Second step tritave", "cents": 2205, "comment": "2204.5 cents"}
+          ],
+          "voicingPattern": [1, 5, 9, 14],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament with 13 divisions per tritave (3:1 ratio)",
+            "intervalStructure": "146.3 cents per step (1902/13)",
+            "signatureIntervals": ["BP-third (439 cents)", "BP-fifth (732 cents)", "Tritave (1902 cents)"]
+          },
+          "metadata": {
+            "description": "Bohlen-Pierce is a non-octave repeating scale that divides the tritave (3:1 frequency ratio) into 13 equal steps of 146.3 cents each. Unlike conventional scales, it doesn't use octave equivalence but instead repeats at the tritave (perfect twelfth in conventional terms).",
+            "historicalContext": "Independently discovered by Heinz Bohlen and John Pierce in the 1970s, developed further by Kees van Prooijen in the 1980s",
+            "usageExamples": "Electronic compositions, specialized BP instruments, computer music, experimental soundscapes with distinctive non-octave harmonic qualities"
+          }
+        },
+        {
+          "name": "Wendy Carlos Alpha Scale",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Microtonal system for just approximations with alpha division",
+          "chordTypes": ["Just-approximation triads", "Alpha-based structures", "JI approximations"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "α1", "function": "Base tone", "cents": 0, "comment": "Base tone"},
+            {"step": 2, "frequency": 264.10, "note": "α2", "function": "Alpha step 2", "cents": 15, "comment": "15.39 cents"},
+            {"step": 3, "frequency": 266.60, "note": "α3", "function": "Alpha step 3", "cents": 31, "comment": "30.78 cents"},
+            {"step": 4, "frequency": 284.68, "note": "α9", "function": "Perfect fourth approx.", "cents": 138, "comment": "Perfect fourth (approx)"},
+            {"step": 5, "frequency": 303.82, "note": "α15", "function": "Neutral third", "cents": 262, "comment": "Neutral third"},
+            {"step": 6, "frequency": 324.11, "note": "α21", "function": "Perfect fifth approx.", "cents": 369, "comment": "Perfect fifth (approx)"},
+            {"step": 7, "frequency": 392.00, "note": "α39", "function": "Classic octave", "cents": 700, "comment": "Classic octave"},
+            {"step": 8, "frequency": 264.10, "note": "α2", "function": "Alpha step 2 octave", "cents": 1215, "comment": "Octave repetition (1/7)"},
+            {"step": 9, "frequency": 266.60, "note": "α3", "function": "Alpha step 3 octave", "cents": 1231, "comment": "Octave repetition (2/7)"},
+            {"step": 10, "frequency": 284.68, "note": "α9", "function": "Perfect fourth approx. octave", "cents": 1338, "comment": "Upper fourth (3/7)"},
+            {"step": 11, "frequency": 303.82, "note": "α15", "function": "Neutral third octave", "cents": 1462, "comment": "Upper neutral third (4/7)"},
+            {"step": 12, "frequency": 324.11, "note": "α21", "function": "Perfect fifth approx. octave", "cents": 1569, "comment": "Upper fifth (5/7)"},
+            {"step": 13, "frequency": 392.00, "note": "α39", "function": "Classic octave octave", "cents": 1900, "comment": "Upper octave (6/7)"},
+            {"step": 14, "frequency": 523.25, "note": "α78", "function": "Pure octave", "cents": 2400, "comment": "2:1 octave (7/7)"},
+            {"step": 15, "frequency": 528.20, "note": "α2↑", "function": "Alpha step 2 high octave", "cents": 2415, "comment": "High repetition (1/7)"},
+            {"step": 16, "frequency": 533.20, "note": "α3↑", "function": "Alpha step 3 high octave", "cents": 2431, "comment": "High repetition (2/7)"}
+          ],
+          "voicingPattern": [1, 4, 6, 7, 14],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Carlos Alpha with 15.39 cents per step (78 steps per octave)",
+            "intervalStructure": "Selected tones from 78-step scale with 15.39-cent divisions",
+            "signatureIntervals": ["78-alpha octave (1200 cents)", "Classic octave (700 cents)", "Alpha fifth (369 cents)"]
+          },
+          "metadata": {
+            "description": "The Wendy Carlos Alpha Scale is a microtonal system with 78 equal divisions per octave (15.39 cents per step), designed to closely approximate just intonation intervals. The scale shown here presents selected characteristic tones from this system.",
+            "historicalContext": "Developed by electronic music pioneer Wendy Carlos in the 1980s as part of her exploration of alternative tuning systems",
+            "usageExamples": "Carlos' 'Beauty in the Beast' album, experimental electronic compositions, microtonality with strong just intonation references"
+          }
+        },
+          {
+          "name": "Wendy Carlos Beta Scale",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Microtonal system for just approximations with beta division",
+          "chordTypes": ["Just-approximation triads", "Beta-based structures", "JI approximations"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "β1", "function": "Base tone", "cents": 0, "comment": "Base tone"},
+            {"step": 2, "frequency": 264.64, "note": "β2", "function": "Beta step 2", "cents": 19, "comment": "18.75 cents"},
+            {"step": 3, "frequency": 267.70, "note": "β3", "function": "Beta step 3", "cents": 38, "comment": "37.5 cents"},
+            {"step": 4, "frequency": 293.66, "note": "β11", "function": "Perfect fourth", "cents": 206, "comment": "Perfect fourth"},
+            {"step": 5, "frequency": 329.63, "note": "β19", "function": "Perfect fifth", "cents": 356, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 392.00, "note": "β32", "function": "Classic octave", "cents": 600, "comment": "Classic octave"},
+            {"step": 7, "frequency": 523.25, "note": "β64", "function": "Pure octave", "cents": 1200, "comment": "2:1 octave"},
+            {"step": 8, "frequency": 264.64, "note": "β2", "function": "Beta step 2 octave", "cents": 1219, "comment": "Octave repetition (1/7)"},
+            {"step": 9, "frequency": 267.70, "note": "β3", "function": "Beta step 3 octave", "cents": 1238, "comment": "Octave repetition (2/7)"},
+            {"step": 10, "frequency": 293.66, "note": "β11", "function": "Perfect fourth octave", "cents": 1406, "comment": "Upper fourth (3/7)"},
+            {"step": 11, "frequency": 329.63, "note": "β19", "function": "Perfect fifth octave", "cents": 1556, "comment": "Upper fifth (4/7)"},
+            {"step": 12, "frequency": 392.00, "note": "β32", "function": "Classic octave octave", "cents": 1800, "comment": "Upper octave (5/7)"},
+            {"step": 13, "frequency": 523.25, "note": "β64", "function": "Pure octave octave", "cents": 2400, "comment": "Upper 2:1 octave (6/7)"},
+            {"step": 14, "frequency": 529.28, "note": "β2↑", "function": "Beta step 2 high octave", "cents": 2419, "comment": "High repetition (1/7)"},
+            {"step": 15, "frequency": 535.40, "note": "β3↑", "function": "Beta step 3 high octave", "cents": 2438, "comment": "High repetition (2/7)"},
+            {"step": 16, "frequency": 587.33, "note": "β11↑", "function": "Perfect fourth high octave", "cents": 2606, "comment": "High fourth (3/7)"}
+          ],
+          "voicingPattern": [1, 4, 5, 7, 13],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Carlos Beta with 18.75 cents per step (64 steps per octave)",
+            "intervalStructure": "Selected tones from 64-step scale with 18.75-cent divisions",
+            "signatureIntervals": ["64-beta octave (1200 cents)", "Classic octave (600 cents)", "Beta fifth (356 cents)"]
+          },
+          "metadata": {
+            "description": "The Wendy Carlos Beta Scale is a microtonal system with 64 equal divisions per octave (18.75 cents per step), designed as another approach to approximating just intonation intervals. The scale shown here presents selected characteristic tones from this system.",
+            "historicalContext": "Developed by Wendy Carlos alongside her Alpha and Gamma scales as part of her comprehensive exploration of microtonality in the 1980s",
+            "usageExamples": "Carlos' electronic compositions, microtonal synthesizer works, experimental harmonies with just intonation approximations"
+          }
+        },
+        {
+          "name": "Wendy Carlos Gamma Scale",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Microtonal system for just approximations with gamma division",
+          "chordTypes": ["Just-approximation triads", "Gamma-based structures", "JI approximations"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "γ1", "function": "Base tone", "cents": 0, "comment": "Base tone"},
+            {"step": 2, "frequency": 264.96, "note": "γ2", "function": "Gamma step 2", "cents": 21, "comment": "21.4 cents"},
+            {"step": 3, "frequency": 268.36, "note": "γ3", "function": "Gamma step 3", "cents": 43, "comment": "42.8 cents"},
+            {"step": 4, "frequency": 293.66, "note": "γ10", "function": "Perfect fourth", "cents": 214, "comment": "Perfect fourth"},
+            {"step": 5, "frequency": 329.63, "note": "γ17", "function": "Perfect fifth", "cents": 364, "comment": "Perfect fifth"},
+            {"step": 6, "frequency": 392.00, "note": "γ28", "function": "Classic octave", "cents": 599, "comment": "Classic octave"},
+            {"step": 7, "frequency": 523.25, "note": "γ56", "function": "Pure octave", "cents": 1200, "comment": "2:1 octave"},
+            {"step": 8, "frequency": 264.96, "note": "γ2", "function": "Gamma step 2 octave", "cents": 1221, "comment": "Octave repetition (1/7)"},
+            {"step": 9, "frequency": 268.36, "note": "γ3", "function": "Gamma step 3 octave", "cents": 1243, "comment": "Octave repetition (2/7)"},
+            {"step": 10, "frequency": 293.66, "note": "γ10", "function": "Perfect fourth octave", "cents": 1414, "comment": "Upper fourth (3/7)"},
+            {"step": 11, "frequency": 329.63, "note": "γ17", "function": "Perfect fifth octave", "cents": 1564, "comment": "Upper fifth (4/7)"},
+            {"step": 12, "frequency": 392.00, "note": "γ28", "function": "Classic octave octave", "cents": 1799, "comment": "Upper octave (5/7)"},
+            {"step": 13, "frequency": 523.25, "note": "γ56", "function": "Pure octave octave", "cents": 2400, "comment": "Upper 2:1 octave (6/7)"},
+            {"step": 14, "frequency": 529.92, "note": "γ2↑", "function": "Gamma step 2 high octave", "cents": 2421, "comment": "High repetition (1/7)"},
+            {"step": 15, "frequency": 536.72, "note": "γ3↑", "function": "Gamma step 3 high octave", "cents": 2443, "comment": "High repetition (2/7)"},
+            {"step": 16, "frequency": 587.33, "note": "γ10↑", "function": "Perfect fourth high octave", "cents": 2614, "comment": "High fourth (3/7)"}
+          ],
+          "voicingPattern": [1, 4, 5, 7, 13],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Carlos Gamma with 21.4 cents per step (56 steps per octave)",
+            "intervalStructure": "Selected tones from 56-step scale with 21.4-cent divisions",
+            "signatureIntervals": ["56-gamma octave (1200 cents)", "Classic octave (599 cents)", "Gamma fifth (364 cents)"]
+          },
+          "metadata": {
+            "description": "The Wendy Carlos Gamma Scale is a microtonal system with 56 equal divisions per octave (21.4 cents per step), providing another approach to approximating just intonation intervals. The scale shown here presents selected characteristic tones from this system.",
+            "historicalContext": "The third of Carlos' three alternative tuning systems developed in the 1980s, complementing her Alpha and Beta scales",
+            "usageExamples": "Electronic compositions exploring microtonal harmony, synthesizer works with just intonation approximations, experimental sound design"
+          }
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Alternative tuning systems often require specialized instruments or digital implementation due to the limitations of conventional Western instruments. Electronic instruments provide ideal platforms for precise microtonal exploration.",
+      "rhythmic_features": "Microtonal music frequently employs complex rhythmic structures to complement the expanded pitch repertoire, with some systems developing unique rhythmic approaches that align with their tonal organization.",
+      "ornamentation": "Quarter-tone and other microtonal systems enable expanded ornamental vocabularies, including microtonal trills, glissandi between closely-spaced pitches, and unique vibrato techniques that exploit the finer pitch divisions.",
+      "instrumentation": "Implementation typically requires specialized electronic instruments, modified acoustic instruments, or digital tuning systems. Fretless string instruments, specially-tuned synthesizers, and software-based solutions are common approaches."
+    }
+  }
+}

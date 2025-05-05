@@ -1,0 +1,358 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Ethnic and Folk Music Modes Collection",
+  "description": "A diverse collection of ethnic and folk music modes from around the world, optimized for 16-step sequencing applications.",
+  "version": "1.0",
+  "reference": "World music modes optimized for 16-step sequencers with microtonal precision | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "World Ethnic and Folk Modes",
+      "collectionType": "world",
+      "culturalOrigin": "Various Global Traditions",
+      "description": "A collection of distinctive modal scales from diverse cultural traditions around the world",
+      "modes": [
+        {
+          "name": "Double Harmonic Major (Byzantine)",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": "Double Harmonic",
+          "modeDegree": 1,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Exotic and dramatic with distinctive Middle Eastern flavor",
+          "chordTypes": ["Major", "Augmented", "Major 7th flat 2"],
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 277.18, "note": "Db", "function": "Minor 2nd", "cents": 100, "comment": "Minor 2nd"},
+            {"step": 3, "frequency": 329.63, "note": "E", "function": "Major 3rd", "cents": 400, "comment": "Major 3rd"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Perfect 4th", "cents": 500, "comment": "Perfect 4th"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Perfect 5th", "cents": 700, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 415.30, "note": "Ab", "function": "Minor 6th", "cents": 800, "comment": "Minor 6th"},
+            {"step": 7, "frequency": 493.88, "note": "B", "function": "Major 7th", "cents": 1100, "comment": "Major 7th"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 554.37, "note": "Db", "function": "Minor 2nd octave", "cents": 1300, "comment": "m9"},
+            {"step": 10, "frequency": 659.26, "note": "E", "function": "Major 3rd octave", "cents": 1600, "comment": "M10"},
+            {"step": 11, "frequency": 698.46, "note": "F", "function": "Perfect 4th octave", "cents": 1700, "comment": "P11"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Perfect 5th octave", "cents": 1900, "comment": "P12"},
+            {"step": 13, "frequency": 830.61, "note": "Ab", "function": "Minor 6th octave", "cents": 2000, "comment": "m13"},
+            {"step": 14, "frequency": 987.77, "note": "B", "function": "Major 7th octave", "cents": 2300, "comment": "M14"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 16, "frequency": 1108.73, "note": "Db", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "m16"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Half tone, augmented second, half tone, whole tone, half tone, augmented second, half tone",
+            "signatureIntervals": ["Minor 2nd", "Major 3rd", "Minor 6th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "Also known as Byzantine scale or Arabic scale, this exotic mode features the distinctive interval pattern with two augmented seconds creating a highly expressive, ornate sound common in Middle Eastern music.",
+            "historicalContext": "Used in Byzantine chant, Greek, Turkish, and Middle Eastern folk music traditions over many centuries",
+            "usageExamples": "Traditional folk music throughout the Eastern Mediterranean, Arabic maqam traditions, Flamenco music, fusion compositions"
+          }
+        },
+        {
+          "name": "Hirajoshi (Japanese)",
+          "fundamentalNote": "E",
+          "fundamentalFrequency":164.81,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Delicate and evocative with a distinctly Japanese sound",
+          "chordTypes": ["Sus2", "Sus4", "Add9"],
+          "steps": [
+            {"step": 1, "frequency": 164.81, "note": "E", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 185.00, "note": "F#", "function": "Major 2nd", "cents": 200, "comment": "M2"},
+            {"step": 3, "frequency": 220.00, "note": "A", "function": "Perfect 4th", "cents": 500, "comment": "P4"},
+            {"step": 4, "frequency": 246.94, "note": "B", "function": "Perfect 5th", "cents": 700, "comment": "P5"},
+            {"step": 5, "frequency": 261.63, "note": "C", "function": "Minor 6th", "cents": 800, "comment": "m6"},
+            {"step": 6, "frequency": 329.63, "note": "E", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 7, "frequency": 369.99, "note": "F#", "function": "Major 2nd octave", "cents": 1400, "comment": "M9"},
+            {"step": 8, "frequency": 440.00, "note": "A", "function": "Perfect 4th octave", "cents": 1700, "comment": "P11"},
+            {"step": 9, "frequency": 493.88, "note": "B", "function": "Perfect 5th octave", "cents": 1900, "comment": "P12"},
+            {"step": 10, "frequency": 523.25, "note": "C", "function": "Minor 6th octave", "cents": 2000, "comment": "m13"},
+            {"step": 11, "frequency": 659.26, "note": "E", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 12, "frequency": 739.99, "note": "F#", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "M14"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "Perfect 4th 2 octaves", "cents": 2900, "comment": "P16"},
+            {"step": 14, "frequency": 987.77, "note": "B", "function": "Perfect 5th 2 octaves", "cents": 3100, "comment": "P17"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Minor 6th 2 octaves", "cents": 3200, "comment": "m18"},
+            {"step": 16, "frequency": 1318.51, "note": "E", "function": "Tonic 3 octaves", "cents": 3600, "comment": "3 Octave"}
+          ],
+          "voicingPattern": [1, 2, 3, 5],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, minor third, whole tone, half tone, perfect fourth",
+            "signatureIntervals": ["Major 2nd", "Perfect 4th", "Minor 6th"]
+          },
+          "metadata": {
+            "description": "A traditional Japanese pentatonic scale with a distinctive character that captures the essence of traditional Japanese music. Used in folk songs, shamisen and koto music.",
+            "historicalContext": "Central to traditional Japanese music for centuries, particularly in folk songs, court music, and instrumental compositions",
+            "usageExamples": "Traditional Japanese folk songs, koto and shamisen compositions, modern fusion works, contemporary guitar compositions"
+          }
+        },
+        {
+          "name": "Hungarian Minor",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Double Harmonic Minor",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Dark and passionate with Gypsy/Roma influences",
+          "chordTypes": ["Minor/Major 7th", "Diminished", "Augmented"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 246.94, "note": "B", "function": "Major 2nd", "cents": 200, "comment": "Major 2nd"},
+            {"step": 3, "frequency": 261.63, "note": "C", "function": "Minor 3rd", "cents": 300, "comment": "Minor 3rd"},
+            {"step": 4, "frequency": 311.13, "note": "D#", "function": "Augmented 4th", "cents": 600, "comment": "Aug 4th"},
+            {"step": 5, "frequency": 329.63, "note": "E", "function": "Perfect 5th", "cents": 700, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 349.23, "note": "F", "function": "Minor 6th", "cents": 800, "comment": "Minor 6th"},
+            {"step": 7, "frequency": 415.30, "note": "G#", "function": "Major 7th", "cents": 1100, "comment": "Major 7th"},
+            {"step": 8, "frequency": 440.00, "note": "A", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 493.88, "note": "B", "function": "Major 2nd octave", "cents": 1400, "comment": "M9"},
+            {"step": 10, "frequency": 523.25, "note": "C", "function": "Minor 3rd octave", "cents": 1500, "comment": "m10"},
+            {"step": 11, "frequency": 622.25, "note": "D#", "function": "Augmented 4th octave", "cents": 1800, "comment": "Aug11"},
+            {"step": 12, "frequency": 659.26, "note": "E", "function": "Perfect 5th octave", "cents": 1900, "comment": "P12"},
+            {"step": 13, "frequency": 698.46, "note": "F", "function": "Minor 6th octave", "cents": 2000, "comment": "m13"},
+            {"step": 14, "frequency": 830.61, "note": "G#", "function": "Major 7th octave", "cents": 2300, "comment": "M14"},
+            {"step": 15, "frequency": 880.00, "note": "A", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 16, "frequency": 987.77, "note": "B", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "M16"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, half tone, augmented second, half tone, half tone, augmented second, half tone",
+            "signatureIntervals": ["Minor 3rd", "Augmented 4th", "Minor 6th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "A distinctive scale used in Hungarian folk music, Roma (Gypsy) music, and classical compositions. Features both the tension of the augmented fourth and the raised leading tone.",
+            "historicalContext": "Emerged from the folk traditions of Hungary and neighboring regions, later adopted by classical composers like Liszt and Bartók",
+            "usageExamples": "Hungarian folk songs, Romani (Gypsy) violin music, classical works by Liszt and Bartók, jazz improvisation"
+          }
+        },
+        {
+          "name": "In Scale (Japanese)",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Mysterious and contemplative with traditional Japanese expressiveness",
+          "chordTypes": ["Minor", "Diminished", "Half-diminished"],
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 311.13, "note": "Eb", "function": "Minor 2nd", "cents": 100, "comment": "m2"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Minor 3rd", "cents": 300, "comment": "m3"},
+            {"step": 4, "frequency": 415.30, "note": "G#", "function": "Augmented 4th", "cents": 600, "comment": "Aug4"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Perfect 5th", "cents": 700, "comment": "P5"},
+            {"step": 6, "frequency": 466.16, "note": "Bb", "function": "Minor 6th", "cents": 800, "comment": "m6"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Minor 7th", "cents": 1000, "comment": "m7"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 622.25, "note": "Eb", "function": "Minor 2nd octave", "cents": 1300, "comment": "m9"},
+            {"step": 10, "frequency": 698.46, "note": "F", "function": "Minor 3rd octave", "cents": 1500, "comment": "m10"},
+            {"step": 11, "frequency": 830.61, "note": "G#", "function": "Augmented 4th octave", "cents": 1800, "comment": "Aug11"},
+            {"step": 12, "frequency": 880.00, "note": "A", "function": "Perfect 5th octave", "cents": 1900, "comment": "P12"},
+            {"step": 13, "frequency": 932.33, "note": "Bb", "function": "Minor 6th octave", "cents": 2000, "comment": "m13"},
+            {"step": 14, "frequency": 1046.50, "note": "C", "function": "Minor 7th octave", "cents": 2200, "comment": "m14"},
+            {"step": 15, "frequency": 1174.66, "note": "D", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 16, "frequency": 1244.51, "note": "Eb", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "m16"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Half tone, minor third, augmented second, half tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 2nd", "Minor 3rd", "Augmented 4th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "A traditional Japanese heptatonic scale with a complex, moody character. Used in gagaku (court music) and other traditional Japanese musical forms.",
+            "historicalContext": "One of the principal scales in traditional Japanese music, particularly in gagaku (imperial court music) dating back to the 7th century",
+            "usageExamples": "Traditional Japanese gagaku court music, shakuhachi compositions, modern film scores evoking traditional Japanese settings"
+          }
+        },
+        {
+          "name": "Phrygian Dominant (Spanish Gypsy Mode)",
+          "fundamentalNote": "E",
+          "fundamentalFrequency":164.81,
+          "parentScale": "Harmonic Minor",
+          "modeDegree": 5,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Exotic and passionate with Spanish and Middle Eastern flavor",
+          "chordTypes": ["Dominant 7th flat 9", "Phrygian Major", "Sus4 flat 9"],
+          "steps": [
+            {"step": 1, "frequency": 164.81, "note": "E", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 174.61, "note": "F", "function": "Minor 2nd", "cents": 100, "comment": "Minor 2nd"},
+            {"step": 3, "frequency": 207.65, "note": "G#", "function": "Major 3rd", "cents": 400, "comment": "Major 3rd"},
+            {"step": 4, "frequency": 220.00, "note": "A", "function": "Perfect 4th", "cents": 500, "comment": "Perfect 4th"},
+            {"step": 5, "frequency": 246.94, "note": "B", "function": "Perfect 5th", "cents": 700, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 261.63, "note": "C", "function": "Minor 6th", "cents": 800, "comment": "Minor 6th"},
+            {"step": 7, "frequency": 293.66, "note": "D", "function": "Minor 7th", "cents": 1000, "comment": "Minor 7th"},
+            {"step": 8, "frequency": 329.63, "note": "E", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 349.23, "note": "F", "function": "Minor 2nd octave", "cents": 1300, "comment": "m9"},
+            {"step": 10, "frequency": 415.30, "note": "G#", "function": "Major 3rd octave", "cents": 1600, "comment": "M10"},
+            {"step": 11, "frequency": 440.00, "note": "A", "function": "Perfect 4th octave", "cents": 1700, "comment": "P11"},
+            {"step": 12, "frequency": 493.88, "note": "B", "function": "Perfect 5th octave", "cents": 1900, "comment": "P12"},
+            {"step": 13, "frequency": 523.25, "note": "C", "function": "Minor 6th octave", "cents": 2000, "comment": "m13"},
+            {"step": 14, "frequency": 587.33, "note": "D", "function": "Minor 7th octave", "cents": 2200, "comment": "m14"},
+            {"step": 15, "frequency": 659.26, "note": "E", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 16, "frequency": 698.46, "note": "F", "function": "Minor 2nd 2 octaves", "cents": 2500, "comment": "m16"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Half tone, augmented second, half tone, whole tone, half tone, whole tone, whole tone",
+            "signatureIntervals": ["Minor 2nd", "Major 3rd", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "Also known as the Spanish Gypsy scale, this mode is the fifth mode of the harmonic minor scale. It features a characteristic flamenco sound with its minor second and major third combination.",
+            "historicalContext": "Widely used in Flamenco music, Jewish liturgical songs (particularly in the Freygish steiger), and throughout Middle Eastern and Mediterranean musical traditions",
+            "usageExamples": "Flamenco guitar music, Middle Eastern improvisations, Klezmer music, metal guitar solos"
+          }
+        },
+        {
+          "name": "Ukrainian Dorian",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":146.83,
+          "parentScale": "Hungarian Minor",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Melancholic and dramatic with Eastern European expressiveness",
+          "chordTypes": ["Minor", "Augmented", "Minor Major 7th"],
+          "steps": [
+            {"step": 1, "frequency": 146.83, "note": "D", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 164.81, "note": "E", "function": "Major 2nd", "cents": 200, "comment": "M2"},
+            {"step": 3, "frequency": 174.61, "note": "F", "function": "Minor 3rd", "cents": 300, "comment": "m3"},
+            {"step": 4, "frequency": 207.65, "note": "G#", "function": "Augmented 4th", "cents": 600, "comment": "Aug4"},
+            {"step": 5, "frequency": 220.00, "note": "A", "function": "Perfect 5th", "cents": 700, "comment": "P5"},
+            {"step": 6, "frequency": 246.94, "note": "B", "function": "Major 6th", "cents": 900, "comment": "M6"},
+            {"step": 7, "frequency": 261.63, "note": "C", "function": "Minor 7th", "cents": 1000, "comment": "m7"},
+            {"step": 8, "frequency": 293.66, "note": "D", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 329.63, "note": "E", "function": "Major 2nd octave", "cents": 1400, "comment": "M9"},
+            {"step": 10, "frequency": 349.23, "note": "F", "function": "Minor 3rd octave", "cents": 1500, "comment": "m10"},
+            {"step": 11, "frequency": 415.30, "note": "G#", "function": "Augmented 4th octave", "cents": 1800, "comment": "Aug11"},
+            {"step": 12, "frequency": 440.00, "note": "A", "function": "Perfect 5th octave", "cents": 1900, "comment": "P12"},
+            {"step": 13, "frequency": 493.88, "note": "B", "function": "Major 6th octave", "cents": 2100, "comment": "M13"},
+            {"step": 14, "frequency": 523.25, "note": "C", "function": "Minor 7th octave", "cents": 2200, "comment": "m14"},
+            {"step": 15, "frequency": 587.33, "note": "D", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 16, "frequency": 659.26, "note": "E", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "M16"}
+          ],
+          "voicingPattern": [1, 3, 5, 6],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, half tone, augmented second, half tone, whole tone, half tone, whole tone",
+            "signatureIntervals": ["Minor 3rd", "Augmented 4th", "Major 6th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "A variant of the Dorian mode with a raised fourth degree, creating a distinctive Eastern European sound that's common in Ukrainian folk music, with elements of both minor tonality and Middle Eastern inflection.",
+            "historicalContext": "Developed in Ukrainian folk tradition with possible influences from neighboring cultures and Romani music traditions",
+            "usageExamples": "Ukrainian folk songs, Eastern European fiddle music, contemporary compositions drawing on Eastern European traditions"
+          }
+        },
+        {
+          "name": "Ukrainian Minor",
+          "fundamentalNote": "A",
+          "fundamentalFrequency":220,
+          "parentScale": "Harmonic Minor",
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "Dramatic and exotic with distinctive Ukrainian folk character",
+          "chordTypes": ["Minor Major 7th", "Augmented", "Minor 6th"],
+          "steps": [
+            {"step": 1, "frequency": 220.00, "note": "A", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 246.94, "note": "B", "function": "Major 2nd", "cents": 200, "comment": "M2"},
+            {"step": 3, "frequency": 261.63, "note": "C", "function": "Minor 3rd", "cents": 300, "comment": "m3"},
+            {"step": 4, "frequency": 311.13, "note": "D#", "function": "Augmented 4th", "cents": 600, "comment": "Aug4"},
+            {"step": 5, "frequency": 329.63, "note": "E", "function": "Perfect 5th", "cents": 700, "comment": "P5"},
+            {"step": 6, "frequency": 369.99, "note": "F#", "function": "Major 6th", "cents": 900, "comment": "M6"},
+            {"step": 7, "frequency": 415.30, "note": "G#", "function": "Major 7th", "cents": 1100, "comment": "M7"},
+            {"step": 8, "frequency": 440.00, "note": "A", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 493.88, "note": "B", "function": "Major 2nd octave", "cents": 1400, "comment": "M9"},
+            {"step": 10, "frequency": 523.25, "note": "C", "function": "Minor 3rd octave", "cents": 1500, "comment": "m10"},
+            {"step": 11, "frequency": 622.25, "note": "D#", "function": "Augmented 4th octave", "cents": 1800, "comment": "Aug11"},
+            {"step": 12, "frequency": 659.26, "note": "E", "function": "Perfect 5th octave", "cents": 1900, "comment": "P12"},
+            {"step": 13, "frequency": 739.99, "note": "F#", "function": "Major 6th octave", "cents": 2100, "comment": "M13"},
+            {"step": 14, "frequency": 830.61, "note": "G#", "function": "Major 7th octave", "cents": 2300, "comment": "M14"},
+            {"step": 15, "frequency": 880.00, "note": "A", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 16, "frequency": 987.77, "note": "B", "function": "Major 2nd 2 octaves", "cents": 2600, "comment": "M16"}
+          ],
+          "voicingPattern": [1, 3, 5, 7],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Whole tone, half tone, augmented second, half tone, whole tone, whole tone, half tone",
+            "signatureIntervals": ["Minor 3rd", "Augmented 4th", "Major 6th", "Major 7th"]
+          },
+          "metadata": {
+            "description": "A distinctive minor scale with an augmented fourth, major sixth, and major seventh, creating a complex, exotic sound that characterizes certain Ukrainian folk traditions with elements of both minor tonality and heightened expressiveness.",
+            "historicalContext": "Emerged from Ukrainian folk traditions with possible influences from neighboring regions and Roma musicians",
+            "usageExamples": "Ukrainian folk songs, instrumental dance music, contemporary compositions based on Eastern European traditions"
+          }
+        },
+        {
+          "name": "Yo Scale (Japanese)",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 5,
+          "character": "Bright and open with a distinctly Japanese simplicity",
+          "chordTypes": ["Sus4", "Add9", "6/9"],
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Tonic", "cents": 0, "comment": "Tonic"},
+            {"step": 2, "frequency": 349.23, "note": "F", "function": "Minor 3rd", "cents": 300, "comment": "m3"},
+            {"step": 3, "frequency": 392.00, "note": "G", "function": "Perfect 4th", "cents": 500, "comment": "P4"},
+            {"step": 4, "frequency": 440.00, "note": "A", "function": "Perfect 5th", "cents": 700, "comment": "P5"},
+            {"step": 5, "frequency": 523.25, "note": "C", "function": "Minor 7th", "cents": 1000, "comment": "m7"},
+            {"step": 6, "frequency": 587.33, "note": "D", "function": "Tonic octave", "cents": 1200, "comment": "Octave"},
+            {"step": 7, "frequency": 698.46, "note": "F", "function": "Minor 3rd octave", "cents": 1500, "comment": "m10"},
+            {"step": 8, "frequency": 783.99, "note": "G", "function": "Perfect 4th octave", "cents": 1700, "comment": "P11"},
+            {"step": 9, "frequency": 880.00, "note": "A", "function": "Perfect 5th octave", "cents": 1900, "comment": "P12"},
+            {"step": 10, "frequency": 1046.50, "note": "C", "function": "Minor 7th octave", "cents": 2200, "comment": "m14"},
+            {"step": 11, "frequency": 1174.66, "note": "D", "function": "Tonic 2 octaves", "cents": 2400, "comment": "2 Octave"},
+            {"step": 12, "frequency": 1396.91, "note": "F", "function": "Minor 3rd 2 octaves", "cents": 2700, "comment": "m17"},
+            {"step": 13, "frequency": 1567.98, "note": "G", "function": "Perfect 4th 2 octaves", "cents": 2900, "comment": "P18"},
+            {"step": 14, "frequency": 1760.00, "note": "A", "function": "Perfect 5th 2 octaves", "cents": 3100, "comment": "P19"},
+            {"step": 15, "frequency": 2093.00, "note": "C", "function": "Minor 7th 2 octaves", "cents": 3400, "comment": "m21"},
+            {"step": 16, "frequency": 2349.32, "note": "D", "function": "Tonic 3 octaves", "cents": 3600, "comment": "3 Octave"}
+          ],
+          "voicingPattern": [1, 3, 4, 5],
+          "microtonalCharacteristics": {
+            "tuningSystem": "Equal temperament",
+            "intervalStructure": "Minor third, whole tone, whole tone, minor third, whole tone",
+            "signatureIntervals": ["Minor 3rd", "Perfect 4th", "Perfect 5th", "Minor 7th"]
+          },
+          "metadata": {
+            "description": "A traditional Japanese pentatonic scale with a bright, open character similar to the major pentatonic scale. Used in traditional folk songs and modern compositions with a distinctively Japanese sound.",
+            "historicalContext": "One of the two principal pentatonic scales in traditional Japanese music (along with the In scale), used in folk songs and instrumental music",
+            "usageExamples": "Traditional Japanese folk songs, children's music, contemporary compositions drawing on Japanese traditions"
+          }
+        }
+
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Many traditional performances of these scales feature microtonal inflections that aren't captured in equal temperament. Performers often use ornamentations and bends to approximate these subtle variations.",
+      "rhythmic_features": "Performance of these modes often incorporates distinctive rhythmic patterns specific to each cultural tradition, from complex Balkan asymmetrical meters to flowing Japanese rhythmic conventions.",
+      "ornamentation": "Traditional performance practice includes distinctive ornamentations - slides, mordents, and vibrato techniques unique to each cultural context and instrument family.",
+      "instrumentation": "These modes are traditionally performed on culture-specific instruments that may have unique timbral qualities and technical capabilities different from Western orchestral instruments."
+    }
+  }
+}

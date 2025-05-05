@@ -1,0 +1,628 @@
+{
+  "project": "Babi SEQ Digital-Analog Sequencer",
+  "institution": "YILDIZ TEKNIK UNIVERSITESI, Music Technologies",
+  "author": "Alparslan Ozturk",
+  "date": "April 2025",
+  "title": "Arabic Maqamat (Fundamental) - Selection 1",
+  "description": "A subset of fundamental Arabic maqamat with precise quarter-tone and comma adjustments",
+  "version": "1.0",
+  "reference": "Quarter tones marked as 'b' for flat (↓) and '#' for sharp (↑) | 1 koma = ~22.6 cents, 4 koma = ~90.2 cents (quarter tone) | A4=440Hz reference",
+  "sequencerSettings": {
+    "defaultSteps": 16,
+    "frequencyPrecision": 2,
+    "compatibility": [
+      "Eurorack sequencers",
+      "DAW automation",
+      "MIDI microtuning"
+    ]
+  },
+  "collections": [
+    {
+      "collectionName": "Arabic Maqamat System - Selection 1",
+      "collectionType": "arabic",
+      "culturalOrigin": "Middle East and North Africa",
+      "description": "Traditional Arabic musical modes with characteristic microtonal intervals",
+      "modes": [
+        {
+          "name": "Ajam",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "bright, western-like",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Yakah", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Ajam", "cents": 200, "comment": "Major 2nd"},
+            {"step": 3, "frequency": 329.63, "note": "E", "function": "Jiharkah", "cents": 400, "comment": "Major 3rd"},
+            {"step": 4, "frequency": 349.23, "note": "F", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Ajam", "cents": 700, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Dugah", "cents": 900, "comment": "Major 6th"},
+            {"step": 7, "frequency": 493.88, "note": "B", "function": "Husseini", "cents": 1100, "comment": "Major 7th"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Yakah octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 587.33, "note": "D", "function": "Ajam octave", "cents": 1400, "comment": "Major 9th"},
+            {"step": 10, "frequency": 659.26, "note": "E", "function": "Jiharkah octave", "cents": 1600, "comment": "Major 10th"},
+            {"step": 11, "frequency": 698.46, "note": "F", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Ajam octave", "cents": 1900, "comment": "12th"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "Dugah octave", "cents": 2100, "comment": "Major 13th"},
+            {"step": 14, "frequency": 987.77, "note": "B", "function": "Husseini octave", "cents": 2300, "comment": "Major 14th"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Yakah 2 octaves", "cents": 2400, "comment": "Two octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "D", "function": "Ajam 2 octaves", "cents": 2600, "comment": "Major 9th at higher octave"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "westernMajor": "Identical to Western major scale in pitch",
+            "signatureIntervals": ["C-D-E-F-G standard major pattern"]
+          },
+          "metadata": {
+            "description": "Similar to Western major scale but with subtle intonation differences",
+            "regionalVariants": ["Persian Ajam", "Turkish Çargah"],
+            "traditionalUse": "Celebratory music, cross-cultural compositions"
+          }
+        },
+        {
+          "name": "Bastanikar",
+          "fundamentalNote": "C",
+          "fundamentalFrequency":261.63,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "archaic, distinctive",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 261.63, "note": "C", "function": "Yakah", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 293.66, "note": "D", "function": "Bastanikar", "cents": 200, "comment": "Major 2nd"},
+            {"step": 3, "frequency": 317.60, "note": "E 1k b", "function": "Sikah", "cents": 335, "comment": "1 koma flat 3rd"},
+            {"step": 4, "frequency": 369.99, "note": "F#", "function": "Ajam", "cents": 600, "comment": "Augmented 4th"},
+            {"step": 5, "frequency": 392.00, "note": "G", "function": "Nawa", "cents": 700, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 440.00, "note": "A", "function": "Rast", "cents": 900, "comment": "Major 6th"},
+            {"step": 7, "frequency": 476.90, "note": "B 1k b", "function": "Husseini", "cents": 1035, "comment": "1 koma flat 7th"},
+            {"step": 8, "frequency": 523.25, "note": "C", "function": "Yakah octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 587.33, "note": "D", "function": "Bastanikar octave", "cents": 1400, "comment": "Major 9th"},
+            {"step": 10, "frequency": 635.20, "note": "E 1k b", "function": "Sikah octave", "cents": 1535, "comment": "1 koma flat 10th"},
+            {"step": 11, "frequency": 739.99, "note": "F#", "function": "Ajam octave", "cents": 1800, "comment": "Augmented 11th"},
+            {"step": 12, "frequency": 783.99, "note": "G", "function": "Nawa octave", "cents": 1900, "comment": "12th"},
+            {"step": 13, "frequency": 880.00, "note": "A", "function": "Rast octave", "cents": 2100, "comment": "Major 13th"},
+            {"step": 14, "frequency": 953.80, "note": "B 1k b", "function": "Husseini octave", "cents": 2235, "comment": "1 koma flat 14th"},
+            {"step": 15, "frequency": 1046.50, "note": "C", "function": "Yakah 2 octaves", "cents": 2400, "comment": "Two octaves"},
+            {"step": 16, "frequency": 1174.66, "note": "D", "function": "Bastanikar 2 octaves", "cents": 2600, "comment": "Major 9th at higher octave"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "augmentedFourth": "Contains tritone between E1kb and F#",
+            "neutralThird": "E lowered by 1 koma (335 cents above C)",
+            "signatureIntervals": ["C-D-E1kb-F# distinctive pattern"]
+          },
+          "metadata": {
+            "description": "Rare maqam with distinctive augmented 2nd between 3rd and 4th degrees",
+            "regionalVariants": ["Egyptian Bastanikar"],
+            "traditionalUse": "Historical compositions, classical instrumental pieces"
+          }
+        },
+        {
+          "name": "Bayati",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "contemplative, melancholic",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Rast", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Bayati", "cents": 150, "comment": "Quarter flat 2nd"},
+            {"step": 3, "frequency": 349.23, "note": "F", "function": "Sikah", "cents": 300, "comment": "Minor 3rd"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Rast", "cents": 700, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Husseini", "cents": 850, "comment": "Quarter flat 6th"},
+            {"step": 7, "frequency": 523.25, "note": "C", "function": "Dugah", "cents": 1000, "comment": "Minor 7th"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "Rast octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 637.40, "note": "E 4k b", "function": "Bayati octave", "cents": 1350, "comment": "Quarter flat 9th"},
+            {"step": 10, "frequency": 698.46, "note": "F", "function": "Sikah octave", "cents": 1500, "comment": "Minor 10th"},
+            {"step": 11, "frequency": 783.99, "note": "G", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+            {"step": 12, "frequency": 880.00, "note": "A", "function": "Rast octave", "cents": 1900, "comment": "12th"},
+            {"step": 13, "frequency": 955.56, "note": "B 4k b", "function": "Husseini octave", "cents": 2050, "comment": "Quarter flat 13th"},
+            {"step": 14, "frequency": 1046.50, "note": "C", "function": "Dugah octave", "cents": 2200, "comment": "Minor 14th"},
+            {"step": 15, "frequency": 1174.66, "note": "D", "function": "Rast 2 octaves", "cents": 2400, "comment": "Two octaves"},
+            {"step": 16, "frequency": 1274.80, "note": "E 4k b", "function": "Bayati 2 octaves", "cents": 2550, "comment": "Quarter flat at higher octave"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "quarterTones": "E half-flat (150 cents above D), B half-flat (850 cents above D)",
+            "signatureIntervals": ["D-E4kb-F sequence defines the Bayati character"]
+          },
+          "metadata": {
+            "description": "A common maqam on D with lowered 2nd and 6th degrees",
+            "regionalVariants": ["Syrian Bayati", "Egyptian Bayati"],
+            "traditionalUse": "Emotional songs, nostalgic themes"
+          }
+        },
+        {
+          "name": "Hijaz",
+          "fundamentalNote": "D",
+          "fundamentalFrequency":293.66,
+          "parentScale": null,
+          "modeDegree": null,
+          "totalSteps": 16,
+          "baseSteps": 7,
+          "character": "exotic, passionate",
+          "chordTypes": null,
+          "steps": [
+            {"step": 1, "frequency": 293.66, "note": "D", "function": "Rast", "cents": 0, "comment": "Fundamental tone"},
+            {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Hijaz", "cents": 150, "comment": "Quarter flat 2nd"},
+            {"step": 3, "frequency": 369.99, "note": "F#", "function": "Saba", "cents": 400, "comment": "Augmented 2nd"},
+            {"step": 4, "frequency": 392.00, "note": "G", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+            {"step": 5, "frequency": 440.00, "note": "A", "function": "Rast", "cents": 700, "comment": "Perfect 5th"},
+            {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Husseini", "cents": 850, "comment": "Quarter flat 6th"},
+            {"step": 7, "frequency": 554.37, "note": "C#", "function": "Ajam", "cents": 1100, "comment": "Major 7th"},
+            {"step": 8, "frequency": 587.33, "note": "D", "function": "Rast octave", "cents": 1200, "comment": "Octave"},
+            {"step": 9, "frequency": 637.40, "note": "E 4k b", "function": "Hijaz octave", "cents": 1350, "comment": "Quarter flat 9th"},
+            {"step": 10, "frequency": 739.99, "note": "F#", "function": "Saba octave", "cents": 1600, "comment": "Augmented 9th"},
+            {"step": 11, "frequency": 783.99, "note": "G", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+            {"step": 12, "frequency": 880.00, "note": "A", "function": "Rast octave", "cents": 1900, "comment": "12th"},
+            {"step": 13, "frequency": 955.56, "note": "B 4k b", "function": "Husseini octave", "cents": 2050, "comment": "Quarter flat 13th"},
+            {"step": 14, "frequency": 1108.73, "note": "C#", "function": "Ajam octave", "cents": 2300, "comment": "Major 14th"},
+            {"step": 15, "frequency": 1174.66, "note": "D", "function": "Rast 2 octaves", "cents": 2400, "comment": "Two octaves"},
+            {"step": 16, "frequency": 1274.80, "note": "E 4k b", "function": "Hijaz 2 octaves", "cents": 2550, "comment": "Quarter flat at higher octave"}
+          ],
+          "voicingPattern": null,
+          "microtonalCharacteristics": {
+            "augmentedSecond": "250 cents between E half-flat and F#",
+            "signatureIntervals": ["D-E4kb-F# distinctive Hijaz pattern"]
+          },
+          "metadata": {
+            "description": "Characteristic maqam with augmented 2nd between 1st and 2nd degrees",
+            "regionalVariants": ["Turkish Hicaz", "Maghrebi Hijaz"],
+            "traditionalUse": "Dramatic songs, emotional expressions"
+          }
+        },
+        {
+            "name": "Hijazkar",
+            "fundamentalNote": "D",
+            "fundamentalFrequency":293.66,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "complex, intense",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 293.66, "note": "D", "function": "Rast", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Hijaz", "cents": 150, "comment": "Quarter flat 2nd"},
+              {"step": 3, "frequency": 369.99, "note": "F#", "function": "Nikriz", "cents": 400, "comment": "Major 3rd"},
+              {"step": 4, "frequency": 392.00, "note": "G", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+              {"step": 5, "frequency": 424.07, "note": "A 4k b", "function": "Husseini", "cents": 650, "comment": "Quarter flat 5th"},
+              {"step": 6, "frequency": 493.88, "note": "B", "function": "Dugah", "cents": 900, "comment": "Major 6th"},
+              {"step": 7, "frequency": 554.37, "note": "C#", "function": "Nikriz", "cents": 1100, "comment": "Major 7th"},
+              {"step": 8, "frequency": 587.33, "note": "D", "function": "Rast octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 637.40, "note": "E 4k b", "function": "Hijaz octave", "cents": 1350, "comment": "Quarter flat 9th"},
+              {"step": 10, "frequency": 739.99, "note": "F#", "function": "Nikriz octave", "cents": 1600, "comment": "Major 10th"},
+              {"step": 11, "frequency": 783.99, "note": "G", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+              {"step": 12, "frequency": 848.14, "note": "A 4k b", "function": "Husseini octave", "cents": 1850, "comment": "Quarter flat 12th"},
+              {"step": 13, "frequency": 987.77, "note": "B", "function": "Dugah octave", "cents": 2100, "comment": "Major 13th"},
+              {"step": 14, "frequency": 1108.73, "note": "C#", "function": "Nikriz octave", "cents": 2300, "comment": "Major 14th"},
+              {"step": 15, "frequency": 1174.66, "note": "D", "function": "Rast 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1274.80, "note": "E 4k b", "function": "Hijaz 2 octaves", "cents": 2550, "comment": "Quarter flat at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "compoundStructure": "Combines elements of Hijaz and Nikriz",
+              "doubleAugmentedSecond": "Both lower and upper tetrachords have augmented 2nds",
+              "signatureIntervals": ["D-E4kb-F# in lower tetrachord, A4kb-B-C# in upper tetrachord"]
+            },
+            "metadata": {
+              "description": "Compound maqam combining Hijaz and Nikriz characteristics",
+              "regionalVariants": ["Turkish Hicazkar", "Syrian Hijazkar"],
+              "traditionalUse": "Complex instrumental compositions, virtuosic performances"
+            }
+          },
+          {
+            "name": "Husseini",
+            "fundamentalNote": "E",
+            "fundamentalFrequency":318.70,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "tender, expressive",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 318.70, "note": "E 4k b", "function": "Husseini", "cents": 0, "comment": "Fundamental tone (quarter flat)"},
+              {"step": 2, "frequency": 349.23, "note": "F", "function": "Nawa", "cents": 150, "comment": "Minor 2nd"},
+              {"step": 3, "frequency": 392.00, "note": "G", "function": "Rast", "cents": 350, "comment": "Minor 3rd"},
+              {"step": 4, "frequency": 424.07, "note": "A 4k b", "function": "Husseini", "cents": 500, "comment": "Quarter flat 4th"},
+              {"step": 5, "frequency": 477.78, "note": "B 4k b", "function": "Ajam", "cents": 700, "comment": "Quarter flat 5th"},
+              {"step": 6, "frequency": 523.25, "note": "C", "function": "Dugah", "cents": 850, "comment": "Minor 6th"},
+              {"step": 7, "frequency": 587.33, "note": "D", "function": "Rast", "cents": 1050, "comment": "Major 7th"},
+              {"step": 8, "frequency": 637.40, "note": "E 4k b", "function": "Husseini octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 698.46, "note": "F", "function": "Nawa octave", "cents": 1350, "comment": "Minor 9th"},
+              {"step": 10, "frequency": 783.99, "note": "G", "function": "Rast octave", "cents": 1550, "comment": "Minor 10th"},
+              {"step": 11, "frequency": 848.14, "note": "A 4k b", "function": "Husseini octave", "cents": 1700, "comment": "Quarter flat 11th"},
+              {"step": 12, "frequency": 955.56, "note": "B 4k b", "function": "Ajam octave", "cents": 1900, "comment": "Quarter flat 12th"},
+              {"step": 13, "frequency": 1046.50, "note": "C", "function": "Dugah octave", "cents": 2050, "comment": "Minor 13th"},
+              {"step": 14, "frequency": 1174.66, "note": "D", "function": "Rast octave", "cents": 2250, "comment": "Major 14th"},
+              {"step": 15, "frequency": 1274.80, "note": "E 4k b", "function": "Husseini 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1396.91, "note": "F", "function": "Nawa 2 octaves", "cents": 2550, "comment": "Minor 16th"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "quarterToneBase": "E half-flat as tonic",
+              "signatureIntervals": ["E4kb-F-G characteristic husseini pattern"]
+            },
+            "metadata": {
+              "description": "Maqam emphasizing the Husseini (E quarter-flat) degree",
+              "regionalVariants": ["Turkish Hüseyni", "Persian Husseini"],
+              "traditionalUse": "Classical compositions, folk music"
+            }
+          },
+                    {
+            "name": "Jiharkah",
+            "fundamentalNote": "C",
+            "fundamentalFrequency":261.63,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "bright, uplifting",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 261.63, "note": "C", "function": "Yakah", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 293.66, "note": "D", "function": "Jiharkah", "cents": 200, "comment": "Major 2nd"},
+              {"step": 3, "frequency": 334.42, "note": "E 1k #", "function": "Sikah", "cents": 426, "comment": "1 koma sharp 3rd"},
+              {"step": 4, "frequency": 349.23, "note": "F", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+              {"step": 5, "frequency": 392.00, "note": "G", "function": "Jiharkah", "cents": 700, "comment": "Perfect 5th"},
+              {"step": 6, "frequency": 446.40, "note": "A 1k #", "function": "Husseini", "cents": 926, "comment": "1 koma sharp 6th"},
+              {"step": 7, "frequency": 493.88, "note": "B", "function": "Dugah", "cents": 1100, "comment": "Major 7th"},
+              {"step": 8, "frequency": 523.25, "note": "C", "function": "Yakah octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 587.33, "note": "D", "function": "Jiharkah octave", "cents": 1400, "comment": "Major 9th"},
+              {"step": 10, "frequency": 668.84, "note": "E 1k #", "function": "Sikah octave", "cents": 1626, "comment": "1 koma sharp 10th"},
+              {"step": 11, "frequency": 698.46, "note": "F", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+              {"step": 12, "frequency": 783.99, "note": "G", "function": "Jiharkah octave", "cents": 1900, "comment": "12th"},
+              {"step": 13, "frequency": 892.80, "note": "A 1k #", "function": "Husseini octave", "cents": 2126, "comment": "1 koma sharp 13th"},
+              {"step": 14, "frequency": 987.77, "note": "B", "function": "Dugah octave", "cents": 2300, "comment": "Major 14th"},
+              {"step": 15, "frequency": 1046.50, "note": "C", "function": "Yakah 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1174.66, "note": "D", "function": "Jiharkah 2 octaves", "cents": 2600, "comment": "Major 9th at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "augmentedThird": "Raised 3rd degree (E sharp by 1 koma)",
+              "augmentedSixth": "Raised 6th degree (A sharp by 1 koma)",
+              "signatureIntervals": ["C-D-E1k#-F distinctive opening"]
+            },
+            "metadata": {
+              "description": "Uncommon maqam with augmented 2nd between 2nd and 3rd degrees",
+              "regionalVariants": ["Iraqi Jiharkah"],
+              "traditionalUse": "Ceremonial music, festive occasions"
+            }
+          },
+          {
+            "name": "Kurd",
+            "fundamentalNote": "D",
+            "fundamentalFrequency":293.66,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "somber, introspective",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 293.66, "note": "D", "function": "Rast", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Kurd", "cents": 150, "comment": "Quarter flat 2nd"},
+              {"step": 3, "frequency": 349.23, "note": "F", "function": "Sikah", "cents": 300, "comment": "Minor 3rd"},
+              {"step": 4, "frequency": 392.00, "note": "G", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+              {"step": 5, "frequency": 440.00, "note": "A", "function": "Rast", "cents": 700, "comment": "Perfect 5th"},
+              {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Kurd", "cents": 850, "comment": "Quarter flat 6th"},
+              {"step": 7, "frequency": 523.25, "note": "C", "function": "Dugah", "cents": 1000, "comment": "Minor 7th"},
+              {"step": 8, "frequency": 587.33, "note": "D", "function": "Rast octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 637.40, "note": "E 4k b", "function": "Kurd octave", "cents": 1350, "comment": "Quarter flat 9th"},
+              {"step": 10, "frequency": 698.46, "note": "F", "function": "Sikah octave", "cents": 1500, "comment": "Minor 10th"},
+              {"step": 11, "frequency": 783.99, "note": "G", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+              {"step": 12, "frequency": 880.00, "note": "A", "function": "Rast octave", "cents": 1900, "comment": "12th"},
+              {"step": 13, "frequency": 955.56, "note": "B 4k b", "function": "Kurd octave", "cents": 2050, "comment": "Quarter flat 13th"},
+              {"step": 14, "frequency": 1046.50, "note": "C", "function": "Dugah octave", "cents": 2200, "comment": "Minor 14th"},
+              {"step": 15, "frequency": 1174.66, "note": "D", "function": "Rast 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1274.80, "note": "E 4k b", "function": "Kurd 2 octaves", "cents": 2550, "comment": "Quarter flat at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "doricLike": "Similar to Western Dorian mode with quarter-flat 2nd and 6th",
+              "signatureIntervals": ["D-E4kb-F-G-A-B4kb-C pattern"]
+            },
+            "metadata": {
+              "description": "Regional maqam with lowered 2nd and 6th degrees",
+              "regionalVariants": ["Kurdish Kurd", "Turkish Kürdi"],
+              "traditionalUse": "Folk songs, contemplative compositions"
+            }
+          },
+          {
+            "name": "Nahawand",
+            "fundamentalNote": "C",
+            "fundamentalFrequency":261.63,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "melancholic, dramatic",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 261.63, "note": "C", "function": "Yakah", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 293.66, "note": "D", "function": "Nahawand", "cents": 200, "comment": "Major 2nd"},
+              {"step": 3, "frequency": 318.70, "note": "E 4k b", "function": "Sikah", "cents": 350, "comment": "Quarter flat 3rd"},
+              {"step": 4, "frequency": 349.23, "note": "F", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+              {"step": 5, "frequency": 392.00, "note": "G", "function": "Nahawand", "cents": 700, "comment": "Perfect 5th"},
+              {"step": 6, "frequency": 424.07, "note": "A 4k b", "function": "Husseini", "cents": 850, "comment": "Quarter flat 6th"},
+              {"step": 7, "frequency": 493.88, "note": "B", "function": "Dugah", "cents": 1100, "comment": "Major 7th"},
+              {"step": 8, "frequency": 523.25, "note": "C", "function": "Yakah octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 587.33, "note": "D", "function": "Nahawand octave", "cents": 1400, "comment": "Major 9th"},
+              {"step": 10, "frequency": 637.40, "note": "E 4k b", "function": "Sikah octave", "cents": 1550, "comment": "Quarter flat 10th"},
+              {"step": 11, "frequency": 698.46, "note": "F", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+              {"step": 12, "frequency": 783.99, "note": "G", "function": "Nahawand octave", "cents": 1900, "comment": "12th"},
+              {"step": 13, "frequency": 848.14, "note": "A 4k b", "function": "Husseini octave", "cents": 2050, "comment": "Quarter flat 13th"},
+              {"step": 14, "frequency": 987.77, "note": "B", "function": "Dugah octave", "cents": 2300, "comment": "Major 14th"},
+              {"step": 15, "frequency": 1046.50, "note": "C", "function": "Yakah 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1174.66, "note": "D", "function": "Nahawand 2 octaves", "cents": 2600, "comment": "Major 9th at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "harmonicMinorLike": "Similar to Western harmonic minor with microtonal variations",
+              "signatureIntervals": ["C-D-E4kb-F-G-A4kb-B pattern"]
+            },
+            "metadata": {
+              "description": "Similar to Western harmonic minor but with microtonal variations",
+              "regionalVariants": ["Egyptian Nahawand", "Lebanese Nahawand"],
+              "traditionalUse": "Emotional performances, dramatic compositions"
+            }
+          },
+          {
+            "name": "Nawa Athar",
+            "fundamentalNote": "C",
+            "fundamentalFrequency":261.63,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "mysterious, chromatic",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 261.63, "note": "C", "function": "Yakah", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 297.72, "note": "D 1k #", "function": "Nawa Athar", "cents": 226, "comment": "1 koma sharp 2nd"},
+              {"step": 3, "frequency": 318.70, "note": "E 4k b", "function": "Sikah", "cents": 350, "comment": "Quarter flat 3rd"},
+              {"step": 4, "frequency": 369.99, "note": "F#", "function": "Ajam", "cents": 600, "comment": "Augmented 4th"},
+              {"step": 5, "frequency": 396.80, "note": "G 1k #", "function": "Nawa", "cents": 726, "comment": "1 koma sharp 5th"},
+              {"step": 6, "frequency": 424.07, "note": "A 4k b", "function": "Husseini", "cents": 850, "comment": "Quarter flat 6th"},
+              {"step": 7, "frequency": 493.88, "note": "B", "function": "Dugah", "cents": 1100, "comment": "Major 7th"},
+              {"step": 8, "frequency": 523.25, "note": "C", "function": "Yakah octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 595.44, "note": "D 1k #", "function": "Nawa Athar octave", "cents": 1426, "comment": "1 koma sharp 9th"},
+              {"step": 10, "frequency": 637.40, "note": "E 4k b", "function": "Sikah octave", "cents": 1550, "comment": "Quarter flat 10th"},
+              {"step": 11, "frequency": 739.99, "note": "F#", "function": "Ajam octave", "cents": 1800, "comment": "Augmented 11th"},
+              {"step": 12, "frequency": 793.60, "note": "G 1k #", "function": "Nawa octave", "cents": 1926, "comment": "1 koma sharp 12th"},
+              {"step": 13, "frequency": 848.14, "note": "A 4k b", "function": "Husseini octave", "cents": 2050, "comment": "Quarter flat 13th"},
+              {"step": 14, "frequency": 987.77, "note": "B", "function": "Dugah octave", "cents": 2300, "comment": "Major 14th"},
+              {"step": 15, "frequency": 1046.50, "note": "C", "function": "Yakah 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1190.88, "note": "D 1k #", "function": "Nawa Athar 2 octaves", "cents": 2626, "comment": "1 koma sharp at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "sharpSecond": "D raised by 1 koma (226 cents above C)",
+              "sharpFifth": "G raised by 1 koma (726 cents above C)",
+              "signatureIntervals": ["C-D1k#-E4kb-F# distinctive pattern"]
+            },
+            "metadata": {
+              "description": "Rare maqam with distinctive augmented intervals",
+              "regionalVariants": ["Egyptian Nawa Athar"],
+              "traditionalUse": "Contemporary compositions, experimental music"
+            }
+          },
+          {
+            "name": "Rast",
+            "fundamentalNote": "C",
+            "fundamentalFrequency":261.63,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "joyful, bright",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 261.63, "note": "C", "function": "Yakah", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 293.66, "note": "D", "function": "Rast", "cents": 200, "comment": "Whole tone"},
+              {"step": 3, "frequency": 317.60, "note": "E 1k b", "function": "Sikah", "cents": 335, "comment": "Neutral 3rd (1 koma flat)"},
+              {"step": 4, "frequency": 349.23, "note": "F", "function": "Nawa", "cents": 498, "comment": "Perfect 4th"},
+              {"step": 5, "frequency": 392.00, "note": "G", "function": "Rast", "cents": 700, "comment": "Perfect 5th"},
+              {"step": 6, "frequency": 440.00, "note": "A", "function": "Dugah", "cents": 900, "comment": "Major 6th"},
+              {"step": 7, "frequency": 476.90, "note": "B 1k b", "function": "Husseini", "cents": 1035, "comment": "Neutral 7th (1 koma flat)"},
+              {"step": 8, "frequency": 523.25, "note": "C", "function": "Yakah octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 587.33, "note": "D", "function": "Rast octave", "cents": 1400, "comment": "9th"},
+              {"step": 10, "frequency": 635.20, "note": "E 1k b", "function": "Sikah octave", "cents": 1535, "comment": "Neutral 10th"},
+              {"step": 11, "frequency": 698.46, "note": "F", "function": "Nawa octave", "cents": 1698, "comment": "11th"},
+              {"step": 12, "frequency": 783.99, "note": "G", "function": "Rast octave", "cents": 1900, "comment": "12th"},
+              {"step": 13, "frequency": 880.00, "note": "A", "function": "Dugah octave", "cents": 2100, "comment": "13th"},
+              {"step": 14, "frequency": 953.80, "note": "B 1k b", "function": "Husseini octave", "cents": 2235, "comment": "Neutral 14th"},
+              {"step": 15, "frequency": 1046.50, "note": "C", "function": "Yakah 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1174.66, "note": "D", "function": "Rast 2 octaves", "cents": 2600, "comment": "9th at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "neutralThird": "335 cents (between minor and major 3rd)",
+              "neutralSeventh": "1035 cents (between minor and major 7th)",
+              "signatureIntervals": ["C-D-E1kb-F-G pattern"]
+            },
+            "metadata": {
+              "description": "The basic maqam starting on C, with neutral 3rd and 7th degrees",
+              "regionalVariants": ["Turkish Rast", "Persian Rast"],
+              "traditionalUse": "Opening pieces, festive occasions"
+            }
+          },
+          {
+            "name": "Saba",
+            "fundamentalNote": "D",
+            "fundamentalFrequency":293.66,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "sad, lamenting",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 293.66, "note": "D", "function": "Rast", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Saba", "cents": 150, "comment": "Quarter flat 2nd"},
+              {"step": 3, "frequency": 341.06, "note": "F 1k b", "function": "Sikah", "cents": 250, "comment": "1 koma flat 3rd"},
+              {"step": 4, "frequency": 392.00, "note": "G", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+              {"step": 5, "frequency": 440.00, "note": "A", "function": "Rast", "cents": 700, "comment": "Perfect 5th"},
+              {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Husseini", "cents": 850, "comment": "Quarter flat 6th"},
+              {"step": 7, "frequency": 510.31, "note": "C 1k b", "function": "Dugah", "cents": 950, "comment": "1 koma flat 7th"},
+              {"step": 8, "frequency": 587.33, "note": "D", "function": "Rast octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 637.40, "note": "E 4k b", "function": "Saba octave", "cents": 1350, "comment": "Quarter flat 9th"},
+              {"step": 10, "frequency": 682.12, "note": "F 1k b", "function": "Sikah octave", "cents": 1450, "comment": "1 koma flat 10th"},
+              {"step": 11, "frequency": 783.99, "note": "G", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+              {"step": 12, "frequency": 880.00, "note": "A", "function": "Rast octave", "cents": 1900, "comment": "12th"},
+              {"step": 13, "frequency": 955.56, "note": "B 4k b", "function": "Husseini octave", "cents": 2050, "comment": "Quarter flat 13th"},
+              {"step": 14, "frequency": 1020.62, "note": "C 1k b", "function": "Dugah octave", "cents": 2150, "comment": "1 koma flat 14th"},
+              {"step": 15, "frequency": 1174.66, "note": "D", "function": "Rast 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1274.80, "note": "E 4k b", "function": "Saba 2 octaves", "cents": 2550, "comment": "Quarter flat at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "diminishedThird": "Only 100 cents between E4kb and F1kb",
+              "signatureIntervals": ["D-E4kb-F1kb-G distinctive pattern"]
+            },
+            "metadata": {
+              "description": "Expressive maqam with lowered 3rd and 7th degrees",
+              "regionalVariants": ["Egyptian Saba", "Syrian Saba"],
+              "traditionalUse": "Funeral music, sad songs"
+            }
+          },
+          {
+            "name": "Shahnaz",
+            "fundamentalNote": "D",
+            "fundamentalFrequency":293.66,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "ornate, decorative",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 293.66, "note": "D", "function": "Rast", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Shahnaz", "cents": 150, "comment": "Quarter flat 2nd"},
+              {"step": 3, "frequency": 349.23, "note": "F", "function": "Sikah", "cents": 300, "comment": "Minor 3rd"},
+              {"step": 4, "frequency": 369.99, "note": "F#", "function": "Ajam", "cents": 400, "comment": "Augmented 3rd"},
+              {"step": 5, "frequency": 392.00, "note": "G", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+              {"step": 6, "frequency": 424.07, "note": "A 4k b", "function": "Husseini", "cents": 650, "comment": "Quarter flat 5th"},
+              {"step": 7, "frequency": 493.88, "note": "B", "function": "Dugah", "cents": 900, "comment": "Major 6th"},
+              {"step": 8, "frequency": 587.33, "note": "D", "function": "Rast octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 637.40, "note": "E 4k b", "function": "Shahnaz octave", "cents": 1350, "comment": "Quarter flat 9th"},
+              {"step": 10, "frequency": 698.46, "note": "F", "function": "Sikah octave", "cents": 1500, "comment": "Minor 10th"},
+              {"step": 11, "frequency": 739.99, "note": "F#", "function": "Ajam octave", "cents": 1600, "comment": "Augmented 10th"},
+              {"step": 12, "frequency": 783.99, "note": "G", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+              {"step": 13, "frequency": 848.14, "note": "A 4k b", "function": "Husseini octave", "cents": 1850, "comment": "Quarter flat 12th"},
+              {"step": 14, "frequency": 987.77, "note": "B", "function": "Dugah octave", "cents": 2100, "comment": "Major 13th"},
+              {"step": 15, "frequency": 1108.73, "note": "C#", "function": "Ajam octave", "cents": 2300, "comment": "Major 14th"},
+              {"step": 16, "frequency": 1174.66, "note": "D", "function": "Rast 2 octaves", "cents": 2400, "comment": "Two octaves"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "chromaticShape": "Contains both F and F# in close proximity",
+              "signatureIntervals": ["D-E4kb-F-F# ascending chromatic pattern"]
+            },
+            "metadata": {
+              "description": "Ornamental maqam with chromatic movement between degrees",
+              "regionalVariants": ["Persian Shahnaz"],
+              "traditionalUse": "Improvisational music, artistic pieces"
+            }
+          },
+          {
+            "name": "Sikah",
+            "fundamentalNote": "E",
+            "fundamentalFrequency":318.70,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "mystical, spiritual",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 318.70, "note": "E 4k b", "function": "Sikah", "cents": 0, "comment": "Fundamental tone (quarter flat)"},
+              {"step": 2, "frequency": 349.23, "note": "F", "function": "Nawa", "cents": 150, "comment": "Semi-tone"},
+              {"step": 3, "frequency": 370.37, "note": "G 4k b", "function": "Rast", "cents": 300, "comment": "Quarter flat 3rd"},
+              {"step": 4, "frequency": 424.07, "note": "A 4k b", "function": "Husseini", "cents": 500, "comment": "Quarter flat 4th"},
+              {"step": 5, "frequency": 477.78, "note": "B 4k b", "function": "Ajam", "cents": 700, "comment": "Quarter flat 5th"},
+              {"step": 6, "frequency": 523.25, "note": "C", "function": "Dugah", "cents": 850, "comment": "Minor 6th"},
+              {"step": 7, "frequency": 565.69, "note": "D 4k b", "function": "Kurd", "cents": 1000, "comment": "Quarter flat 7th"},
+              {"step": 8, "frequency": 637.40, "note": "E 4k b", "function": "Sikah octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 698.46, "note": "F", "function": "Nawa octave", "cents": 1350, "comment": "9th"},
+              {"step": 10, "frequency": 740.74, "note": "G 4k b", "function": "Rast octave", "cents": 1500, "comment": "Quarter flat 10th"},
+              {"step": 11, "frequency": 848.14, "note": "A 4k b", "function": "Husseini octave", "cents": 1700, "comment": "Quarter flat 11th"},
+              {"step": 12, "frequency": 955.56, "note": "B 4k b", "function": "Ajam octave", "cents": 1900, "comment": "Quarter flat 12th"},
+              {"step": 13, "frequency": 1046.50, "note": "C", "function": "Dugah octave", "cents": 2050, "comment": "13th"},
+              {"step": 14, "frequency": 1131.38, "note": "D 4k b", "function": "Kurd octave", "cents": 2200, "comment": "Quarter flat 14th"},
+              {"step": 15, "frequency": 1274.80, "note": "E 4k b", "function": "Sikah 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1396.91, "note": "F", "function": "Nawa 2 octaves", "cents": 2550, "comment": "9th at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "quarterTones": "E half-flat as tonic, with several other quarter-flat notes",
+              "signatureIntervals": ["E4kb-F-G4kb characteristic pattern"]
+            },
+            "metadata": {
+              "description": "Centered around the E quarter-flat (Sikah) degree",
+              "regionalVariants": ["Iraqi Sikah", "Levantine Sikah"],
+              "traditionalUse": "Religious music, spiritual ceremonies"
+            }
+          },
+          {
+            "name": "Suznak",
+            "fundamentalNote": "D",
+            "fundamentalFrequency":293.66,
+            "parentScale": null,
+            "modeDegree": null,
+            "totalSteps": 16,
+            "baseSteps": 7,
+            "character": "expressive, nuanced",
+            "chordTypes": null,
+            "steps": [
+              {"step": 1, "frequency": 293.66, "note": "D", "function": "Rast", "cents": 0, "comment": "Fundamental tone"},
+              {"step": 2, "frequency": 318.70, "note": "E 4k b", "function": "Suznak", "cents": 150, "comment": "Quarter flat 2nd"},
+              {"step": 3, "frequency": 341.06, "note": "F 1k b", "function": "Sikah", "cents": 250, "comment": "1 koma flat 3rd"},
+              {"step": 4, "frequency": 392.00, "note": "G", "function": "Nawa", "cents": 500, "comment": "Perfect 4th"},
+              {"step": 5, "frequency": 440.00, "note": "A", "function": "Rast", "cents": 700, "comment": "Perfect 5th"},
+              {"step": 6, "frequency": 477.78, "note": "B 4k b", "function": "Husseini", "cents": 850, "comment": "Quarter flat 6th"},
+              {"step": 7, "frequency": 510.31, "note": "C 1k b", "function": "Dugah", "cents": 950, "comment": "1 koma flat 7th"},
+              {"step": 8, "frequency": 587.33, "note": "D", "function": "Rast octave", "cents": 1200, "comment": "Octave"},
+              {"step": 9, "frequency": 637.40, "note": "E 4k b", "function": "Suznak octave", "cents": 1350, "comment": "Quarter flat 9th"},
+              {"step": 10, "frequency": 682.12, "note": "F 1k b", "function": "Sikah octave", "cents": 1450, "comment": "1 koma flat 10th"},
+              {"step": 11, "frequency": 783.99, "note": "G", "function": "Nawa octave", "cents": 1700, "comment": "11th"},
+              {"step": 12, "frequency": 880.00, "note": "A", "function": "Rast octave", "cents": 1900, "comment": "12th"},
+              {"step": 13, "frequency": 955.56, "note": "B 4k b", "function": "Husseini octave", "cents": 2050, "comment": "Quarter flat 13th"},
+              {"step": 14, "frequency": 1020.62, "note": "C 1k b", "function": "Dugah octave", "cents": 2150, "comment": "1 koma flat 14th"},
+              {"step": 15, "frequency": 1174.66, "note": "D", "function": "Rast 2 octaves", "cents": 2400, "comment": "Two octaves"},
+              {"step": 16, "frequency": 1274.80, "note": "E 4k b", "function": "Suznak 2 octaves", "cents": 2550, "comment": "Quarter flat at higher octave"}
+            ],
+            "voicingPattern": null,
+            "microtonalCharacteristics": {
+              "compressedLowerTetrachord": "Compressed intervals in lower tetrachord",
+              "signatureIntervals": ["D-E4kb-F1kb-G distinctive pattern"]
+            },
+            "metadata": {
+              "description": "Expressive maqam with lowered 3rd and 7th degrees",
+              "regionalVariants": ["Persian Suznak", "Turkish Suznak"],
+              "traditionalUse": "Emotional compositions, traditional song"
+            }
+          }
+
+      ]
+    }
+  ],
+  "appendix": {
+    "performance_practices": {
+      "microtonal_inflections": "Arabic maqamat use precise microtonal intervals including quarter tones and various comma values",
+      "rhythmic_features": "Performance typically includes complex rhythmic cycles (iqa'at) and often uses improvisation (taqsim)",
+      "ornamentation": "Extensive use of ornaments including glissandi, trills, and vibrato is characteristic of maqam performance",
+      "instrumentation": "Traditional instruments include oud, qanun, ney, violin, and various regional percussion instruments"
+    }
+  }
+}
