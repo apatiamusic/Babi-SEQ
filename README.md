@@ -1,13 +1,30 @@
-# BABI SEQ - Digital/Analog Sequencer
+# BABI SEQ - Mikrotonal Dizi Destekli Sequencer
 
 ![BABI SEQ Logo](https://img.shields.io/badge/BABI_SEQ-v2.0.0-blue)
 ![Platform](https://img.shields.io/badge/Platform-Raspberry_Pi_Pico-green)
 ![Language](https://img.shields.io/badge/Language-MicroPython-yellow)
 ![License](https://img.shields.io/badge/License-MIT-red)
+![Academic](https://img.shields.io/badge/Academic-Master's_Thesis-purple)
 
 ## 📖 Proje Hakkında
 
-**BABI SEQ**, Raspberry Pi Pico tabanlı 16 adımlı dijital/analog sekansör uygulamasıdır. Hem MIDI hem de CV (Control Voltage) çıkışı sunan bu proje, müzik teknolojisi alanında akademik araştırma ve profesyonel kullanım için geliştirilmiştir.
+**BABI SEQ** *(Analog-Modüler Ses Sentezleyiciler İçin Mikrotonal Dizi Destekli Sequencer Tasarımı)*, Yıldız Teknik Üniversitesi Yüksek Lisans tezi kapsamında geliştirilen akademik araştırma projesidir.
+
+### 🎓 Akademik Bağlam
+
+Bu proje, **Yıldız Teknik Üniversitesi Sosyal Bilimler Enstitüsü Sanat ve Tasarım Ana Bilim Dalı Müzik ve Sahne Sanatları Yüksek Lisans Programı** kapsamında **Prof. Dr. Arda Eden** danışmanlığında gerçekleştirilmiştir.
+
+**Araştırma Motivasyonu**: Müzik teknolojilerinin gelişimi, 20. yüzyıldan bu yana Batı müziğinin 12-ton eşit tamperaman paradigması çerçevesinde şekillenmiştir. Bu durum, Türk makam müziği ve diğer mikrotonal sistemlerin elektronik platformlarda özgün temsilinde belirgin eksiklikler yaratmaktadır.
+
+**Araştırma Hedefi**: Analog-modüler sentezleyici ekosistemleri için mikrotonal dizi destekli sequencer sisteminin tasarım ve geliştirme sürecini kapsayarak, mevcut teknolojik çözümlerden farklı bakış açısı ortaya koymak ve metodolojik çeşitliliği zenginleştirmek.
+
+### 🔬 Akademik Katkılar
+
+- **Mikrotonal Müzik Teknolojileri**: 500+ dünya müzik modu içeren sistematik kütüphane
+- **Hibrit Analog-Dijital Mimari**: Raspberry Pi Pico merkezli yenilikçi yaklaşım
+- **Türk Makam Entegrasyonu**: İsmail Hakkı Özkan'ın kuramsal çerçevesi referans alınarak koma aralıklarının hesaplanması
+- **Hassasiyet Standardları**: MIDI çıkışında ±1 cent hassasiyet, CV çıkışında ±5mV doğruluk
+- **Tonal Tutarlılık**: Geleneksel icra ile elektronik üretim arasında kanıtlanmış uyumluluk
 
 ### ✨ Temel Özellikler
 
@@ -21,15 +38,22 @@
 
 ### 🎵 Desteklenen Müzik Modları
 
-Proje, dünya müzik kültürlerinden 500+ mod içerir:
+Proje, akademik araştırma kapsamında derlenen 500+ mod içerir:
 
-- **Türk Müziği**: Makamlar (Hicaz, Kürdi, Rast, vb.)
-- **Arap Müziği**: Maqam sistemi
-- **Hint Müziği**: Raga sistemleri
-- **Çin Müziği**: Pentatonik modlar
-- **Afrika Müziği**: Geleneksel gamlar
+#### Türk Müziği (200+ Makam)
+- **Temel Makamlar**: Hicaz, Kürdi, Rast, Uşşak, Buselik
+- **Şed Makamlar**: Nihavend, Hüseyni, Neva, Çargâh
+- **Mürekkeb Makamlar**: Hicazkâr, Suzidil, Ferahfeza
+- **Terkib Makamlar**: Şehnaz, Gerdaniye, Muhayyer
+
+#### Dünya Müzik Kültürleri
+- **Arap Müziği**: 45+ Maqam sistemi
+- **Hint Müziği**: 70+ Raga sistemi  
+- **Çin Müziği**: 25+ Pentatonik modlar
+- **Afrika Müziği**: 20+ Geleneksel gamlar
 - **Balkan Müziği**: Asimetrik modlar
-- **Jazz**: Modern harmony
+- **Fars Müziği**: 35+ Geleneksel mod
+- **Jazz**: 30+ Modern harmony
 - **Mikrotonal**: Deneysel gamlar
 
 ---
@@ -486,19 +510,61 @@ Bu proje MIT Lisansı ile lisanslanmıştır. Detaylar için [LICENSE](LICENSE) 
 ## 👨‍🎓 Yazar & İletişim
 
 **Alparslan Öztürk**  
+*Yüksek Lisans Öğrencisi*  
 Yıldız Teknik Üniversitesi  
-Müzik Teknolojileri  
+Sosyal Bilimler Enstitüsü  
+Sanat ve Tasarım Ana Bilim Dalı  
+Müzik ve Sahne Sanatları Yüksek Lisans Programı  
 
-📧 E-posta: [alparslan.ozturk@edu.tr](mailto:alparslan.ozturk@edu.tr)  
-🔗 GitHub: [@alparslan-ozturk](https://github.com/alparslan-ozturk)  
+**ORCID**: [0009-0003-8037-5071](https://orcid.org/0009-0003-8037-5071)
+
+### 📧 İletişim
+- **Akademik E-posta**: [alparslan.ozturk@std.yildiz.edu.tr](mailto:alparslan.ozturk@std.yildiz.edu.tr)
+- **Kişisel Web**: [www.alparslanozturk.com.tr](https://www.alparslanozturk.com.tr)
+- **GitHub**: [@alparslan-ozturk](https://github.com/alparslan-ozturk)
+
+### 🌐 Sosyal Medya
+- **Instagram**: [@aranjorofficial](https://instagram.com/aranjorofficial)
+- **Facebook**: [@AranjorOfficial](https://facebook.com/AranjorOfficial)
+- **X (Twitter)**: [@AranjorOfficial](https://x.com/AranjorOfficial)
+- **LinkedIn**: [aranjoroficial](https://linkedin.com/in/aranjoroficial)
+
+### 🎯 Danışman
+**Prof. Dr. Arda Eden**  
+Yıldız Teknik Üniversitesi  
+Sanat ve Tasarım Fakültesi  
 
 ---
 
 ## 🙏 Teşekkürler
 
-- **Yıldız Teknik Üniversitesi** - Akademik destek
-- **MicroPython Topluluğu** - Platform desteği
-- **Dünya Müzik Kültürleri** - Mod veritabanı kaynağı
+- **Prof. Dr. Arda Eden** - Tez danışmanı ve akademik rehberlik
+- **Yıldız Teknik Üniversitesi** - Sosyal Bilimler Enstitüsü desteği
+- **Sanat ve Tasarım Fakültesi** - Akademik altyapı desteği
+- **MicroPython Topluluğu** - Platform desteği ve açık kaynak kütüphaneleri
+- **Dünya Müzik Kültürleri** - Mikrotonal mod veritabanı kaynakları
+- **İsmail Hakkı Özkan** - Türk Müziği Nazariyatı kuramsal çerçevesi
+
+## 📚 Akademik Referanslar
+
+- Özkan, İ. H. (2006). *Türk Mûsıkîsi Nazariyatı ve Usûlleri*. Ötüken Neşriyat.
+- Yarman, O. (2008). *79-tone tuning & theory for Turkish maqam music*. 
+- Arel, H. S. (1968). *Türk mûsıkîsi kimindir*.
+- Signell, K. (1977). *Makam: Modal practice in Turkish art music*.
+
+## 📄 Tez Bilgileri
+
+**Başlık**: Analog-Modüler Ses Sentezleyiciler İçin Mikrotonal Dizi Destekli Sequencer Tasarımı: BABİ SEQ
+
+**Enstitü**: Yıldız Teknik Üniversitesi Sosyal Bilimler Enstitüsü
+
+**Program**: Sanat ve Tasarım Ana Bilim Dalı - Müzik ve Sahne Sanatları Yüksek Lisans Programı
+
+**Yıl**: 2025
+
+**Tez Türü**: Yüksek Lisans Tezi
+
+**Danışman**: Prof. Dr. Arda Eden
 
 ---
 
