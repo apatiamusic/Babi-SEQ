@@ -85,13 +85,32 @@ Proje, akademik araştırma kapsamında derlenen 500+ mod içerir:
 
 Bu proje aşağıdaki açık kaynak kütüphanelerini kullanmaktadır:
 
+### Üçüncü Parti Kütüphaneler
 | Kütüphane | Yazar | Lisans | Kullanım Amacı |
 |-----------|-------|--------|----------------|
-| [ili9341](https://github.com/rdagger/micropython-ili9341) | rdagger | MIT | TFT ekran sürücüsü |
-| [xpt2046](lib/xpt2046.py) | [Orijinal Yazar] | MIT | Dokunmatik ekran kontrolü |
-| [xglcd_font](lib/xglcd_font.py) | [Orijinal Yazar] | MIT | Font rendering |
+| [ili9341](https://github.com/rdagger/micropython-ili9341) | rdagger | MIT | TFT ekran sürücüsü (240x320) |
+| [xpt2046](lib/xpt2046.py) | MicroPython Community | MIT | Dokunmatik ekran kontrolü |
+| [xglcd_font](https://github.com/T-622/RdaggerXGLCD) | T-622 | MIT | Font rendering sistemi |
+| [urequests2](https://github.com/chrisb2/micropython-lib) | Chris Borrill | MIT | HTTP istekleri (geliştirilmiş) |
+| [touch_keyboard](https://github.com/rdagger/micropython-ili9341) | rdagger | MIT | Dokunmatik klavye |
 
-**Not**: Tüm üçüncü parti kütüphanelerin detaylı lisans bilgileri [THIRD_PARTY.md](THIRD_PARTY.md) dosyasında yer almaktadır.
+### MicroPython Platform
+| Modül | Versiyon | Kullanım Amacı |
+|-------|----------|----------------|
+| `machine` | 1.20+ | GPIO, SPI, UART, Timer |
+| `neopixel` | 1.20+ | WS2812B LED kontrolü |
+| `framebuf` | 1.20+ | Frame buffer operations |
+| `json` | 1.20+ | JSON veri işleme |
+
+### Font Dosyaları
+| Dosya | Kaynak | Lisans | Format |
+|-------|--------|--------|--------|
+| `Unispace12x24.c` | MikroElektronika | Free Use | C bitmap |
+| `miniFont.h` | MikroElektronika | Free Use | C header |
+
+**📄 Detaylı Lisans Bilgileri**: Tüm üçüncü parti kütüphanelerin detaylı lisans bilgileri, kaynak attributions ve akademik referanslar [THIRD_PARTY.md](THIRD_PARTY.md) dosyasında yer almaktadır.
+
+**🎓 Akademik Atıf**: Tez çalışmasında kullanılan tüm kaynakların BibTeX formatındaki referansları [TEZ_KAYNAKCA.md](TEZ_KAYNAKCA.md) dosyasında bulunmaktadır.
 
 ---
 
@@ -602,6 +621,11 @@ Sanat ve Tasarım Fakültesi
 **Tez Türü**: Yüksek Lisans Tezi
 
 **Danışman**: Prof. Dr. Arda Eden
+
+### 📊 Özet
+Müzik teknolojilerinin gelişimi, 20. yüzyıldan bu yana Batı müziğinin 12-ton eşit tamperaman paradigması çerçevesinde şekillenmiştir. Bu durum, Türk makam müziği ve diğer mikrotonal sistemlerin elektronik platformlarda özgün temsilinde belirgin eksiklikler yaratmaktadır. BABi SEQ projesi, analog-modüler sentezleyici ekosistemleri için mikrotonal dizi destekli sequencer sisteminin tasarım ve geliştirme sürecini kapsamaktadır.
+
+**🎯 Araştırma Katkısı**: Mikrotonal müzik teknolojileri literatürüne alternatif metodolojik yaklaşım kazandırmak ve geleneksel müzik sistemlerinin çağdaş elektronik müzik üretiminde entegrasyonuna yönelik yeni perspektifler sunmak.
 
 ---
 
